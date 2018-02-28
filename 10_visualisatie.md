@@ -1,4 +1,4 @@
-# 10 Visualisatie
+# Visualisatie
 ## Laag soorten
 ## Default stijlen
 ## Overige stijlen

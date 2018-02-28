@@ -1,3 +1,3 @@
-# 8 Levering
+# Levering
 ## Leveringsmedium
 ## Formaten (encodings)

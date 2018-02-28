@@ -1,4 +1,4 @@
-# 2 Scope
+# Scope
 ## Scope
 Dit document beschrijft de dataspecificatie van de Landelijke Informatievoorziening Vastgoedgebruik. Hierin worden de structuur, inhoud, data-inwinning en datakwaliteit van de Landelijke Informatievoorziening Vastgoedgebruik gedetailleerd uiteen gezet. De dataspecificatie dient daarmee als basis voor de realisatie en ontsluiting van verschillende dataservices.
 

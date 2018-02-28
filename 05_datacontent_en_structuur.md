@@ -1,4 +1,4 @@
-# 5 Data content en structuur
+# Data content en structuur
 ## Algemene uitgangspunten
 ## UML-diagrammen
 ### Beschrijving algemeen

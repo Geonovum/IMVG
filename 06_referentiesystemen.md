@@ -1,3 +1,3 @@
-# 6 Referentiesystemen
+# Referentiesystemen
 ## Ruimtelijkreferentiesysteem
 ## Tijdreferentiesysteem
