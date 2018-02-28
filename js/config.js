@@ -10,7 +10,7 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
     },
   ],
-  shortName: "Landelijke informatievoorziening vastgoedgebruik",
+  shortName: "imliv",
   //subtitle: "...",
   github: "https://github.com/Geonovum/LIV",
   issueBase: "https://github.com/Geonovum/LIV/issues/",
