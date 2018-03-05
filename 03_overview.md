@@ -175,6 +175,12 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat 
 | 4 | dump gemeenten | geen | ??? | vbo | gemeenten |
 
 
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 ## Normatieve referenties
 ## Totstandkoming
 Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:
