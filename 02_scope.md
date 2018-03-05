@@ -7,7 +7,7 @@ Dit document beschrijft de dataspecificatie van de Landelijke Informatievoorzien
 
 De Landelijke Informatievoorziening Vastgoedgebruik beschrijft het gebruik van al het formeel geregistreerde vastgoed op het Nederlandse grondgebied (vasteland) op een uniforme manier.
 
-De kern van de LIV bestaat uit de koppeling van een viertal basisregistraties <basisregistraties: verder toelichten>:
+De kern van de LIV bestaat uit de koppeling van een viertal basisregistraties <mark>[verder toelichten]</mark>
 * Basisregistratie Adressen en Gebouwen (BAG);
 * Basisregistratie Waardering Onderoerende Zaken (WOZ);
 * Nationaal Handelsregister (NHR);
