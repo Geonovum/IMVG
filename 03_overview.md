@@ -1,6 +1,6 @@
 # Overview
 
-Dit hoofdstuk geeft een overzicht van de <mark>invullen</mark>
+Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 
 ## Naam en Acroniemen
 * Dataspecificatie voor dataproduct Landelijke Informatievoorziening Vastgoedgebruik
@@ -25,3 +25,26 @@ BRP
 *[WOZ]: Waardering Onroerende Zaken (basisregistratie)
 *[BRP]: Basisregistratie Personen
 -->
+
+
+**Vastgoedobject**
+*bag pand/vbo*
+
+**Administratief gebruik en niet-gebruik (leegstand)**
+*Er is niet een algemene concensus over wat de definitie van leegstand is*
+
+**Vastgoedgebruik**
+*het (administratief?) in gebruik zijn van een pand o.i.d.*
+
+**Verblijfsobject**
+*de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
+A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+
+**Pand**
+*de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
+<!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
+**Adresseerbaar object**
+*(ligplaats, standplaats of verblijfsobject)*
+
+**BAG-object**
+*De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
