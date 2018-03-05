@@ -62,14 +62,10 @@ In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecte
 - Ligplaatsen
 <!-- BAG-2009-2014_objectenhandboek -->
 
-
-
-
 <!-- **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
+Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebouwen (permanente) ligplaatsen van woonboten en (permanente) standplaatsen van woonwagens.* -->
 
-Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebouwen (permanente) ligplaatsen van woonboten en (permanente) standplaatsen van woonwagens.* 
-
-Op een rij:
+<!-- Op een rij:
 * elke stand- en ligplaats is een pand in de BAG
 * verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
