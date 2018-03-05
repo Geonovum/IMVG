@@ -48,3 +48,8 @@ A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, ar
 
 **BAG-object**
 *De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
+
+
+
+ > **Note:** definities aanvullen en fine-tunen
+ 
