@@ -38,7 +38,7 @@ BRP
 
 **Verblijfsobject**
 *de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
-A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+<mark>Verwijzing</mark> [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
 
 **Pand**
 *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
@@ -51,7 +51,7 @@ A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, ar
 
  > **<mark>Note:</mark>** definities aanvullen en fine-tunen
  
- 
+
 ### Beschrijving
 LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland vormt de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
 
@@ -60,4 +60,19 @@ In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecte
 - Verblijfsobjecten
 - Standplaatsen
 - Ligplaatsen
+<!-- BAG-2009-2014_objectenhandboek -->
+
+
+
+
+<!-- > **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
+> 
+> Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebouwen (permanente) ligplaatsen van woonboten en (permanente) standplaatsen van woonwagens.* 
+> 
+> Op een rij:
+> * elke stand- en ligplaats is een pand in de BAG
+> * verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
+
+<!-- alinea herschrijven -->
+Opvallend is dat het object "gebouw" in deze registratie niet voorkomt. De definitie sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistratie. In plaats daarvan is het object **pand** gedefinieerd.
 <!-- BAG-2009-2014_objectenhandboek -->
