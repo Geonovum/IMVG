@@ -27,26 +27,26 @@ BRP
 -->
 
 **Vastgoedobject**
-: *bag pand/vbo*
+*bag pand/vbo*
 
 **Administratief gebruik en niet-gebruik (leegstand)**
-: *Er is niet een algemene concensus over wat de definitie van leegstand is*
+*Er is niet een algemene concensus over wat de definitie van leegstand is*
 
 **Vastgoedgebruik**
-: *het (administratief?) in gebruik zijn van een pand o.i.d.*
+*het (administratief?) in gebruik zijn van een pand o.i.d.*
 
 **Verblijfsobject**
-: *de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
+*de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
 A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
 
 **Pand**
-: *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
+*de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
 <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
 **Adresseerbaar object**
-: *(ligplaats, standplaats of verblijfsobject)*
+*(ligplaats, standplaats of verblijfsobject)*
 
 **BAG-object**
-: *De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
+*De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
 
  > **Note:** definities aanvullen en fine-tunen
  
@@ -175,7 +175,6 @@ Het doel van dit projectonderdeel is om te komen tot een geüniformeerde wijze v
 
 Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een dataspecificatie staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
 
--->
 
 ## Termen en Definities
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
