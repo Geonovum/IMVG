@@ -123,32 +123,3 @@ Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de ge
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vind plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
-
-**Uitgangspunten**
-* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: **1** ... , **2** ... , en **3** ... .
-* bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
-* semantische afstemming (in hoeverre en op welke manier relevant?)
-* beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
-* voorzien in een objectgerichte, gevectoriseerde data-uitwisseling
-* <!--weglaten?--> Afhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?]). 
-* geen 3D-geometrie toegepast (voor lange termijn wel relevant, dus nog rekening houden met aanknopingspunten??)
-* voegt geen nieuwe geometrie toe? (wel nieuwe info, zeker naar verloop van tijd)
-* bevat ook temporele informatie? (waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen)
-* differentiatie van informatie: hoe en waar geregeld?
-* integraal
-* uniform
-* eenduidige definitie van leegstand (administratief, structureel, tijdelijk, gedeeltelijk, verborgen) en van vastgoedcategorieën, maar (nog) geen andere definities)
-* historie opbouwen zodat je over periodes (in eerste instantie jaren) heen kunt vergelijken
-* landsdekkend
-* [ *etc.*]
-
-<!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
-Alle panden samen vormen de gebouwenvoorraad.
-Niet elk pand heeft een verblijfsobject.
-Voor leegstand gebruik wil je (mogelijk) ook uitspraak doen over bijgebouwen
-Een verblijfsobject heeft tenminste één gebruiksdoel
-De ... -->
-
-<!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
-
-#### Figuur: LIV_data-uitwisselingsarchitectuur
