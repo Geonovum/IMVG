@@ -233,7 +233,7 @@ Een informatiemodel als uitbreiding op een ander informatiemodel
 #### geo-informatie (geo-information, geographic information)
 informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld
 ten opzichte van het aardoppervlak)
->**Note:**  Geo-informatie is synoniem aan geografische informatie.
+<mark> Geo-informatie is synoniem aan geografische informatie.</mark>
 #### geo-object (geographic feature type, feature class)
 abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie
 relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
@@ -241,8 +241,8 @@ relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardopperv
 locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem
 #### informatiemodel (conceptual model, conceptual scheme)
 formele definitie van objecten, attributen, relaties en regels in een bepaald domein
->**Note:**  Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een
-verzameling van concepten en begrippen
+<mark>  Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een
+verzameling van concepten en begrippen </mark>
 #### instantie (instance, occurrence)
 benoemd, identificeerbaar object uit een objectklasse
 #### label
@@ -250,34 +250,34 @@ tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie o
 afgebeeld
 #### namespace
 collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen
->**Note:**  Een namespace wordt geïdentificeerd door een URI.
+<mark>  Een namespace wordt geïdentificeerd door een URI.</mark>
 #### netwerk service
-> "_application running at the network application layer and above, that provides data storage, manipulation,
+"_application running at the network application layer and above, that provides data storage, manipulation,
 presentation, communication or other capability which is often implemented using a client-server or peerto-
 peer architecture based on application layer network protocols_" - (Wikipedia)
 #### objectklasse (feature class)
 verzameling van objecten met dezelfde eigenschappen
 #### presentatie
 presentatie van informatie aan mensen
->**Note:**  Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of
-combinaties hiervan.
+<mark>Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of
+combinaties hiervan.</mark>
 #### productmodel
 informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te
 realiseren
 #### registratie
 op nationaal niveau geïdentificeerde en erkende gegevensverzameling
->**Note:**  Een basisregistratie is een registratie.
+<mark>Een basisregistratie is een registratie.</mark>
 #### registratiehouder
 organisatie verantwoordelijk voor het houden van de registratie
->**Note:**  de registratiehouder is de organisatie die unieke objectidentificaties toekent voor
-objecten in een registratie
+<mark>de registratiehouder is de organisatie die unieke objectidentificaties toekent voor
+objecten in een registratie</mark>
 #### representatie
 inhoudelijk vastleggen van de werkelijkheid.
->**Note:**  Het informatiemodel is een representatie van de werkelijkheid.
+<mark>Het informatiemodel is een representatie van de werkelijkheid.</mark>
 #### ruimtelijk referentiesysteem
 model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid
->**Note:**  Identificatie van een positie kan door coördinaten (directe locatie) en door geografische
-identificatoren (indirecte locatie).
+<mark>Identificatie van een positie kan door coördinaten (directe locatie) en door geografische
+identificatoren (indirecte locatie).</mark>
 #### sectormodel
 model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
 #### symbool
