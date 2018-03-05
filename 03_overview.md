@@ -65,13 +65,13 @@ In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecte
 
 
 
-<!-- > **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
-> 
-> Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebouwen (permanente) ligplaatsen van woonboten en (permanente) standplaatsen van woonwagens.* 
-> 
-> Op een rij:
-> * elke stand- en ligplaats is een pand in de BAG
-> * verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
+<!-- **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
+
+Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebouwen (permanente) ligplaatsen van woonboten en (permanente) standplaatsen van woonwagens.* 
+
+Op een rij:
+* elke stand- en ligplaats is een pand in de BAG
+* verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
 <!-- alinea herschrijven -->
 Opvallend is dat het object "gebouw" in deze registratie niet voorkomt. De definitie sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistratie. In plaats daarvan is het object **pand** gedefinieerd.
