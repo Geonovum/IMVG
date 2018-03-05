@@ -204,8 +204,10 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 Elke toevoeging op een kaartbeeld voor verduidelijking
 #### applicatieschema
 informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties
+
 >**Note:**  IMKL is met UML beschreven in een applicatieschema.
-#### associatie of relatie <UML>
+
+#### associatie of relatie (UML)
 semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
 #### attribuut
 kenmerk van een object
