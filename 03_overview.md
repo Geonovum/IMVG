@@ -60,6 +60,7 @@ In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecte
 - Verblijfsobjecten
 - Standplaatsen
 - Ligplaatsen
+
 <!-- BAG-2009-2014_objectenhandboek -->
 
 <!-- **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
