@@ -130,7 +130,7 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 * semantische afstemming (in hoeverre en op welke manier relevant?)
 * beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
 * voorzien in een objectgerichte, gevectoriseerde data-uitwisseling
-* <!--weglaten?--> AFhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?]). 
+* <!--weglaten?--> Afhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?]). 
 * geen 3D-geometrie toegepast (voor lange termijn wel relevant, dus nog rekening houden met aanknopingspunten??)
 * voegt geen nieuwe geometrie toe? (wel nieuwe info, zeker naar verloop van tijd)
 * bevat ook temporele informatie? (waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen)
@@ -143,12 +143,12 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 * [ *etc.*]
 
 <!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
-- Alle panden samen vormen de gebouwenvoorraad.
-- Niet elk pand heeft een verblijfsobject.
-- Voor leegstand gebruik wil je (mogelijk) ook uitspraak doen over bijgebouwen
-- Een verblijfsobject heeft tenminste één gebruiksdoel
-- De ... -->
+Alle panden samen vormen de gebouwenvoorraad.
+Niet elk pand heeft een verblijfsobject.
+Voor leegstand gebruik wil je (mogelijk) ook uitspraak doen over bijgebouwen
+Een verblijfsobject heeft tenminste één gebruiksdoel
+De ... -->
 
-<!-- > **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
+<!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 
 #### Figuur: LIV_data-uitwisselingsarchitectuur
