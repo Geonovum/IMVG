@@ -36,14 +36,14 @@ Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen
 * Objectniveau gemeenten
 * Remote Access CBS
 
-<!--Dit document beschrijft de dataspecificatie, IMKL2015, van het door KLIC ontsloten dataproduct
+<!-- Dit document beschrijft de dataspecificatie, IMKL2015, van het door KLIC ontsloten dataproduct
 Utiliteitsnetten.
 
 IMKL2015 geeft de gedetailleerde beschrijving van structuur, inhoud en datakwaliteit van utiliteitsnetten
-en dient als basis voor de realisatie en ontsluiting van <KLIC> services.
+en dient als basis voor de realisatie en ontsluiting van KLIC services.
 
 De gebruikstoepassing waar de semantiek van IMKL2015 door wordt bepaald komt voort uit verschillende
-wetgevingen, regelingen en processen. <hier iets vergelijkbaars opnemen over basisregistraties en kaders m.b.t. gebruik?>
+wetgevingen, regelingen en processen. <hier iets vergelijkbaars opnemen over basisregistraties en kaders m.b.t. gebruik?
 
 Deze zijn:
 WION: Wet Informatie-uitwisseling Ondergrondse Netten. Uitwisseling van kabel en leiding
