@@ -140,3 +140,19 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 * historie opbouwen zodat je over periodes (in eerste instantie jaren) heen kunt vergelijken
 * landsdekkend
 * [ *etc.*]
+
+
+
+<!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
+Alle panden samen vormen de gebouwenvoorraad.
+Niet elk pand heeft een verblijfsobject.
+Voor leegstand gebruik wil je (mogelijk) ook uitspraak doen over bijgebouwen
+Een verblijfsobject heeft tenminste één gebruiksdoel
+De ... -->
+
+<!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
+
+#### Figuur: LIV_data-uitwisselingsarchitectuur
+
+<!-- alinea herschrijven -->
+"*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
