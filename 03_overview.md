@@ -49,7 +49,15 @@ A [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, ar
 **BAG-object**
 *De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
 
-
-
- > **Note:** definities aanvullen en fine-tunen
+ > **<mark>Note:</mark>** definities aanvullen en fine-tunen
  
+ 
+### Beschrijving
+LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland vormt de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
+
+In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
+- Panden
+- Verblijfsobjecten
+- Standplaatsen
+- Ligplaatsen
+<!-- BAG-2009-2014_objectenhandboek -->
