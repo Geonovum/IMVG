@@ -207,6 +207,8 @@ informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer app
 
 >**Note:**  IMKL is met UML beschreven in een applicatieschema.
 
+#Kaas
+
 #### associatie of relatie (UML)
 semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
 #### attribuut
