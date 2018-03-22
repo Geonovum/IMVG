@@ -109,11 +109,10 @@ Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan
 * een vestiging in het NHR
 * een persoon in de BRP
 
-
 [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
 
-#### Figuur: LIV_dataspec_bronnen_en_producten
+<mark>*Figuur: LIV_dataspec_bronnen_en_producten*</mark>
 
 Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de gegevens uit vier bronbestanden (LV BAG, LV WOZ, ***HR-dataservice?*** en ***BRP-...?*** ) opgehaald en aan elkaar gekoppeld op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG. Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>]. 
 
@@ -141,8 +140,6 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 * landsdekkend
 * [ *etc.*]
 
-
-
 <!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
 Alle panden samen vormen de gebouwenvoorraad.
 Niet elk pand heeft een verblijfsobject.
@@ -152,34 +149,19 @@ De ... -->
 
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 
-#### Figuur: LIV_data-uitwisselingsarchitectuur
+<mark>*Figuur: LIV_data-uitwisselingsarchitectuur*</mark>
 
-<!-- alinea herschrijven -->
-"*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
-
-- [ ] taak 1
-- [x] taak 2
-- [ ] taak 3
-- [ ] taak 4
-
-
-
+<mark>[alinea herschrijven]</mark> "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
 
 Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen. Behalve voor de BRP, zijn van deze bronnen  landelijke voorzieningen beschikbaar <!-- misschien onderscheid maken tussen bron en informatieproduct (LV en dataservice?) -->. Vanuit deze landelijke voorzieningen worden de gegevens aangeleverd aan een centrale database. In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS). In de centrale database wordt de BAG aan de andere registraties gekoppeld op basis van het vbo-ID. Op basis van de koppeling wordt vervolgens per verblijfsobject (vbo) de administratieve gebruiksstatus vastgesteld. Het resultaat hiervan is de Landelijke Informatievoorziening Vastgoedgebruik. De gegevens uit de LIV worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
 
+<mark>[let op: tabel als afbeelding invoegen]</mark>
 | nr | naam | view | download | detailnivau | voor wie? |
 -----|------|------|----------|-------------|-----------
 | 1 | leegstandsmonitor | WFS? | csv / xlsx | wijk-/buurt | allen |
 | 2 | remote access | ??? | ??? | vbo (output geaggregeerd | allen |
 | 3 | "RIGO" | ??? | geen | 6-positiepostcode | allen |
 | 4 | dump gemeenten | geen | ??? | vbo | gemeenten |
-
-
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
 ## Normatieve referenties
 ## Totstandkoming
@@ -200,107 +182,107 @@ Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorzien
 
 ## Termen en Definities
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
-#### annotatie
-Elke toevoeging op een kaartbeeld voor verduidelijking
-#### applicatieschema
-informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
-#### associatie of relatie (UML)
-semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
-#### attribuut
-kenmerk van een object
-#### attribuutwaarde (value)
-waarde die een attribuut aanneemt
-#### coördinaat
-getal in een sequentie van n getallen om de positie van een punt in een n-dimensionale ruimte te bepalen
-#### coördinaatreferentiesysteem
-coördinaatsysteem dat aan een object is gerelateerd door een datum.
-#### coördinaatsysteem
-set van wiskundige regels voor het toekennen van coördinaten aan punten
-#### datatype
-gestructureerde gegevens zonder identiteit
-#### datum
-parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een
+**annotatie**
+> Elke toevoeging op een kaartbeeld voor verduidelijking
+**applicatieschema**
+> informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
+**associatie of relatie (UML)**
+> semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
+**attribuut**
+> kenmerk van een object
+**attribuutwaarde (value)**
+> waarde die een attribuut aanneemt
+**coördinaat**
+> getal in een sequentie van n getallen om de positie van een punt in een n-dimensionale ruimte te bepalen
+**coördinaatreferentiesysteem**
+> coördinaatsysteem dat aan een object is gerelateerd door een datum.
+**coördinaatsysteem**
+> set van wiskundige regels voor het toekennen van coördinaten aan punten
+**datatype**
+> gestructureerde gegevens zonder identiteit
+**datum**
+> parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een
 coördinaatsysteem
-#### diepte
-Afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht
+**diepte**
+> Afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht
 op dat referentievlak staat.
-#### download service
-service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where
+**download service**
+> service that enables copies of spatial data sets, or parts of such sets, to be downloaded and, where
 practicable, accessed directly.
 INSPIRE
-#### extensie (van informatiemodel)
-Een informatiemodel als uitbreiding op een ander informatiemodel
-#### geo-informatie (geo-information, geographic information)
-informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld
+**extensie (van informatiemodel)**
+> Een informatiemodel als uitbreiding op een ander informatiemodel
+**geo-informatie (geo-information, geographic information)**
+> informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld
 ten opzichte van het aardoppervlak)
 <mark> Geo-informatie is synoniem aan geografische informatie.</mark>
-#### geo-object (geographic feature type, feature class)
-abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie
+**geo-object (geographic feature type, feature class)**
+> abstractie van een fenomeen in de werkelijkheid dat direct of indirect is geassocieerd met een locatie
 relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardoppervlak)
-#### georeferentie (georeference)
-locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem
-#### informatiemodel (conceptual model, conceptual scheme)
-formele definitie van objecten, attributen, relaties en regels in een bepaald domein
+**georeferentie (georeference)**
+> locatie van een ruimtelijk object vastgelegd in een ruimtelijk referentiesysteem
+**informatiemodel (conceptual model, conceptual scheme)**
+> formele definitie van objecten, attributen, relaties en regels in een bepaald domein
 <mark>  Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een
 verzameling van concepten en begrippen </mark>
-#### instantie (instance, occurrence)
-benoemd, identificeerbaar object uit een objectklasse
-#### label
-tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt
+**instantie (instance, occurrence)**
+> benoemd, identificeerbaar object uit een objectklasse
+**label**
+> tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt
 afgebeeld
-#### namespace
-collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen
+**namespace**
+> collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen
 <mark>  Een namespace wordt geïdentificeerd door een URI.</mark>
-#### netwerk service
-"_application running at the network application layer and above, that provides data storage, manipulation,
+**netwerk service**
+> "_application running at the network application layer and above, that provides data storage, manipulation,
 presentation, communication or other capability which is often implemented using a client-server or peerto-
 peer architecture based on application layer network protocols_" - (Wikipedia)
-#### objectklasse (feature class)
-verzameling van objecten met dezelfde eigenschappen
-#### presentatie
-presentatie van informatie aan mensen
+**objectklasse (feature class)**
+> verzameling van objecten met dezelfde eigenschappen
+**presentatie**
+> presentatie van informatie aan mensen
 <mark>Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of
 combinaties hiervan.</mark>
-#### productmodel
-informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te
+**productmodel**
+> informatiemodel afgeleid van een ander informatiemodel om de toepassing in een dataproduct te
 realiseren
-#### registratie
-op nationaal niveau geïdentificeerde en erkende gegevensverzameling
+**registratie**
+> op nationaal niveau geïdentificeerde en erkende gegevensverzameling
 <mark>Een basisregistratie is een registratie.</mark>
-#### registratiehouder
-organisatie verantwoordelijk voor het houden van de registratie
+**registratiehouder**
+> organisatie verantwoordelijk voor het houden van de registratie
 <mark>de registratiehouder is de organisatie die unieke objectidentificaties toekent voor
 objecten in een registratie</mark>
-#### representatie
-inhoudelijk vastleggen van de werkelijkheid.
+**representatie**
+> inhoudelijk vastleggen van de werkelijkheid.
 <mark>Het informatiemodel is een representatie van de werkelijkheid.</mark>
-#### ruimtelijk referentiesysteem
-model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid
+**ruimtelijk referentiesysteem**
+> model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid
 <mark>Identificatie van een positie kan door coördinaten (directe locatie) en door geografische
 identificatoren (indirecte locatie).</mark>
-#### sectormodel
-model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
-#### symbool
-presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan
-#### temporeel referentiesysteem
-Referentiesysteem waarin de tijd is bepaald.
-#### netwerktopologie
-beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk
-#### rasterformaat
-representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)
-#### vectorformaat
-representatie van geometrie middels geometrische primitieven
-#### view service
-service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay
+**sectormodel**
+> model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
+**symbool**
+> presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan
+**temporeel referentiesysteem**
+> Referentiesysteem waarin de tijd is bepaald.
+**netwerktopologie**
+> beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk
+**rasterformaat**
+> representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)
+**vectorformaat**
+> representatie van geometrie middels geometrische primitieven
+**view service**
+> service that makes it possible, as a minimum, to display, navigate, zoom in and out, pan or overlay
 viewable spatial data sets and to display legend information and any relevant content of metadata.
 INSPIRE
-#### void, nl
-void, en
+**void, nl**
+> void, en
 object, of kenmerk van een object, dat syntactisch of semantisch is vereist, maar dat in de gegeven
 instantie geen informatie bevat
-#### waardelijst
-lijst van waarden
-#### werkelijkheid
-beeld van de echte of hypothetische wereld die alles van belang omvat
+**waardelijst**
+> lijst van waarden
+**werkelijkheid**
+> beeld van de echte of hypothetische wereld die alles van belang omvat
 ## Symbolen en afkortingen
 ## Notatie van regels en aanbevelingen
