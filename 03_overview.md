@@ -184,15 +184,19 @@ Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorzien
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **annotatie**
+
 Elke toevoeging op een kaartbeeld voor verduidelijking
 
 **applicatieschema**
+
 informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
 
 **associatie of relatie (UML)**
+
 semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
 
 **attribuut**
+
 kenmerk van een object
 
 **attribuutwaarde (value)**
