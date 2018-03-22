@@ -3,7 +3,7 @@
 <mark>[Inleidende tekst ... ]</mark>
 
 ## Scope
-Dit document beschrijft de dataspecificatie van de Landelijke Informatievoorziening Vastgoedgebruik. Hierin worden de structuur, inhoud, data-inwinning en datakwaliteit van de Landelijke Informatievoorziening Vastgoedgebruik gedetailleerd uiteen gezet. De dataspecificatie dient daarmee als basis voor de realisatie en ontsluiting van verschillende dataservices.
+Dit document beschrijft de dataspecificatie van de Landelijke Informatievoorziening Vastgoedgebruik. Hierin worden de structuur, inhoud, data-inwinning en datakwaliteit van de Landelijke Informatievoorziening Vastgoedgebruik gedetailleerd uiteengezet. De dataspecificatie dient daarmee als basis voor de realisatie en ontsluiting van verschillende dataservices.
 
 De Landelijke Informatievoorziening Vastgoedgebruik beschrijft het gebruik van al het formeel geregistreerde vastgoed op het Nederlandse grondgebied (vasteland) op een uniforme manier.
 
@@ -14,11 +14,12 @@ De kern van de LIV bestaat uit de koppeling van een viertal basisregistraties <m
 * Basisregistratie Personen (BRP);
 
 #### Gebruik
-De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandachti uit naar administratief niet-in-gebruik, ofwel: leegstand.
+De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandachti uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: leegstaat.
 
-Gaat om verblijfsobjecten en panden, maar lig- en standplaatsen worden buiten beschouwing gelaten.
+De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat, is er sprake van administratieve leegstand. 
 
-De koppeling tussen bovenstaande registraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Als er op een adres in de BAG geen gebruiker, geen vestiging en/of geen persoon geregistreerd staat, is er sprake van administratieve leegstand. 
+Het gaat om verblijfsobjecten en voor een deel om panden zonder verblijfsobjecten (bijv. schuren en stallen bij agrarisch vastgoed). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
+
 
 #### Formele registratie
 Met formeel geregistreerd bedoelen we in dit geval de informatie over het gebruik van vastgoedobjecten zoals die is vastgelegd in de eerdergenoemde basisregistraties.

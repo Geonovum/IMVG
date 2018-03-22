@@ -1,3 +1,3 @@
 # Inleiding en Leeswijzer
 
-[tekst]
+<mark>[tekst]</mark>
