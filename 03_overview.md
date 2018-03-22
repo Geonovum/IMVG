@@ -185,19 +185,19 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **annotatie**
 
-Elke toevoeging op een kaartbeeld voor verduidelijking
+> Elke toevoeging op een kaartbeeld voor verduidelijking
 
 **applicatieschema**
 
-informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
+> informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
 
 **associatie of relatie (UML)**
 
-semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
+> semantische relatie tussen twee of meer klassen die de connectie tussen hun instanties weergeeft
 
 **attribuut**
 
-kenmerk van een object
+> kenmerk van een object
 
 **attribuutwaarde (value)**
 waarde die een attribuut aanneemt
