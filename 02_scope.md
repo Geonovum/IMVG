@@ -34,7 +34,7 @@ Om verschillende redenen is het relevant gebleken om informatie over verschillen
 Het gebruik van een pand (vergund en feitelijk) zegt iets over (respectievelijk) het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voro die specifieke functie, terwijl er aan andere functies misschien een tekort is. In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
 #### Uniformering van de werkwijze
-In het  verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consencus over de belangrijkste <!-- inzichten/afspraken/uitkomsten/opvattingen-->. Daarom is er vanuit een brede groep partijen de wens geuit om hierover afspraken te maken. Welke categorieën onderscheiden we? Volgens welke methodiek stellen we gebruik vast? Op basis van welke bronnen? etc.
+In het  verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft  een brede groep partijen de wens geuit om hierover afspraken te maken. <mark>Wat verstaan we onder leegstand? Welke categorieën onderscheiden we? Volgens welke methodiek stellen we gebruik vast? Op basis van welke bronnen? etc. </mark>.
 
 #### Dataproducten <!-- andere titel: ~functionaliteiten? -->
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen. 
@@ -42,38 +42,3 @@ Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen
 * Tussenproduct
 * Objectniveau gemeenten
 * Remote Access CBS
-
-<!-- Dit document beschrijft de dataspecificatie, IMKL2015, van het door KLIC ontsloten dataproduct
-Utiliteitsnetten.
-
-IMKL2015 geeft de gedetailleerde beschrijving van structuur, inhoud en datakwaliteit van utiliteitsnetten
-en dient als basis voor de realisatie en ontsluiting van KLIC services.
-
-De gebruikstoepassing waar de semantiek van IMKL2015 door wordt bepaald komt voort uit verschillende
-wetgevingen, regelingen en processen. <hier iets vergelijkbaars opnemen over basisregistraties en kaders m.b.t. gebruik?
-
-Deze zijn:
-WION: Wet Informatie-uitwisseling Ondergrondse Netten. Uitwisseling van kabel en leiding
-informatie ter voorkoming van graafschade voor de netten: telecom, riolering, water, elektriciteit,
-gas en warmte
-
-INSPIRE: Europese richtlijn voor uitwisseling van digitale gegevens gerelateerd aan milieu. Voor
-deze specificatie in het bijzonder het thema Utilities en Governmental Services en daarin de Utility
-Networks. Dataspecificaties voor uitwisseling kabel en leidingen informatie voor de netten:
-datatransport, riolering, water, elektriciteit, gas, warmte en andere kabels & leidingen.
-
-Besluit externe veiligheid buisleidingen (BevB): Besluit houdende milieukwaliteitseisen
-externe veiligheid voor het vervoer van gevaarlijke stoffen door buisleidingen. Onder andere
-opname van buisleidingen met gevaarlijke inhoud (Bgi) (en beperkingen op ruimtegebruik) in een
-bestemmings- of inpassingsplan.
-
-Register risicosituaties gevaarlijke stoffen (RRGS) Verplichting tot invoeren risico’s van
-gevaarlijke stoffen in een landelijk risicoregister.
-
-De volgende gebruikstoepassing is nog niet operationeel in IMKL2015 verwerkt.
-Er is voor nu nog een onvoldoende beschreven toepassing. Er is wel al een experimenteel diagram toegevoegd om de gedachte
-te bepalen.
-
-EC61 (COM 147) EU richtlijn voor een Verordening van het Europees Parlement en Raad over
-maatregelen om de kosten van de aanleg van elektronische hogesnelheidscommunicatienetwerken
-te verlagen.-->
