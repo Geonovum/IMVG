@@ -125,15 +125,15 @@ Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevens
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vind plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
 **Uitgangspunten**
-* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: **1** ... , **2** ... , en **3** ...
+* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: [<mark>1</mark>], [<mark>2</mark>] en [<mark>3</mark>]
 * bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
-* semantische afstemming (in hoeverre en op welke manier relevant?)
+* semantische afstemming [<mark>in hoeverre en op welke manier relevant?</mark>]
 * beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
 * voorzien in een objectgerichte, gevectoriseerde data-uitwisseling
 * Afhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?])[<mark>weglaten?</mark>].
-* geen 3D-geometrie toegepast (voor lange termijn wel relevant, dus nog rekening houden met aanknopingspunten??)
-* voegt geen nieuwe geometrie toe? (wel nieuwe info, zeker naar verloop van tijd)
-* bevat ook temporele informatie? (waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen)
+* geen 3D-geometrie toegepast [<mark>voor lange termijn wel relevant: nog rekening houden met aanknopingspunten?</mark>]
+* voegt geen nieuwe geometrie toe? [<mark>wel nieuwe info, zeker naar verloop van tijd</mark>]
+* bevat ook temporele informatie? [<mark>waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen</mark>]
 * differentiatie van informatie: hoe en waar geregeld?
 * integraal
 * uniform
