@@ -118,17 +118,19 @@ Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de ge
 
 [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
-[<mark>stelselVerplichting</mark>] Bron: stelselverplichting?
+[<mark>stelselVerplichting</mark>]
+Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/)
+
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vind plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
 **Uitgangspunten**
-* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: **1** ... , **2** ... , en **3** ... .
+* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: **1** ... , **2** ... , en **3** ...
 * bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
 * semantische afstemming (in hoeverre en op welke manier relevant?)
 * beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
 * voorzien in een objectgerichte, gevectoriseerde data-uitwisseling
-* <mark>weglaten?</mark> Afhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?]). 
+* Afhaneklijke van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?])[<mark>weglaten?</mark>].
 * geen 3D-geometrie toegepast (voor lange termijn wel relevant, dus nog rekening houden met aanknopingspunten??)
 * voegt geen nieuwe geometrie toe? (wel nieuwe info, zeker naar verloop van tijd)
 * bevat ook temporele informatie? (waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen)
@@ -138,7 +140,7 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 * eenduidige definitie van leegstand (administratief, structureel, tijdelijk, gedeeltelijk, verborgen) en van vastgoedcategorieën, maar (nog) geen andere definities)
 * historie opbouwen zodat je over periodes (in eerste instantie jaren) heen kunt vergelijken
 * landsdekkend
-* [ *etc.*]
+* [<mark>*etc.*</mark>]
 
 <!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
 Alle panden samen vormen de gebouwenvoorraad.
@@ -151,17 +153,19 @@ De ... -->
 
 <mark>*Figuur: LIV_data-uitwisselingsarchitectuur*</mark>
 
+
 <mark>[alinea herschrijven]</mark> "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
 
 Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen. Behalve voor de BRP, zijn van deze bronnen  landelijke voorzieningen beschikbaar <!-- misschien onderscheid maken tussen bron en informatieproduct (LV en dataservice?) -->. Vanuit deze landelijke voorzieningen worden de gegevens aangeleverd aan een centrale database. In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS). In de centrale database wordt de BAG aan de andere registraties gekoppeld op basis van het vbo-ID. Op basis van de koppeling wordt vervolgens per verblijfsobject (vbo) de administratieve gebruiksstatus vastgesteld. Het resultaat hiervan is de Landelijke Informatievoorziening Vastgoedgebruik. De gegevens uit de LIV worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
 
 <mark>[let op: tabel als afbeelding invoegen]</mark>
-| nr | naam | view | download | detailnivau | voor wie? |
+
+nr | naam | view | download | detailnivau | voor wie?
 -----|------|------|----------|-------------|-----------
-| 1 | leegstandsmonitor | WFS? | csv / xlsx | wijk-/buurt | allen |
-| 2 | remote access | ??? | ??? | vbo (output geaggregeerd | allen |
-| 3 | "RIGO" | ??? | geen | 6-positiepostcode | allen |
-| 4 | dump gemeenten | geen | ??? | vbo | gemeenten |
+1 | leegstandsmonitor | WFS? | csv / xlsx | wijk-/buurt | allen
+2 | remote access | ??? | ??? | vbo (output geaggregeerd | allen
+3 | "RIGO" | ??? | geen | 6-positiepostcode | allen
+4 | dump gemeenten | geen | ??? | vbo | gemeenten
 
 ## Normatieve referenties
 ## Totstandkoming
@@ -176,8 +180,6 @@ In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte
 Het doel van dit projectonderdeel is om te komen tot een geüniformeerde wijze voor het beschrijven van de semantische inhoud van de registraties. Deze wijze van beschrijven gebeurt door middel van een dataspecificatie.
 
 Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een dataspecificatie staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
-
-
 
 
 ## Termen en Definities
