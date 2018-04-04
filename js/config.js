@@ -17,7 +17,7 @@ var respecConfig = {
   issueBase: "https://github.com/Geonovum/LIV/issues/",
   localBiblio: {
     "BAG_2009": {
-      //href: "https://www.geonovum.nl",
+      href: "https://www.geonovum.nl",
       title: "BAG objectenhandboek 2009-2014",
       authors: ["Name01","Name2","Name3"],
       date: "Januari 2009",
