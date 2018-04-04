@@ -28,7 +28,7 @@ BRP
 
 
 **Vastgoedobject**
-*bag pand/vbo* [[BAG_2009]]
+*bag pand/vbo* [BAG_2009]
 
 **Administratief gebruik en niet-gebruik (leegstand)**
 *Er is niet een algemene concensus over wat de definitie van leegstand is*
