@@ -19,9 +19,9 @@ var respecConfig = {
     "BAG_2009": {
       href: "https://www.geonovum.nl",
       title: "BAG objectenhandboek 2009-2014",
-      authors: ["Name01","Name2","Name3"],
+      authors: ["T. Test"],
       date: "Januari 2009",
-      publisher: "KING",
+      publisher: "Kennis Instituut Nederlandse Gemeenten",
     },
 	},
 };
