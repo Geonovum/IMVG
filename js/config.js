@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
   pubDomain: "liv",
-  format: "markdown",
+  //format: "markdown",
   //publishDate: "2017-12-13",
   editors: [
     {
