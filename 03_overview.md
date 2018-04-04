@@ -28,13 +28,13 @@ BRP
 
 
 **Vastgoedobject**
-*bag pand/vbo* [BAG_2009]
+*bag pand/vbo* [[BAG_2009]]
 
 **Administratief gebruik en niet-gebruik (leegstand)**
 *Er is niet een algemene concensus over wat de definitie van leegstand is*
 
 **Vastgoedgebruik**
-*het (administratief?) in gebruik zijn van een pand o.i.d.* [BAG_2009]
+*het (administratief?) in gebruik zijn van een pand o.i.d.* [[BAG_2009]]
 
 **Verblijfsobject**
 *de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
