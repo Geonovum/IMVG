@@ -15,14 +15,14 @@ var respecConfig = {
   //subtitle: "...",
   github: "https://github.com/Geonovum/LIV",
   issueBase: "https://github.com/Geonovum/LIV/issues/",
-  //localBiblio: {
-  //  "OAuth2": {
-  //    href: "https://tools.ietf.org/html/rfc6749",
-  //    title:
-  //      "The OAuth 2.0 Authorization Framework",
-  //    authors: ["D. Hardt"],
-  //    date: "October 2012",
-  //    publisher: "The Internet Engineering Task Force",
-  //  },
-	//},
+  localBiblio: {
+    "BAG_2009": {
+      //href: "https://tools.ietf.org/html/rfc6749",
+      title:
+        "BAG objectenhandboek 2009-2014",
+      authors: ["Name01","Name2","Name3"],
+      date: "Januari 2009",
+      publisher: "KING",
+    },
+	},
 };
