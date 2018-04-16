@@ -18,7 +18,7 @@ De informatievoorziening richt zich in eerste instantie op het vaststellen en cl
 
 De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat, is er sprake van administratieve leegstand.
 
-![LIV-combinaties|512x397, 20%](images/table_leegstand_large.png?raw=true)
+![LIV-combinaties|904x257, 20%](images/table_leegstand_large.png?raw=true)
 
 De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een deel van panden zonder verblijfsobjecten (bijv. schuren en stallen in het geval van agrarisch vastgoed). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
@@ -38,7 +38,7 @@ Het gebruik van een pand (vergund en feitelijk) zegt iets over (respectievelijk)
 #### Uniformering van de werkwijze
 In het  verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft  een brede groep partijen de wens geuit om hierover afspraken te maken. <mark>Wat verstaan we onder leegstand? Welke categorieën onderscheiden we? Volgens welke methodiek stellen we gebruik vast? Op basis van welke bronnen? etc. </mark>.
 
-![figure 1-2](images/referentiemodel.png?raw=true)
+![referentiemodel|900x760,30%](images/referentiemodel.png?raw=true)
 
 #### Dataproducten <!-- andere titel: ~functionaliteiten? -->
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen. 
