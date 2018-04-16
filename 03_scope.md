@@ -18,7 +18,7 @@ De informatievoorziening richt zich in eerste instantie op het vaststellen en cl
 
 De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat, is er sprake van administratieve leegstand.
 
-![figure 1-1](image_tabel_leegstand.png?raw=true)
+![figure 1-1](image_tabel_leegstand_large.png?raw=true)
 
 De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een deel van panden zonder verblijfsobjecten (bijv. schuren en stallen in het geval van agrarisch vastgoed). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
