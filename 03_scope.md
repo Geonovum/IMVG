@@ -18,7 +18,9 @@ De informatievoorziening richt zich in eerste instantie op het vaststellen en cl
 
 De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat, is er sprake van administratieve leegstand.
 
-![LIV-combinaties|904x257, 20%](images/table_leegstand_large.png?raw=true)
+[<mark>Verwijzing opnemen - voor verdere uitleg zie: referentiemodel (onderstaande tabel daar naartoe verplaatsen)</mark>]
+
+![LIV-combinaties](images/table_leegstand_large.png?raw=true)
 
 De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een deel van panden zonder verblijfsobjecten (bijv. schuren en stallen in het geval van agrarisch vastgoed). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
@@ -33,12 +35,45 @@ Een belangrijk onderdeel van deze aanpak is de nadruk op het integrale karakter 
 
 Om verschillende redenen is het relevant gebleken om informatie over verschillende vastgoedtypen in een bepaald gebied aan elkaar te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen in hun in ruimtelijke ordeningsvraagstukken. Hiermee ligt de behoefte aan integraal inzicht feitelijk verankerd in een wettelijk basis.
 
-Het gebruik van een pand (vergund en feitelijk) zegt iets over (respectievelijk) het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voro die specifieke functie, terwijl er aan andere functies misschien een tekort is. In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
+Het gebruik van een pand (vergund en feitelijk) zegt respectievelijk iets over het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voor die specifieke functie, terwijl er aan andere functies misschien een tekort is. In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
 #### Uniformering van de werkwijze
-In het  verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft  een brede groep partijen de wens geuit om hierover afspraken te maken. <mark>Wat verstaan we onder leegstand? Welke categorieën onderscheiden we? Volgens welke methodiek stellen we gebruik vast? Op basis van welke bronnen? etc. </mark>.
+In het  verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken.
 
-![referentiemodel|900x760,30%](images/referentiemodel.png?raw=true)
+#### Referentiemodel
+Een informatiestanddaard is zo'n afspraak. Daarom leggen we hierin de beginselen van de LIV vast. In [<mark>referentie naar paragraaf</mark>] werd de methodiek al kort toegelicht. De LIV koppelt verschillende basisregistraties aan elkaar om een indiciatie van het gebruik op een locatie te kunnen geven. Hieronder lichten we die methodiek verder toe. 
+
+De leegstand die volgt uit die koppeling, noemen we administratieve leegstand. 
+
+De LIV maakt gebruik van het stelsel van basisregistraties. Dit is [<mark>beschrijving stelsel, bron zoeken</mark>]. Voor het bepalen van gebruik van vastgoed komen de BAG, WOZ, NHR en BRP in aanmerking.
+
+In de LIV staat de BAG centraal. Deze basisadministratie bevat alle adressen en geometrieën van gebouwen in Nederland en voorziet ze van een unieke identificatiecode. Ook bevat deze registratie aanvullende informatie over het object, zoals: bouwjaar, gebruiksdoel en oppervlakte.
+
+<mark>nog iets over verblijfsobjecten en panden</mark>
+
+De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van de identificatiecode. Dit biedt de mogelijkheid om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op die locatie. 
+
+Woningen vormen het belangrijkste deel van de gebouwenvoorraad, [<mark>namelijk 80%</mark>]. De BRP legt van alle inwoners van Nederland het woonadres vast (https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/basisregistratie-personen-brp). Hiermee is het mogelijk om te zien of een woning in gebruik is: heeft een woning een tenminste één bewoner, dan staat deze ingeschreven in het BRP. Het BRP verwijst voor het adres naar de BAG. Met andere woorden: koppelt de BAG aan de BRP, dan heeft het BAG-object een gebruiker.
+
+De [<mark>overige 20%</mark>] van de gebouwnvoorraad bestaat uit niet-woningen (kantoren, winkels, scholen, etc.). Het Handelsregister registreert alle bedrijven, rechtspersonen en andere organisateis die deelnemen aan het economisch verkeer in Nederland (https://www.kvk.nl/over-de-kvk/over-het-handelsregister/). Op een vergelijkbare manier als met het BRP is voor de niet-woningen na te gaan of er op een locatie gebruik is: vindt er op een locatie tenminste één economische activiteit plaats, dan staat deze ingeschreven in het NHR. Voor de adresgegevens maakt het register een verwijzing naar de BAG. Daarom is de aanname: koppelt de BAG aan het NHR, dan heeft het BAG-object een gebruiker.
+
+[<mark>WOZ uitleggen</mark>]
+
+Maar het kan ook zijn dan er vanuit de BRP of het NHR geen relatie bestaat met de BAG. Of dat in de WOZ geen gebruiker is gevonden. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>]
+
+
+
+
+##### Wat verstaan we onder leegstand? 
+(zie 3.1.1 Gebruik)
+##### Welke categorieën onderscheiden we?
+(zie: afbeelding)
+##### Volgens welke methodiek stellen we gebruik vast?
+(zie: combinatie van voorgenoemde)
+##### Op basis van welke bronnen? etc.
+(zie afbeelding)
+
+![referentiemodel](images/referentiemodel.png?raw=true)
 
 #### Dataproducten <!-- andere titel: ~functionaliteiten? -->
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen. 
