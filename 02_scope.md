@@ -2,7 +2,8 @@
 
 <mark>[Inleidende tekst ... ]</mark>
 
-<mark>TEST AFBEELDING</mark>
+
+<mark>TEST AFBEELDING/TABEL</mark>
 
 ![figure 1-1](image_tabel_leegstand.png?raw=true)
 
