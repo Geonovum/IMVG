@@ -3,6 +3,7 @@
 <mark>[Inleidende tekst ... ]</mark>
 
 <mark>TEST AFBEELDING</mark>
+
 ![figure 1-1](image_tabel_leegstand.png?raw=true)
 
 ## Scope
