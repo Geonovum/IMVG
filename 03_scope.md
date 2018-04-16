@@ -60,7 +60,7 @@ De [<mark>overige 20%</mark>] van de gebouwenvoorraad bestaat uit niet-woningen 
 Alle gegeven sdie nodig zijn om de WOZ-waarde te relateren aan zowel een onroerende zaak als aan een belanghebende zijn opgenomen in de basisregistratie WOZ. Voor de onroerende zaak met de WOZ een koppeling met de BAG. 
 Grofweg kent de WOZ twee typen belanghebbenden: een eigenaar of een gebruiker. Een WOZ-object kan meerdere eigenaren en meerdere gebruikers hebben. Een WOZ-object heeft altijd een eigenaar. Soms is die eigenaar zelf gebruiker. Maar het komt ook voor dat eigenaar en gebruiker verschillende personen zijn. In dat geval kan het voorkomen dat een WOZ-object wel een eigenaar, maar geen gebruiker heeft, omdat de eigenaar op dat moment gene huurder heeft. De WOZ beslaat de totale vastgoedvoorraad. Op deze manier geeft de WOZ extra inzicht in gebruik van zowel woningen als niet-woningen [<mark>hier kanttekening maken?</mark>]. Deze methode is verschilt dus van BRP en NHR: daar de koppeling de indicatie voor gebruik; de WOZ bevat zelf een gegeven over gebruik. 
 
-Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk [<mark>verwijzing tabel</mark>]. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>].
+Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk [<mark>verwijzing tabel onder 3.1.1</mark>]. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>].
 
 ![referentiemodel](images/referentiemodel.png?raw=true)
 
