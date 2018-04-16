@@ -61,15 +61,6 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 **Tabel x.x: Mogelijke combinaties LIV**
 ![LIV-combinaties](images/table_leegstand_large.png?raw=true)
 
-##### Wat verstaan we onder leegstand? 
-(zie 3.1.1 Gebruik)
-##### Welke categorieën onderscheiden we?
-(zie: afbeelding)
-##### Volgens welke methodiek stellen we gebruik vast?
-(zie: combinatie van voorgenoemde)
-##### Op basis van welke bronnen? etc.
-(zie afbeelding)
-
 #### Dataproducten/Functionaliteiten <!-- andere titel: ~functionaliteiten? -->
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen: 
 * Jaarlijkse statistiek CBS
