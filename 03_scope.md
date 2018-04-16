@@ -55,14 +55,14 @@ De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op 
 
 Woningen vormen het belangrijkste deel van de gebouwenvoorraad, [<mark>namelijk 80%</mark>]. De BRP legt van alle inwoners van Nederland het woonadres vast (https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/basisregistratie-personen-brp). Hiermee is het mogelijk om te zien of een woning in gebruik is: heeft een woning een tenminste één bewoner, dan staat deze ingeschreven in het BRP. Het BRP verwijst voor het adres naar de BAG. Met andere woorden: koppelt de BAG aan de BRP, dan heeft het BAG-object een gebruiker.
 
-De [<mark>overige 20%</mark>] van de gebouwnvoorraad bestaat uit niet-woningen (kantoren, winkels, scholen, etc.). Het Handelsregister registreert alle bedrijven, rechtspersonen en andere organisateis die deelnemen aan het economisch verkeer in Nederland (https://www.kvk.nl/over-de-kvk/over-het-handelsregister/). Op een vergelijkbare manier als met het BRP is voor de niet-woningen na te gaan of er op een locatie gebruik is: vindt er op een locatie tenminste één economische activiteit plaats, dan staat deze ingeschreven in het NHR. Voor de adresgegevens maakt het register een verwijzing naar de BAG. Daarom is de aanname: koppelt de BAG aan het NHR, dan heeft het BAG-object een gebruiker.
+De [<mark>overige 20%</mark>] van de gebouwenvoorraad bestaat uit niet-woningen (kantoren, winkels, scholen, etc.). Het Handelsregister registreert alle bedrijven, rechtspersonen en andere organisaties die deelnemen aan het economisch verkeer in Nederland (https://www.kvk.nl/over-de-kvk/over-het-handelsregister/). Op een vergelijkbare manier als met het BRP is voor de niet-woningen na te gaan of er op een locatie gebruik is: vindt er op een locatie tenminste één economische activiteit plaats, dan staat deze ingeschreven in het NHR. Voor de adresgegevens maakt het register een verwijzing naar de BAG. Daarom is de aanname: koppelt de BAG aan het NHR, dan heeft het BAG-object een gebruiker.
 
-[<mark>WOZ uitleggen</mark>]
+Alle gegeven sdie nodig zijn om de WOZ-waarde te relateren aan zowel een onroerende zaak als aan een belanghebende zijn opgenomen in de basisregistratie WOZ. Voor de onroerende zaak met de WOZ een koppeling met de BAG. 
+Grofweg kent de WOZ twee typen belanghebbenden: een eigenaar of een gebruiker. Een WOZ-object kan meerdere eigenaren en meerdere gebruikers hebben. Een WOZ-object heeft altijd een eigenaar. Soms is die eigenaar zelf gebruiker. Maar het komt ook voor dat eigenaar en gebruiker verschillende personen zijn. In dat geval kan het voorkomen dat een WOZ-object wel een eigenaar, maar geen gebruiker heeft, omdat de eigenaar op dat moment gene huurder heeft. De WOZ beslaat de totale vastgoedvoorraad. Op deze manier geeft de WOZ extra inzicht in gebruik van zowel woningen als niet-woningen [<mark>hier kanttekening maken?</mark>]. Deze methode is verschilt dus van BRP en NHR: daar de koppeling de indicatie voor gebruik; de WOZ bevat zelf een gegeven over gebruik. 
 
-Maar het kan ook zijn dan er vanuit de BRP of het NHR geen relatie bestaat met de BAG. Of dat in de WOZ geen gebruiker is gevonden. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>]
+Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk [<mark>verwijzing tabel</mark>]. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>].
 
-
-
+![referentiemodel](images/referentiemodel.png?raw=true)
 
 ##### Wat verstaan we onder leegstand? 
 (zie 3.1.1 Gebruik)
@@ -72,8 +72,6 @@ Maar het kan ook zijn dan er vanuit de BRP of het NHR geen relatie bestaat met d
 (zie: combinatie van voorgenoemde)
 ##### Op basis van welke bronnen? etc.
 (zie afbeelding)
-
-![referentiemodel](images/referentiemodel.png?raw=true)
 
 #### Dataproducten <!-- andere titel: ~functionaliteiten? -->
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen. 
