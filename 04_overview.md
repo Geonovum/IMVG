@@ -44,8 +44,6 @@ BRP
 **Pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
 > *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
 
-[Pand]: de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is
-
 **Adresseerbaar object** <!--oorsprong definitie?-->
 > *standplaats, ligplaats of verblijfsobject*
 
