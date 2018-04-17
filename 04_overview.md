@@ -29,33 +29,33 @@ BRP
 *Er is niet een algemene concensus over wat de definitie van leegstand is* [<mark>invoegen stuk definities input h9 rapport CBS</mark>]
 
 **Vastgoedobject**
-*Een BAG-pand of -verblijfsobject*
+> Een BAG-pand met een verblijfsobject
 
 **Administratieve leegstand**
-De situatie waarin de koppeling van de WOZ, het NHR en de BRP aan de BAG respectievelijk: geen gebruiker, geen relaties met een vestiging en geen relatie met een persoon oplevert.
+> De situatie waarin de koppeling van de WOZ, het NHR en de BRP aan de BAG respectievelijk: geen gebruiker, geen relaties met een vestiging en geen relatie met een persoon oplevert.
 
 **Vastgoedgebruik**
-De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert.
+> De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert.
 
-**Verblijfsobject**
-*De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
-<mark>Verwijzing</mark> [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
-[[BAG_2009]].
+**Verblijfsobject** <!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+> *De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
+[<mark>Verwijzing</mark>] [link](http://example.com).
 
-**Pand**
-*de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
-<!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
-**Adresseerbaar object**
-*(ligplaats, standplaats of verblijfsobject)*
+**Pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
+> *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
+
+*[Pand]: de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is
+
+**Adresseerbaar object** <!--oorsprong definitie?-->
+> *standplaats, ligplaats of verblijfsobject*
 
 **BAG-object**
-*De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
+> *De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
 
- > **<mark>Note:</mark>** definities aanvullen en fine-tunen
- 
+[<mark>definities aanvullen en fine-tunen</mark>]
 
 ### Beschrijving
-LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland vormt de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
+LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
 
 In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
 - Panden
@@ -72,11 +72,7 @@ Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebou
 elke stand- en ligplaats is een pand in de BAG
 verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
-<!-- alinea herschrijven -->
-Opvallend is dat het object "gebouw" in deze registratie niet voorkomt. De definitie sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistratie. In plaats daarvan is het object **pand** gedefinieerd.
-<!-- BAG-2009-2014_objectenhandboek -->
-
-
+<!--Reeds herschreven:-->De definitie van het object "gebouw" sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistraties. De BAG definieert in plaats hiervan *panden*. <!-- bron BAG-2009-2014_objectenhandboek -->
 
 <!-- alinea herschrijven -->
 "*Binnen het gegevensmodel van de basisregistratie gebouwen wordt onderscheid gemaakt tussen (kleinste) bouwkundige eenheden en (kleinste) gebruikseenheden. **Panden** zijn gedefinieerd als de **(kleinste) bouwkundige eenheden**; **verblijfsobjecten** als de **(kleinste) gebruikseenheden**. Bij de afbakening van panden en verblijfsobjecten wordt aan dit onderscheid vastgehouden: de afbakening van een pand vindt plaats **onafhankelijk** van de afbakening van verblijfsobjecten. Dit neemt natuurlijk niet weg dat er wel **relaties** bestaan tussen beide objecten. Verblijfsobjecten maken altijd deel uit van een pand  of van meerdere panden). **Panden hoeven geen verblijfsobjecten te bevatten***".<!-- BAG-2009-2014_objectenhandboek --> 
