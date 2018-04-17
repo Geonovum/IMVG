@@ -26,19 +26,21 @@ BRP
 *[BRP]: Basisregistratie Personen
 -->
 
+*Er is niet een algemene concensus over wat de definitie van leegstand is* [<mark>invoegen stuk definities input h9 rapport CBS</mark>]
 
 **Vastgoedobject**
-*bag pand/vbo*
+*Een BAG-pand of -verblijfsobject*
 
-**Administratief gebruik en niet-gebruik (leegstand)**
-*Er is niet een algemene concensus over wat de definitie van leegstand is*
+**Administratieve leegstand**
+De situatie waarin de koppeling van de WOZ, het NHR en de BRP aan de BAG respectievelijk: geen gebruiker, geen relaties met een vestiging en geen relatie met een persoon oplevert.
 
 **Vastgoedgebruik**
-*het (administratief?) in gebruik zijn van een pand o.i.d.*
+De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert.
 
 **Verblijfsobject**
-*de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
+*De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
 <mark>Verwijzing</mark> [link](http://example.com).<!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+[[BAG_2009]].
 
 **Pand**
 *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
