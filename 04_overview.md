@@ -10,23 +10,10 @@ Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegstand 2.0, waarin de bevindingen van diverse plausibiliteitsonderzoeken zo veel mogelijk zijn verwerkt. Tevens wordt een processtandaard opgeleverd, gepubliceerd en in beheer genomen. Verder wordt de mogelijke dienstverlening aan partijen inzichtelijk gemaakt.-->
 
 ## Informele beschrijving
+[<mark>tekst invoegen</mark>]
 
 ### Definitie
-
-<!--
-BAG
-NHR
-WOZ
-BRP
-
-*[LIV]: Landelijke Informatievoorziening Vastgoedgebruik
-*[BAG]: Basisregistratie Adressen en Gebouwen
-*[NHR]: Nationaal Handelsregister (basisregistratie)
-*[WOZ]: Waardering Onroerende Zaken (basisregistratie)
-*[BRP]: Basisregistratie Personen
--->
-
-*Er is niet een algemene concensus over wat de definitie van leegstand is* [<mark>invoegen stuk definities input h9 rapport CBS</mark>]
+Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Wij kiezen er voor om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV kijkt heel gericht naar administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen administratie leegstand en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met (economische/financiële) leegstand. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met verpaupering en verloedering. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand. 
 
 **Vastgoedobject**
 > Een BAG-pand met een verblijfsobject
