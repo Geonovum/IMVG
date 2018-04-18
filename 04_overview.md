@@ -13,33 +13,34 @@ Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegs
 [<mark>tekst invoegen</mark>]
 
 ### Definitie
-Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Wij kiezen er voor om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV kijkt heel gericht naar administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen administratie leegstand en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met (economische/financiële) leegstand. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met verpaupering en verloedering. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand. 
-
-Binnen de LIV zijn onderstaande definities van belang.
+Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. 
 
 **Vastgoedobject**
-> Een BAG-pand met een verblijfsobject
+> Een BAG-pand met een verblijfsobject (stand- en ligplaatsen zijn uitgesloten)
 
 **Administratieve leegstand**
-> De situatie waarin de koppeling van de WOZ, het NHR en de BRP aan de BAG respectievelijk: geen gebruiker, geen relaties met een vestiging en geen relatie met een persoon oplevert.
+> De situatie waarin de koppeling van de basisregistraties WOZ, NHR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (<mark>combinatie 8 in tabel x.x</mark>)
 
 **Vastgoedgebruik**
-> De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert.
+> De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (<mark>combinatie 1 t/m 7 in tabel x.x</mark>).
 
 **Verblijfsobject** <!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
-> *De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is*
-[<mark>Verwijzing</mark>] [link](http://example.com).
+> "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is"[<mark>Verwijzing BAG</mark>].
 
 **Pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
-> *de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is* 
+> "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is [<mark>verwijzing BAG</mark>].
 
 **Adresseerbaar object** <!--oorsprong definitie?-->
 > *standplaats, ligplaats of verblijfsobject*
 
+<mark> definitie volledig?</mark>
+
 **BAG-object**
 > *De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand* <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ -->
 
-[<mark>definities aanvullen en fine-tunen</mark>]
+<mark> definitie relevant? </mark>
+
+Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen administratie leegstand en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met (economische/financiële) leegstand. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met verpaupering en verloedering. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand.
 
 ### Beschrijving
 LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
