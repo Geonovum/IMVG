@@ -346,7 +346,7 @@ realiseren
 **registratie**
 
 > op nationaal niveau geïdentificeerde en erkende gegevensverzameling
-<mark>Een basisregistratie is een registratie.</mark>
+Een basisregistratie is een registratie.
 
 **registratiehouder**
 
