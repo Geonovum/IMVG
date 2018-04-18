@@ -241,7 +241,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **applicatieschema**
 
-> informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. <mark>IMKL is met UML beschreven in een applicatieschema</mark>.
+> informatiemodel dat gegevens beschrijft die worden gebruikt door een of meer applicaties. IMKL is met UML beschreven in een applicatieschema.
 
 **associatie of relatie (UML)**
 
