@@ -87,14 +87,10 @@ elke stand- en ligplaats is een pand in de BAG
 verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
 <!--Reeds herschreven-->
-Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt omdat de definitie van het object "gebouw" onvoldoende aansloot op de gewenste toepassing van een gebouwenregistraties. 
-<!-- bron BAG-2009-2014_objectenhandboek -->
-
+Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt omdat de definitie van het object "gebouw" onvoldoende aansloot op de gewenste toepassing van een gebouwenregistraties [<mark>bron: BAG 2009-2014</mark>].
 
 <!--Reeds herschreven-->
-De BAG voegt twee samenhangende basisregistraties samen: de Basisregistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>].
-
-Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (*panden*) en (kleinste) gebruikseenheden (*verblijfsobjecten*). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>]. 
+De BAG voegt twee samenhangende basisregistraties samen: de Basisregistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (*panden*) en (kleinste) gebruikseenheden (*verblijfsobjecten*). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>]. 
 
 Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen hebben namelijk een ondersteunende functie voor een ander gebouw [<mark>ondersteunendeFuncties</mark>] <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadreseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik [<mark>bijgebouwen</mark>].
 
@@ -113,14 +109,14 @@ Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor
 2. om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
 
 **Koppeling**
-
+<!--dit stuk staat al in H3, kijken of er nog aanvullingen zijn-->
 Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan de BAG. Deze registraties bevatten aanvullende vastgoedgegevens, of gegevens die iets zeggen over of het verblijfsobject in gebruik gebruik is of niet. In de LIV is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van: 
 
 * een gebruiker in de WOZ[<mark>wozOnderscheid</mark>]
 * een vestiging in het NHR
 * een persoon in de BRP
 
-[<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
+> [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
 
 **Figuur x.x: LIV dataspecificatie bronnen en producten**
@@ -128,9 +124,9 @@ Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sp
 
 Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de gegevens uit vier bronbestanden (LV BAG, LV WOZ, ***HR-dataservice?*** en ***BRP-...?*** ) opgehaald en aan elkaar gekoppeld op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG. Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>]. 
 
-[<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
+> [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
-[<mark>stelselVerplichting</mark>]
+> [<mark>stelselVerplichting</mark>]
 Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/)
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vindt plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
@@ -195,20 +191,21 @@ Het doel van dit projectonderdeel is om te komen tot een geüniformeerde wijze v
 Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een dataspecificatie staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
 
 ### Ontwikkeling standaard
-**bronnen**
-- BRP: 20161024 Verstuffingversie InfoMod RSGB .EAP
+**Bronnen**
+- BRP: 20161024 Verstuffingversie InfoMod RSGB.EAP
 - BAG: 2017-02-10_IMBAG_UML_KKG_InOnderzoek_metagegevens.EAP
 - WOZ: imwoz 2012 08 31 11.30 technisch.EAP
 - NHR: Online Catalogus v3.01 Overheid (html)
 
-De LIV maakt optimaal gebruik van het stelsel van basisregistraties. Hergrebruik van informatie. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds onwtikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
+**Stelsel**
+De LIV maakt optimaal gebruik van het stelsel van basisregistraties. Hergebruik van informatie. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds onwtikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
 De ontwikkeling van het informatiemodel, zijn we tegen een aantal uitdagingen aangelopen. 
 
-KKG
+**KKG**
 *KING, Kadaster en Geonovum hebben gezamenlijk een metamodel ontwikkeld voor informatiemodellering. Dit Metamodel bundelt de kennis van de drie organisaties met betrekking tot informatiemodellering.[...] Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar. [bron:https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering ]*
 
-
+**Problemen**
 Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
 Van sommige basisregistraties waren meerdere modellen beschikbaar, waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
