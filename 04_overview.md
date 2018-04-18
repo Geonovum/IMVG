@@ -34,7 +34,7 @@ Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt u
 > Objecten waaraan in de BAG een adres kan worden toegekend: standplaats, ligplaats of verblijfsobject [<mark>bron: BAG 2009-2014, p. 24</mark>]
 
 **BAG-object**
-> "De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand" <!-- bron: https://www.amsterdam.nl/stelselpedia/woordenboek/ --> [<mark>definitie relevant? bron: Stelselpagina gem. Amsterdam</mark>]
+> "De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand" [<mark>bron: [Gemeente Amsterdam](https://www.amsterdam.nl/stelselpedia/woordenboek/)|definitie relevant?</mark>]
 
 **Gebruiksdoel**
 > "Een categorisering van de gebruiksdoelen van het betreffende
@@ -56,7 +56,7 @@ Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het 
 - Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen"[<mark>bron: NHR 2013, p. 9-28</mark>].
 
 **Persoon**
-> "Inwoner van Nederland (ingezetene)"[<mark>bron: [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen)</mark>]
+> "Inwoner van Nederland (ingezetene)" [<mark>bron: [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen)</mark>]
 
 <!--Gegevens over de ingeschrevene (toelichting uit BRP)
 iets met **ingezetenen**, **natuurlijk persoon**, ingeschreven in Nederland met BSN, alle kinderen, ouders en partners ??? Nog geen duidelijke definitie gevonden.-->
@@ -83,12 +83,14 @@ Uit: BAG_2009-2014_objectenhandboek - *Daarnaast bevat de basisregistratie gebou
 elke stand- en ligplaats is een pand in de BAG
 verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
-<!--Reeds herschreven:-->De definitie van het object "gebouw" sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistraties. De BAG definieert in plaats hiervan *panden*. <!-- bron BAG-2009-2014_objectenhandboek -->
+<!--Reeds herschreven:-->
+De definitie van het object "gebouw" sloot onvoldoende aan op de gewenste toepassing van een gebouwenregistraties. De BAG definieert in plaats hiervan *panden*.
+<!-- bron BAG-2009-2014_objectenhandboek -->
 
 <!-- alinea herschrijven -->
 "*Binnen het gegevensmodel van de basisregistratie gebouwen wordt onderscheid gemaakt tussen (kleinste) bouwkundige eenheden en (kleinste) gebruikseenheden. **Panden** zijn gedefinieerd als de **(kleinste) bouwkundige eenheden**; **verblijfsobjecten** als de **(kleinste) gebruikseenheden**. Bij de afbakening van panden en verblijfsobjecten wordt aan dit onderscheid vastgehouden: de afbakening van een pand vindt plaats **onafhankelijk** van de afbakening van verblijfsobjecten. Dit neemt natuurlijk niet weg dat er wel **relaties** bestaan tussen beide objecten. Verblijfsobjecten maken altijd deel uit van een pand  of van meerdere panden). **Panden hoeven geen verblijfsobjecten te bevatten***".<!-- BAG-2009-2014_objectenhandboek -->
 
-
+De BAG voegt twee samenhangende basisregistraties samen: de Basisregeistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (*panden*) en (kleinste) gebruikseenheden (*verblijfsobjecten*). Hoewel er tussen beide objecten relaties bestaan, bakend de registraties een pand onafhankelijk af van een verblijfsobject.  
 
 **Vastgoed- en verblijfsobjecten**
 Voor de definitie van een **vastgoedobject**, maakt de LIV gebruik van de definitie van een pand in de BAG. Een **pand** is daarin omschreven als de "*kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is*"<!-- bron BAG_2009_catalogus_grondslagen -->.
