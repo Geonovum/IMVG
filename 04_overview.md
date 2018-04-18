@@ -10,7 +10,7 @@ Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegstand 2.0, waarin de bevindingen van diverse plausibiliteitsonderzoeken zo veel mogelijk zijn verwerkt. Tevens wordt een processtandaard opgeleverd, gepubliceerd en in beheer genomen. Verder wordt de mogelijke dienstverlening aan partijen inzichtelijk gemaakt.-->
 
 ## Informele beschrijving
-[<mark>tekst invoegen</mark>]
+Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
 Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. 
