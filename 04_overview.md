@@ -41,8 +41,8 @@ Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt u
 verblijfsobject, zoals dit door de overheid als zodanig is
 toegestaan" [<mark>bron: BAG 2009, p. 60</mark>].
 
-**Belanghebbende**
-> [<mark>def.WOZ: invullen</mark>]
+**Gebruiker**
+> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van de het WOZ-object [<mark>bron: WOZ 2012, p. 21</mark>].
 
 **Vestiging**
 > "Een vestiging is een gebouw of complex van gebouwen waar duurzame uitoefening van activiteiten van een onderneming of rechtspersoon plaatsvindt. Een vestiging kent twee verzamelingen:
