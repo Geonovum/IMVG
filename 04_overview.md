@@ -98,7 +98,7 @@ Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit 
 
 > [<mark>bijgebouwen</mark>] Bijvoorbeeld in het geval van agrarische bedrijven. Die bestaan vaak uit meerdere vastgoedobjecten. Sommige van deze objecten hebben een verblijfsobject (boerderij) maar anderen niet (schuren, stallen, silo's etc.). Steeds meer agrarische bedrijven stoppen<!-- bron -->. Vaak komen de bijgebouwen dan leeg te staan, terwijl de boerderij bewoond blijft. Omdat de bijgebouwen niet (apart) geadresseerd zijn, is op basis van de BAG niet vast te stellen wat de gebruiksstatus van elk afzonderlijk object is.
 
-Een verblijfsobject in de BAG heeft een gebruiksfunctie. [<mark>zie definitie</mark>]. Dit betreft het vergunde gebruik. Zo is voor elk verblijfsobject tenminste één gebruiksdoel vastgesteld[<mark>dubbelfunctie</mark>]. Het gebruiksdoel is daarom geschikt voor een rudimentaire classificatie[<mark>gebruiksdoelen</mark>] van verblijfsobjecten. 
+Een verblijfsobject in de BAG heeft een gebruiksfunctie. [<mark>zie definitie</mark>]. Dit type gebruik wordt ook wel het vergunde gebruik genoemd. Zo is voor elk verblijfsobject tenminste één gebruiksdoel vastgesteld[<mark>dubbelfunctie</mark>]. Het gebruiksdoel is daarom geschikt voor een rudimentaire classificatie[<mark>gebruiksdoelen</mark>] van verblijfsobjecten. 
 
 > [<mark>dubbelfunctie</mark>] In sommige gevallen kan de bronhouder (gemeente) ervoor kiezen om een zogenaamde dubbelfunctie toe te kennen, bijvoorbeeld: woon-/winkelfunctie.
 
@@ -198,15 +198,16 @@ Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorzien
 - NHR: Online Catalogus v3.01 Overheid (html)
 
 **Stelsel**
+
 De LIV maakt optimaal gebruik van het stelsel van basisregistraties. Hergebruik van informatie. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds onwtikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
-De ontwikkeling van het informatiemodel, zijn we tegen een aantal uitdagingen aangelopen. 
-
 **KKG**
+
 *KING, Kadaster en Geonovum hebben gezamenlijk een metamodel ontwikkeld voor informatiemodellering. Dit Metamodel bundelt de kennis van de drie organisaties met betrekking tot informatiemodellering.[...] Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar. [bron:https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering ]*
 
 **Problemen**
-Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
+
+Bij de ontwikkeling van het informatiemodel, zijn we tegen een aantal uitdagingen aangelopen. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
 Van sommige basisregistraties waren meerdere modellen beschikbaar, waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
 Niet van alle modellen UML beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van NHR en BRP niet. 
@@ -292,8 +293,7 @@ INSPIRE
 **geo-informatie (geo-information, geographic information)**
 
 > informatie met een directe of indirecte referentie naar een plaats ten opzichte van de aarde (bijvoorbeeld
-ten opzichte van het aardoppervlak)
-<mark> Geo-informatie is synoniem aan geografische informatie.</mark>
+ten opzichte van het aardoppervlak).Geo-informatie is synoniem aan geografische informatie.
 
 **geo-object (geographic feature type, feature class)**
 
@@ -306,9 +306,8 @@ relatief ten opzichte van de aarde (bijvoorbeeld ten opzichte van het aardopperv
 
 **informatiemodel (conceptual model, conceptual scheme)**
 
-> formele definitie van objecten, attributen, relaties en regels in een bepaald domein
-<mark>  Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een
-verzameling van concepten en begrippen </mark>
+> formele definitie van objecten, attributen, relaties en regels in een bepaald domein.  Domein is in dit verband: een kennisgebied of activiteit gekarakteriseerd door een
+verzameling van concepten en begrippen
 
 **instantie (instance, occurrence)**
 
@@ -321,8 +320,7 @@ afgebeeld
 
 **namespace**
 
-> collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen
-<mark>  Een namespace wordt geïdentificeerd door een URI.</mark>
+> collectie van namen die in XML documenten gebruikt worden als element en attribuutnamen. Een namespace wordt geïdentificeerd door een URI.
 
 **netwerk service**
 
@@ -337,8 +335,8 @@ peer architecture based on application layer network protocols_" - (Wikipedia)
 **presentatie**
 
 > presentatie van informatie aan mensen
-<mark>Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of
-combinaties hiervan.</mark>
+Presentatie van informatie door visualisatie, hoorbaar maken, tastbaar maken (tactiel) of
+combinaties hiervan.
 
 **productmodel**
 
@@ -353,19 +351,17 @@ realiseren
 **registratiehouder**
 
 > organisatie verantwoordelijk voor het houden van de registratie
-<mark>de registratiehouder is de organisatie die unieke objectidentificaties toekent voor
-objecten in een registratie</mark>
+de registratiehouder is de organisatie die unieke objectidentificaties toekent voor
+objecten in een registratie
 
 **representatie**
 
-> inhoudelijk vastleggen van de werkelijkheid.
-<mark>Het informatiemodel is een representatie van de werkelijkheid.</mark>
+> inhoudelijk vastleggen van de werkelijkheid. Het informatiemodel is een representatie van de werkelijkheid.
 
 **ruimtelijk referentiesysteem**
 
-> model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid
-<mark>Identificatie van een positie kan door coördinaten (directe locatie) en door geografische
-identificatoren (indirecte locatie).</mark>
+> model (systeem) voor identificatie van een positie (locatie) in de werkelijkheid. Identificatie van een positie kan door coördinaten (directe locatie) en door geografische
+identificatoren (indirecte locatie).
 
 **sectormodel**
 
