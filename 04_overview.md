@@ -56,7 +56,10 @@ Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het 
 - Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen"[<mark>bron: NHR 2013, p. 9-28</mark>].
 
 **Persoon**
-> [<mark>def.BRP: invullen</mark>]
+> "Inwoner van Nederland (ingezetene)"[<mark>bron: https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen</mark>]
+
+<!--Gegevens over de ingeschrevene (toelichting uit BRP)
+iets met **ingezetenen**, **natuurlijk persoon**, ingeschreven in Nederland met BSN, alle kinderen, ouders en partners ??? Nog geen duidelijke definitie gevonden.-->
 
 **Feitelijke Leegstand**
 
