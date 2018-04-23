@@ -16,13 +16,14 @@ Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bron
 [<mark>alinea weglaten?</mark>]
 Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. [<mark>begrippen verplaatst naar: lijst Termen en Definities</mark>]
 
-**Feitelijke Leegstand**
+#### Feitelijke Leegstand
 [<mark>alinea verplaatsen naar Termen en Definities?</mark>]
 Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen *administratie leegstand* en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met *economische* of *financiële leegstand*. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met *verpaupering* en *verloedering*. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand.
 
 ### Beschrijving
 LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. 
 
+#### Over de BAG
 In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
 - Panden
 - Verblijfsobjecten
@@ -60,7 +61,7 @@ Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor
 1. om het gebruik van een (deel van) een vastgoedobject (pand) vast te stellen, en; 
 2. om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
 
-**Koppeling**
+#### Koppeling
 <!--dit stuk staat al in H3, kijken of er nog aanvullingen zijn-->
 Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan de BAG. Deze registraties bevatten aanvullende vastgoedgegevens, of gegevens die iets zeggen over of het verblijfsobject in gebruik gebruik is of niet. In de LIV is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van: 
 
@@ -70,6 +71,8 @@ Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan
 
 > [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
+
+#### Dataspecificatie: bronnen en producten
 
 **Figuur x.x: LIV dataspecificatie bronnen en producten**
 ![dataspecificatie_bronnen_en_producten](images/dataspecificatie_bronnen_en_producten.png?raw=true)
@@ -83,7 +86,7 @@ Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevens
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vindt plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
-**Uitgangspunten**
+#### Uitgangspunten
 * beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: [<mark>1</mark>], [<mark>2</mark>] en [<mark>3</mark>]
 * bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
 * semantische afstemming [<mark>in hoeverre en op welke manier relevant?</mark>]
@@ -109,6 +112,7 @@ Een verblijfsobject heeft tenminste één gebruiksdoel
 De ... -->
 
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
+#### Data-uitwisselingsarchitectuur
 
 **Figuur x.x: LIV Data-uitwisselingsarchitectuur**
 ![data-uitwisselingsarchitectuur](images/data-uitwisselingsarchitectuur.png?raw=true)
@@ -130,17 +134,17 @@ nr | naam | view | download | detailnivau | voor wie?
 ## Totstandkoming
 
 ### Algemeen
-Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:
+[<mark>alinea weglaten?</mark>]Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:
 * Landelijke Monitor Leegstand: het CBS heeft de eerdere monitor Overijssel landsdekkend gemaakt met de peiljaren 2015 en 2016 en een aantal ‘no-regret’ verbeteringen aangebracht;
 * Rapport over de vraagarticulatie van stakeholders: Geonovum heeft bij relevante overheidspartijen (rijk, provincie en gemeenten) en bij brancheorganisaties nagegaan welke behoefte naar leegstands- en vastgoedgebruiksinformatie er leven bij de verschillende partijen;
 * Rapport over de informatiekundige kwaliteit: het Kadaster heeft beschreven hoe met behulp van basisregistraties en aanvullende databronnen vastgoedgebruiksinformatie kan worden afgeleid.
 
-Het initiatief en de resultaten zijn breed gedeeld en publiek kenbaar gemaakt.
+[<mark>alinea weglaten?</mark>]Het initiatief en de resultaten zijn breed gedeeld en publiek kenbaar gemaakt.
 
-In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte aan leegstandsinformatie bij marktpartijen en overheden. Daaruit bleek een duidelijke behoefte, bij marktpartijen en overheden, aan een geüniformeerde methodiek en aan eenduidige definities. Het vervolgonderzoek uit 2016 bevestigde dat beeld. Vanuit gebruiksoptiek en vanuit informatiekundig perspectief is het van belang deze methodiek en definities goed vast te leggen in een informatiestandaard.
+[<mark>alinea weglaten?</mark>]In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte aan leegstandsinformatie bij marktpartijen en overheden. Daaruit bleek een duidelijke behoefte, bij marktpartijen en overheden, aan een geüniformeerde methodiek en aan eenduidige definities. Het vervolgonderzoek uit 2016 bevestigde dat beeld. Vanuit gebruiksoptiek en vanuit informatiekundig perspectief is het van belang deze methodiek en definities goed vast te leggen in een informatiestandaard.
 Het doel van dit projectonderdeel is om te komen tot een geüniformeerde wijze voor het beschrijven van de semantische inhoud van de registraties. Deze wijze van beschrijven gebeurt door middel van een dataspecificatie.
 
-Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een dataspecificatie staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
+[<mark>alinea weglaten?</mark>]Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een dataspecificatie staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
 
 ### Ontwikkeling standaard
 **Bronnen**
@@ -149,15 +153,15 @@ Dataspecificaties beschrijven in detail de data-inhoud van de informatievoorzien
 - WOZ: imwoz 2012 08 31 11.30 technisch.EAP
 - NHR: Online Catalogus v3.01 Overheid (html)
 
-**Stelsel**
+#### Stelsel
 
 De LIV maakt optimaal gebruik van het stelsel van basisregistraties. Hergebruik van informatie. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds onwtikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
-**KKG**
+#### KKG
 
 *KING, Kadaster en Geonovum hebben gezamenlijk een metamodel ontwikkeld voor informatiemodellering. Dit Metamodel bundelt de kennis van de drie organisaties met betrekking tot informatiemodellering.[...] Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar. [bron:https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering ]*
 
-**Problemen**
+#### Knelpunten bij (operationele) uitvoering
 
 Bij de ontwikkeling van het informatiemodel, zijn we tegen een aantal uitdagingen aangelopen. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
