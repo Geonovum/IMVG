@@ -19,11 +19,11 @@ Een toelichting op de koppeling vindt plaats in [<mark>paragraaf 3.1.6</mark>].
 #### Dataproducten
 Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen:
 
-* Leegstand 
-  * Landelijke Leegstandsmonitor CBS
-  * Model Woonzorgwijzer
-  * Objectniveau gemeenten
-  * Remote Access CBS
+- Leegstand 
+  - Landelijke Leegstandsmonitor CBS
+  - Model Woonzorgwijzer
+  - Objectniveau gemeenten
+  - Remote Access CBS
 
-* Gebruik
-  * (nog geen gedefinieerde producten)
+- Gebruik
+  - (nog geen gedefinieerde producten)
