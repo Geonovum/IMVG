@@ -13,59 +13,11 @@ Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegs
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
-Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. 
-
-**Vastgoedobject**
-> Een BAG-pand met een verblijfsobject (stand- en ligplaatsen zijn uitgesloten)
-
-**Administratieve leegstand**
-> De situatie waarin de koppeling van de basisregistraties WOZ, NHR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (<mark>combinatie 8 in tabel x.x §3.1.6</mark>)
-
-**Vastgoedgebruik**
-> De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (<mark>combinatie 1 t/m 7 in tabel x.x §3.1.6</mark>).
-
-**Verblijfsobject** <!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
-> "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is"[<mark>bron: BAG 2009, p. 15</mark>].
-
-**Pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
-> "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is" [<mark>bron: BAG 2009, p. 13</mark>].
-
-**Adresseerbaar object** <!--oorsprong definitie?-->
-> Objecten waaraan in de BAG een adres kan worden toegekend: standplaats, ligplaats of verblijfsobject [<mark>bron: BAG 2009-2014, p. 24</mark>]
-
-**BAG-object**
-> "De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand" [<mark>bron: [Gemeente Amsterdam](https://www.amsterdam.nl/stelselpedia/woordenboek/)|definitie relevant?</mark>]
-
-**Gebruiksdoel**
-> "Een categorisering van de gebruiksdoelen van het betreffende
-verblijfsobject, zoals dit door de overheid als zodanig is
-toegestaan" [<mark>bron: BAG 2009, p. 60</mark>].
-
-
-> "Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2003 zoals deze in de bouwvergunning als zodanig is aangemerkt. Op een later moment kunnen ook door de gemeente geformaliseerde gebruiswijzigingen als basis dienen voor opnamen van een aanvulend gebruiksdoel. Het gebruiksdoel dient niet te worden verward met de *planologische bestemming* en het *feitelijk gebruik*". [<mark>bron: BAG 2009, p. 61</mark>]
-
-**Gebruiker**
-> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object [<mark>bron: WOZ 2012, p. 21</mark>].
-
-**Vestiging**
-> "Een vestiging is een gebouw of complex van gebouwen waar duurzame uitoefening van activiteiten van een onderneming of rechtspersoon plaatsvindt. Een vestiging kent twee verzamelingen:
-- Een commerciële vestiging
-- Een niet commerciële vestiging
-Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het vestigingsnummer".[<mark>bron: NHR 2013, p. 9-31</mark>]
-
-**Activiteit**
-> "De activiteit van een natuurlijk persoon of niet-natuurlijk persoon. Activiteiten worden geregistreerd bij de rechtspersoon of bij de vestigingen. Bij zowel de maatschappelijke activiteit als de onderneming wordt de verzameling van Standaard Bedrijfsindeling (SBI)-codes gegroepeerd.
-- Maatschappelijke Activiteit: De totale verzameling van SBI-codes die betrekking hebben op de rechtspersoon of op de niet-commerciële vestigingen.
-- Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen"[<mark>bron: NHR 2013, p. 9-28</mark>].
-
-**Persoon**
-> "Inwoner van Nederland (ingezetene)" [<mark>bron: [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen)</mark>]
-
-<!--Gegevens over de ingeschrevene (toelichting uit BRP)
-iets met **ingezetenen**, **natuurlijk persoon**, ingeschreven in Nederland met BSN, alle kinderen, ouders en partners ??? Nog geen duidelijke definitie gevonden.-->
+[<mark>alinea weglaten?</mark>]
+Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. [<mark>begrippen verplaatst naar: lijst Termen en Definities</mark>]
 
 **Feitelijke Leegstand**
-
+[<mark>alinea verplaatsen naar Termen en Definities?</mark>]
 Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen *administratie leegstand* en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met *economische* of *financiële leegstand*. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met *verpaupering* en *verloedering*. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand.
 
 ### Beschrijving
@@ -235,6 +187,20 @@ Er is daarom een pragmatische keuze gemaakt. Eerdere cijfers die in het kader va
 ## Termen en Definities
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
+**activiteit**
+
+> "De activiteit van een natuurlijk persoon of niet-natuurlijk persoon. Activiteiten worden geregistreerd bij de rechtspersoon of bij de vestigingen. Bij zowel de maatschappelijke activiteit als de onderneming wordt de verzameling van Standaard Bedrijfsindeling (SBI)-codes gegroepeerd.
+- Maatschappelijke Activiteit: De totale verzameling van SBI-codes die betrekking hebben op de rechtspersoon of op de niet-commerciële vestigingen.
+- Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen"[<mark>bron: NHR 2013, p. 9-28</mark>].
+
+**administratieve leegstand**
+
+> De situatie waarin de koppeling van de basisregistraties WOZ, NHR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (<mark>combinatie 8 in tabel x.x §3.1.6</mark>)
+
+**adresseerbaar object** <!--oorsprong definitie?-->
+
+> Objecten waaraan in de BAG een adres kan worden toegekend: standplaats, ligplaats of verblijfsobject [<mark>bron: BAG 2009-2014, p. 24</mark>]
+
 **annotatie**
 
 > Elke toevoeging op een kaartbeeld voor verduidelijking
@@ -253,6 +219,10 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **attribuutwaarde (value)**
 > waarde die een attribuut aanneemt
+
+**bag-object**
+
+> "De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand" [<mark>bron: [Gemeente Amsterdam](https://www.amsterdam.nl/stelselpedia/woordenboek/)|definitie relevant?</mark>]
 
 **coördinaat**
 
@@ -289,6 +259,19 @@ INSPIRE
 **extensie (van informatiemodel)**
 
 > Een informatiemodel als uitbreiding op een ander informatiemodel
+
+**gebruiker**
+
+> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object [<mark>bron: WOZ 2012, p. 21</mark>].
+
+**gebruiksdoel**
+
+> "Een categorisering van de gebruiksdoelen van het betreffende
+verblijfsobject, zoals dit door de overheid als zodanig is
+toegestaan" [<mark>bron: BAG 2009, p. 60</mark>].
+
+
+> "Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2003 zoals deze in de bouwvergunning als zodanig is aangemerkt. Op een later moment kunnen ook door de gemeente geformaliseerde gebruiswijzigingen als basis dienen voor opnamen van een aanvulend gebruiksdoel. Het gebruiksdoel dient niet te worden verward met de *planologische bestemming* en het *feitelijk gebruik*". [<mark>bron: BAG 2009, p. 61</mark>]
 
 **geo-informatie (geo-information, geographic information)**
 
@@ -331,6 +314,17 @@ peer architecture based on application layer network protocols_" - (Wikipedia)
 **objectklasse (feature class)**
 
 > verzameling van objecten met dezelfde eigenschappen
+
+**pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
+
+> "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is" [<mark>bron: BAG 2009, p. 13</mark>].
+
+**persoon**
+
+> "Inwoner van Nederland (ingezetene)" [<mark>bron: [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen)</mark>]
+
+<!--Gegevens over de ingeschrevene (toelichting uit BRP)
+iets met **ingezetenen**, **natuurlijk persoon**, ingeschreven in Nederland met BSN, alle kinderen, ouders en partners ??? Nog geen duidelijke definitie gevonden.-->
 
 **presentatie**
 
@@ -383,9 +377,28 @@ identificatoren (indirecte locatie).
 
 > representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)
 
+**vastgoedgebruik**
+
+> De situaties waarin een koppeling van de WOZ, het NHR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (<mark>combinatie 1 t/m 7 in tabel x.x §3.1.6</mark>).
+
+**vastgoedobject**
+
+> Een BAG-pand met een verblijfsobject (stand- en ligplaatsen zijn uitgesloten)
+
 **vectorformaat**
 
+**verblijfsobject** <!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+
+> "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is"[<mark>bron: BAG 2009, p. 15</mark>].
+
 > representatie van geometrie middels geometrische primitieven
+
+**vestiging**
+
+> "Een vestiging is een gebouw of complex van gebouwen waar duurzame uitoefening van activiteiten van een onderneming of rechtspersoon plaatsvindt. Een vestiging kent twee verzamelingen:
+- Een commerciële vestiging
+- Een niet commerciële vestiging
+Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het vestigingsnummer".[<mark>bron: NHR 2013, p. 9-31</mark>]
 
 **view service**
 
