@@ -1,11 +1,5 @@
 # Overview
 
-## Tot
-### hoever
-#### loopt
-##### de
-###### nummering?
-
 Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 
 ## Naam en Acroniemen

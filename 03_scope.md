@@ -16,9 +16,14 @@ De kern van de LIV bestaat uit de koppeling van een viertal basisregistraties
 
 Een toelichting op de koppeling vindt plaats in [<mark>paragraaf 3.1.6</mark>].
 
-#### Dataproducten/Functionaliteiten <!-- andere titel: ~functionaliteiten? -->
-Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen: 
-* Jaarlijkse statistiek CBS
-* Tussenproduct
-* Objectniveau gemeenten
-* Remote Access CBS
+#### Dataproducten
+Al deze informatie wordt vervolgens door verschillende dataproducten aangeroepen:
+
+* Leegstand 
+  * Landelijke Leegstandsmonitor CBS
+  * Model Woonzorgwijzer
+  * Objectniveau gemeenten
+  * Remote Access CBS
+
+* Gebruik
+  * (nog geen gedefinieerde producten)
