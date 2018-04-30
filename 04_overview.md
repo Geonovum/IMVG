@@ -100,7 +100,7 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en 
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
 
-<mark>VOETNOTEN</mark> creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
+VOETNOTEN creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
 
 > [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
