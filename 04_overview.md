@@ -100,7 +100,7 @@ Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sp
 #### Dataspecificatie: bronnen en producten
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
-		<img src="images/dataspecificatie_bronnen_en_producten.png" alt="Dataspecificatie IMVG" width="90%" class="img-responsive">
+		<img src="images/dataspecificatie_bronnen_en_producten.png" alt="Dataspecificatie IMVG" width="100%" class="img-responsive">
 	</a>
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
@@ -144,7 +144,7 @@ De ... -->
 
 <figure>
 	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
-		<img src="images/data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" width="90%" class="img-responsive">
+		<img src="images/data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" width="100%" class="img-responsive">
 	</a>
 	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
 </figure>
