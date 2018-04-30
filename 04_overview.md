@@ -13,12 +13,10 @@ Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegs
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
-Voor de definitie van begrippen in het IMVG, is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking <a href="https://geonovum.github.io/LIV/#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).--><mark>.In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd.</mark>
+Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking <a href="https://geonovum.github.io/LIV/#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).--><mark>~~In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd~~.</mark>
 
 ### Beschrijving
-LIV2018 vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten.
-
-De Landelijke Informatievoorziening Vastgoedgebruik beschrijft het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland) op een uniforme manier.
+Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland).
 
 #### Gebruik
 De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand.
@@ -31,7 +29,7 @@ De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een
 Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties BAG, WOZ, NHR en BRP.
 
 #### Vastgoed
-Het vastgoed omvat in deze voorziening alle panden met verblijfsobjecten, <mark>aangevuld met een subselectie van panden die op een agrarisch erf vallen</mark>. <mark>Paragraaf 4.2 licht dit verder toe</mark>.
+Het vastgoed omvat in deze voorziening alle panden [<mark>LINK</mark>] met verblijfsobjecten[<mark>LINK</mark>], <mark>~~aangevuld met een subselectie van panden die op een agrarisch erf vallen~~</mark>. <mark>Paragraaf 4.2 licht dit verder toe</mark>.
 
 #### Integrale benadering
 Een belangrijk onderdeel van deze aanpak is de nadruk op het integrale karakter van de voorziening. Dat wil zeggen dat de volledige vastgoedpopulatie wordt meegenomen. Bestaande informatievoorzieningen richten zich vaak op een specifiek deel van het vastgoed, bijvoorbeeld kantoren of winkels. Ondanks de voordelen die deze voorziening hebben voor de marktspecifieke informatiebehoefte, zijn er ook nadelen. Het blijkt lastig om informatie tussen deze voorziening uit te wisselen. En bovendien bestaat niet voor alle typen vastgoed een informatievoorziening.
@@ -43,7 +41,7 @@ Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets
 #### Uniformering van de werkwijze
 In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Een informatiestanddaard is zo'n afspraak. Daarom leggen we hierin de beginselen van de LIV vast.
 
-#### Over de BAG
+#### Over de BAG <mark>dubbel? H3?</mark>
 In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
 - Panden
 - Verblijfsobjecten
@@ -100,7 +98,7 @@ Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sp
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
 
-Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de gegevens uit vier bronbestanden (LV BAG, LV WOZ, ***HR-dataservice?*** en ***BRP-...?*** ) opgehaald en aan elkaar gekoppeld op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG. Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>]. 
+Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: figuur <mark>x</mark>). Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>]. 
 
 > [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
