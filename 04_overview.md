@@ -91,7 +91,7 @@ Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
 
 #### Dataspecificatie: bronnen en producten
-Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: figuur <mark>x</mark>). Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>].
+Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur x</mark>). Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>].
 
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
@@ -100,7 +100,7 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en 
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
 
-<mark>VOETNOTEN</mark>: creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
+<mark>VOETNOTEN</mark> creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
 
 > [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
