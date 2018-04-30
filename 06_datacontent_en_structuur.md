@@ -10,9 +10,14 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 **Figuur x.x: Referentiemodel LIV**
 
 <b>VOORBEELD MARKDOWN</b>
+
 ![referentiemodel](images/referentiemodel.png?raw=true)
 <b>VOORBEELD HTML</b>
-<img src="images/referentiemodel.png" alt="Referentiemodel" width="400" height="400">
+
+<a target="_blank" href="images/referentiemodel.png">
+	<img src="images/referentiemodel.png" alt="Referentiemodel" width="40%" class="img-responsive">
+</a>
+
 
 De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van die identificatiecode. Hierdoor is het mogelijk om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op een locatie. Bovendien voorziet de BAG het gebouwen van aanvullende informatie, zoals: bouwjaar (pand), gebruiksdoel en oppervlakte (verblijfsobject). [<mark>zie gedetailleerdere uitleg onder 4.2</mark>]
 
