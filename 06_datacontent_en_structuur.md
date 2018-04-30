@@ -12,10 +12,12 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 <b>VOORBEELD MARKDOWN</b>
 
 ![referentiemodel](images/referentiemodel.png?raw=true)
+
 <b>VOORBEELD HTML</b>
 
+
 <a target="_blank" href="images/referentiemodel.png">
-	<img src="images/referentiemodel.png" alt="Referentiemodel" width="40%" class="img-responsive">
+	<img src="images/referentiemodel.png" alt="Referentiemodel" width="60%" class="img-responsive">
 </a>
 
 
@@ -34,6 +36,14 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 **Tabel x.x: Mogelijke combinaties LIV**
 ![LIV-combinaties](images/table_leegstand_large.png?raw=true)
+
+<b>VOORBEELD HTML</b>
+
+
+<a target="_blank" href="images/table_leegstand_large.png">
+	<img src="images/table_leegstand_large.png" alt="Referentiemodel" width="60%" class="img-responsive">
+</a>
+
 
 ### Overzicht
 ### Verschillende onderdelen uit het UML-diagram
