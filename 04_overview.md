@@ -16,7 +16,7 @@ Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bron
 Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking <a href="https://geonovum.github.io/LIV/#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).--><mark>~~In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd~~.</mark>
 
 ### Beschrijving
-Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland).
+Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland). [<mark>Dit wordt hieronder verder toegelicht</mark>].
 
 #### Gebruik
 De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand.
@@ -100,7 +100,7 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en 
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
 
-<!--VOETNOTEN: creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?-->
+<mark>VOETNOTEN</mark>: creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
 
 > [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
