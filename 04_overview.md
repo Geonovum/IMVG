@@ -98,9 +98,12 @@ Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
 
 #### Dataspecificatie: bronnen en producten
-
-**Figuur x.x: LIV dataspecificatie bronnen en producten**
-![dataspecificatie_bronnen_en_producten](images/dataspecificatie_bronnen_en_producten.png?raw=true)
+<figure>
+	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
+		<img src="images/dataspecificatie_bronnen_en_producten.png" alt="Dataspecificatie IMVG" width="90%" class="img-responsive">
+	</a>
+	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
+</figure>
 
 Deze figuur beschrijft de basisopzet van de LIV. Hierin worden (delen van) de gegevens uit vier bronbestanden (LV BAG, LV WOZ, ***HR-dataservice?*** en ***BRP-...?*** ) opgehaald en aan elkaar gekoppeld op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG. Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>]. 
 
@@ -139,8 +142,12 @@ De ... -->
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 #### Data-uitwisselingsarchitectuur
 
-**Figuur x.x: LIV Data-uitwisselingsarchitectuur**
-![data-uitwisselingsarchitectuur](images/data-uitwisselingsarchitectuur.png?raw=true)
+<figure>
+	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
+		<img src="images/data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" width="90%" class="img-responsive">
+	</a>
+	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
+</figure>
 
 [<mark>alinea herschrijven</mark>] "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
 
