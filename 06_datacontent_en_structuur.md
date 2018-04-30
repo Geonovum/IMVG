@@ -9,7 +9,7 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 
 **Figuur x.x: Referentiemodel LIV** (klik op afbeelding voor vergroting)
 <div>
-	<p><b>Figuur x.x: Referentiemodel LIV</b> <font size="smaller">(klik op afbeelding voor vergroting)</font>
+	<p><b>Figuur 6.1 - Referentiemodel IMVG</b> <font size="2">(klik op afbeelding voor vergroting)</font>
 	<a target="_blank" href="images/referentiemodel.png">
 		<img src="images/referentiemodel.png" alt="Referentiemodel" width="90%" class="img-responsive">
 	</a>
@@ -28,8 +28,8 @@ De basisregistratie WOZ beslaat de totale vastgoedvoorraad. Daardoor geeft het e
 
 Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk [<mark>verwijzing tabel onder 3.1.1</mark>]. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg [<mark>tabel</mark>].
 
-**Tabel x.x: Mogelijke combinaties LIV** (klik op afbeelding voor vergroting)
 <div>
+	<p><b>Figuur 6.2 - Mogelijke combinaties gebruiksstatus IMVG</b> <font size="2">(klik op afbeelding voor vergroting)</font>
 	<a target="_blank" href="images/table_leegstand_large.png">
 		<img src="images/table_leegstand_large.png" alt="Referentiemodel" width="95%" class="img-responsive">
 	</a>
