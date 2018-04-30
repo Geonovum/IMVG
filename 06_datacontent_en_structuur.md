@@ -3,7 +3,7 @@
 ## UML-diagrammen
 ### Beschrijving algemeen
 #### Referentiemodel
-Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Op basis van informatie die bronhouders vastleggen in deze registraties, definieert het model vastgoedgebruik.Met andere woorden: het model geeft informatie over de <i>administratieve</i> gebruiksstatus van een verblijfsobject. In [<mark>hoofdstuk 4</mark>] werd die methodiek <mark>al kort</mark> toegelicht. Deze paragraaf licht het informatiemodel verder toe. 
+Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Op basis van informatie die bronhouders vastleggen in deze registraties, definieert het model vastgoedgebruik. Met andere woorden: het model geeft informatie over de <i>administratieve</i> gebruiksstatus van een verblijfsobject. In [<mark>hoofdstuk 4</mark>] werd die methodiek <mark>al kort</mark> toegelicht. Deze paragraaf een verdere uitwerking van het informatiemodel. 
 
 De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/)</mark>]. Voor het bepalen van gebruik van vastgoed komen de BAG, WOZ, NHR en BRP in aanmerking. Deze registraties kunnen een indicatie geven over de gebruiksstatus van een vastgoedobject. In de LIV staat de BAG centraal. Deze basisregistratie bevat alle adressen en geometrieën van gebouwen in Nederland en voorziet ze van een unieke identificatiecode.
 
@@ -11,7 +11,7 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 <b>VOORBEELD MARKDOWN</b>
 ![referentiemodel](images/referentiemodel.png?raw=true)
 <b>VOORBEELD HTML</b>
-<img src="image/referentiemodel.png" alt="Referentiemodel" width="400" height="400">
+<img src="images/referentiemodel.png" alt="Referentiemodel" width="400" height="400">
 
 De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van die identificatiecode. Hierdoor is het mogelijk om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op een locatie. Bovendien voorziet de BAG het gebouwen van aanvullende informatie, zoals: bouwjaar (pand), gebruiksdoel en oppervlakte (verblijfsobject). [<mark>zie gedetailleerdere uitleg onder 4.2</mark>]
 
