@@ -8,6 +8,7 @@ Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistrati
 De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/)</mark>]. Voor het bepalen van gebruik van vastgoed komen de BAG, WOZ, NHR en BRP in aanmerking. Deze registraties kunnen een indicatie geven over de gebruiksstatus van een vastgoedobject. In de LIV staat de BAG centraal. Deze basisregistratie bevat alle adressen en geometrieën van gebouwen in Nederland en voorziet ze van een unieke identificatiecode.
 
 **Figuur x.x: Referentiemodel LIV**
+
 <b>VOORBEELD MARKDOWN</b>
 ![referentiemodel](images/referentiemodel.png?raw=true)
 <b>VOORBEELD HTML</b>
