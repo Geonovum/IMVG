@@ -9,7 +9,7 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 
 <figure>
 	<a target="_blank" href="images/referentiemodel.png">
-		<img src="images/referentiemodel.png" alt="Referentiemodel" width="90%" class="img-responsive">
+		<img src="images/referentiemodel.png" alt="Referentiemodel" class="img-responsive">
 	</a>
 	<figcaption> - Referentiemodel IMVG (klik voor vergroting)</figcaption>
 </figure>
@@ -29,7 +29,7 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 <figure>
 	<a target="_blank" href="images/table_leegstand_large.png">
-		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" width="90%" class="img-responsive">
+		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" class="img-responsive">
 	</a>
 	<figcaption> - Mogelijke combinaties gebruiksstatus IMVG (klik voor vergroting)</figcaption>
 </figure>
