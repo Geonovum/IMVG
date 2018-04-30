@@ -3,8 +3,8 @@
 Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 
 ## Naam en Acroniemen
-* Dataspecificatie voor dataproduct Landelijke Informatievoorziening Vastgoedgebruik
-* LIV2018 - Dataspecificatie voor vastgoedgebruiksinformatie
+- IMVG - Dataspecificatie voor vastgoedgebruiksinformatie
+- Informatiemodel Vastgoedgebruik - Dataspecificatie voor het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (LIV)
 
 <!--Doelstelling
 Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegstand 2.0, waarin de bevindingen van diverse plausibiliteitsonderzoeken zo veel mogelijk zijn verwerkt. Tevens wordt een processtandaard opgeleverd, gepubliceerd en in beheer genomen. Verder wordt de mogelijke dienstverlening aan partijen inzichtelijk gemaakt.-->
@@ -14,9 +14,9 @@ Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bron
 
 ### Definitie
 [<mark>alinea weglaten?</mark>]
-Er is een brede behoefte aan een eenduidige definitie van leegstand, zo blijkt uit eerder onderzoek [<mark>verwijzing</mark>]. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Voor de definitie van begrippen in de LIV, is er voor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->De LIV heeft dus specifiek betrekking administratieve leegstand. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. [<mark>begrippen verplaatst naar: lijst Termen en Definities</mark>]
+Voor de definitie van begrippen in het IMVG, is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking administratieve leegstand [<mark>zie: §4.5 Termen en Definities</mark>]. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->In de dataspecificatie zijn daarom de volgende begrippen gedefiniëerd. [<mark>begrippen verplaatst naar: lijst Termen en Definities</mark>]
 
-#### Feitelijke Leegstand
+#### Feitelijke Leegstand <mark>HIER VERDERGAAN</mark>
 [<mark>alinea verplaatsen naar Termen en Definities?</mark>]
 Om verschillende redenen wijken sectorspecifieke leegstandsdefinities af van de definitie in de LIV. In het buitengebied ontbreekt bijvoorbeeld een eenduidige relatie tussen *administratie leegstand* en *vrijkomende agrarische bebouwing* (VAB); vastgoed dat in de toekomst leeg kan komen te staan. In de commerciële markt gaat het vaak om *beschikbaarheid* van vastgoed. Als er een object wordt aangeboden voor een nieuwe gebruiker, wordt dat in de commerciële vastgoedmarkten vaak geassocieerd met *economische* of *financiële leegstand*. Het object hoeft in dat geval niet zichtbaar leeg te staan. Voor publieke partijen heeft leegstand vaak de associatie met *verpaupering* en *verloedering*. Ook hier is de relatie met administratieve leegstand niet eenduidig. <!--De kans is groot dat problematische leegstand administratief leeg is, maar we weten inmiddels dat het omgekeerde lang niet altijd waar is.-->Er is derhalve geen objectief kader voor (feitelijke) leegstand.
 
