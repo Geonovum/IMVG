@@ -16,9 +16,11 @@ De LIV maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https:/
 <b>VOORBEELD HTML</b>
 
 <div>
+	<p>title</p>
 	<a target="_blank" href="images/referentiemodel.png">
-		<img src="images/referentiemodel.png" alt="Referentiemodel" width="60%" class="img-responsive">
+		<img src="images/referentiemodel.png" alt="Referentiemodel" width="80%" class="img-responsive">
 	</a>
+	<p>uitleg</p>
 </div>
 
 De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van die identificatiecode. Hierdoor is het mogelijk om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op een locatie. Bovendien voorziet de BAG het gebouwen van aanvullende informatie, zoals: bouwjaar (pand), gebruiksdoel en oppervlakte (verblijfsobject). [<mark>zie gedetailleerdere uitleg onder 4.2</mark>]
@@ -41,18 +43,18 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 <div>
 	<a target="_blank" href="images/table_leegstand_large.png">
-		<img src="images/table_leegstand_large.png" alt="Referentiemodel" width="60%" class="img-responsive">
+		<img src="images/table_leegstand_large.png" alt="Referentiemodel" width="90%" class="img-responsive">
 	</a>
 </div>
 
 
 ### Overzicht
 ### Verschillende onderdelen uit het UML-diagram
-### Consistentie tussen datasets (optioneel)
+### Consistentie tussen datasets (<mark>optioneel</mark>)
 ### Identifier management
-### Modellering van objectreferenties (optioneel)
-### Geometrie representatie (optioneel)
-### Tijdrepresentatie (optioneel)
+### Modellering van objectreferenties (<mark>optioneel</mark>)
+### Geometrie representatie (<mark>optioneel</mark>)
+### Tijdrepresentatie (<mark>optioneel</mark>)
 ## Objectcatalogus
 ### Objectencatalogus metadata
 ### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
