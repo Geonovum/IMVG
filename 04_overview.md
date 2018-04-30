@@ -100,7 +100,7 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en 
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
 
-VOETNOTEN creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
+<mark>VOETNOTEN</mark> creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
 
 > [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
 
@@ -110,7 +110,7 @@ Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevens
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vindt plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
 #### Uitgangspunten
-* beschrijft totaalpakket aan informatie dat voorzien in een aantal datafunctionaliteiten: [<mark>1</mark>], [<mark>2</mark>] en [<mark>3</mark>]
+* beschrijft totaalpakket aan informatie dat voorzien in een <mark>aantal datafunctionaliteiten</mark>:
 * bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
 * semantische afstemming [<mark>in hoeverre en op welke manier relevant?</mark>]
 * beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
