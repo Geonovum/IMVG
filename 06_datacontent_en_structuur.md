@@ -40,7 +40,7 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 <figure>
 	<a target="_blank" href="images/table_leegstand_large.png">
-		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" class="img-responsive">
+		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" width="70%" class="img-responsive">
 	</a>
 	<figcaption> - Mogelijke combinaties gebruiksstatus IMVG (klik voor vergroting)</figcaption>
 </figure>
