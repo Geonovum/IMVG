@@ -20,7 +20,11 @@ Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader 
 
 ### Toelichting
 
-Het vastgoed omvat in deze voorziening alle <a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met <a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>. Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties. Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, NHR en BRP aan de BAG.
+Het vastgoed in deze voorziening omvat alle <a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met <a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>. Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties.
+
+Het IMVG richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand. De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
+
+Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, NHR en BRP aan de BAG.
 
 Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een *gebruiker* in de WOZ[<mark>wozOnderscheid</mark>], een *vestiging* in het NHR en een *persoon* in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie.
 
@@ -28,14 +32,6 @@ In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoe
 
 > [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
-
-**Gebruik**
-
-De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand.
-
-De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). ~~Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat~~ [<mark>dubbel, zie: vorige paragraaf</mark>] ([<mark>zie ook: 3.1.6</mark>]).
-
-~~De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een deel van panden zonder verblijfsobjecten (bijv. schuren en stallen in het geval van agrarisch vastgoed)~~ [<mark>weglaten: zit noch in IMVG, noch in LIV</mark>]. Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
 **Integrale benadering**
 
