@@ -18,20 +18,14 @@ Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht
 ### Beschrijving
 Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland). [<mark>Dit wordt hieronder verder toegelicht</mark>].
 
+### Toelichting
+
 **Formele registratie + Vastgoed + Uniforme Werkwijze + Koppeling**
+Het vastgoed omvat in deze voorziening alle <a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met <a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>. Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties. Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, NHR en BRP aan de BAG.
 
-Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties BAG, WOZ, NHR en BRP.
+Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een **gebruiker** in de WOZ[<mark>wozOnderscheid</mark>], een **vestiging** in het NHR en een**persoon** in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie. 
 
-Het vastgoed omvat in deze voorziening alle panden [<mark>LINK</mark>] met verblijfsobjecten[<mark>LINK</mark>], <mark>~~aangevuld met een subselectie van panden die op een agrarisch erf vallen~~</mark>. <mark>Paragraaf 4.2 licht dit verder toe</mark>.
-
-In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Een informatiestanddaard is zo'n afspraak. Daarom leggen we hierin de beginselen van de LIV vast.
-
-[<mark>Dit is mogelijk een herhaling. Nodig? Anders weglaten</mark>]
-Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan de BAG. Deze registraties bevatten aanvullende vastgoedgegevens, of gegevens die iets zeggen over of het verblijfsobject in gebruik gebruik is of niet. In de LIV is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van: 
-
-* een gebruiker in de WOZ[<mark>wozOnderscheid</mark>]
-* een vestiging in het NHR
-* een persoon in de BRP
+In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Het Informatiemodel Vastgoedgebruik legt deze afspraken op uniforme manier vast.
 
 > [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
@@ -140,6 +134,7 @@ De ... -->
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 **Data-uitwisselingsarchitectuur**
 
+[<mark>alinea herschrijven</mark>] "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
 
 <figure>
 	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
@@ -148,7 +143,6 @@ De ... -->
 	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
 </figure>
 
-[<mark>alinea herschrijven</mark>] "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
 
 Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen. Behalve voor de BRP, zijn van deze bronnen  landelijke voorzieningen beschikbaar <!-- misschien onderscheid maken tussen bron en informatieproduct (LV en dataservice?) -->. Vanuit deze landelijke voorzieningen worden de gegevens aangeleverd aan een centrale database. In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS). In de centrale database wordt de BAG aan de andere registraties gekoppeld op basis van het vbo-ID. Op basis van de koppeling wordt vervolgens per verblijfsobject (vbo) de administratieve gebruiksstatus vastgesteld. Het resultaat hiervan is de Landelijke Informatievoorziening Vastgoedgebruik. De gegevens uit de LIV worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
 
@@ -354,7 +348,7 @@ peer architecture based on application layer network protocols_" - (Wikipedia)
 
 > verzameling van objecten met dezelfde eigenschappen
 
-**pand** <!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
+<b id="#bagPand">pand</b><!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
 
 > "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is" [<mark>bron: BAG 2009, p. 13</mark>].
 
@@ -426,7 +420,7 @@ identificatoren (indirecte locatie).
 
 **vectorformaat**
 
-**verblijfsobject** <!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
+<b id="bagVbo">verblijfsobject</b><!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
 
 > "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is"[<mark>bron: BAG 2009, p. 15</mark>].
 
