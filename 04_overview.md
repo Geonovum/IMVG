@@ -18,30 +18,30 @@ Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht
 ### Beschrijving
 Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland). [<mark>Dit wordt hieronder verder toegelicht</mark>].
 
-#### Gebruik
+**Gebruik**
 De informatievoorziening richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand.
 
 De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Een afgeleide hiervan is administratieve leegstand. Hiervan is volgens de methodiek sprake als er op een adres in de BAG *geen gebruiker* (WOZ), *geen vestiging* (NHR) en/of *geen persoon* (BRP) geregistreerd staat ([<mark>zie ook: 3.1.6</mark>]).
 
 De LIV bevat informatie over de gebruiksstatus van verblijfsobjecten en voor een deel van panden zonder verblijfsobjecten (bijv. schuren en stallen in het geval van agrarisch vastgoed). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
-#### Formele registratie
+**Formele registratie**
 Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties BAG, WOZ, NHR en BRP.
 
-#### Vastgoed
+**Vastgoed**
 Het vastgoed omvat in deze voorziening alle panden [<mark>LINK</mark>] met verblijfsobjecten[<mark>LINK</mark>], <mark>~~aangevuld met een subselectie van panden die op een agrarisch erf vallen~~</mark>. <mark>Paragraaf 4.2 licht dit verder toe</mark>.
 
-#### Integrale benadering
+**Integrale benadering**
 Een belangrijk onderdeel van deze aanpak is de nadruk op het integrale karakter van de voorziening. Dat wil zeggen dat de volledige vastgoedpopulatie wordt meegenomen. Bestaande informatievoorzieningen richten zich vaak op een specifiek deel van het vastgoed, bijvoorbeeld kantoren of winkels. Ondanks de voordelen die deze voorziening hebben voor de marktspecifieke informatiebehoefte, zijn er ook nadelen. Het blijkt lastig om informatie tussen deze voorziening uit te wisselen. En bovendien bestaat niet voor alle typen vastgoed een informatievoorziening.
 
 Om verschillende redenen is het relevant gebleken om informatie over verschillende vastgoedtypen in een bepaald gebied aan elkaar te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen in hun in ruimtelijke ordeningsvraagstukken. Hiermee ligt de behoefte aan integraal inzicht feitelijk verankerd in een wettelijk basis.
 
 Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets over het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voor die specifieke functie, terwijl er aan andere functies misschien een tekort is. In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
-#### Uniformering van de werkwijze
+**Uniformering van de werkwijze**
 In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Een informatiestanddaard is zo'n afspraak. Daarom leggen we hierin de beginselen van de LIV vast.
 
-#### Over de BAG <mark>dubbel? H6?</mark>
+**Over de BAG <mark>dubbel? H6?</mark>**
 In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
 - Panden
 - Verblijfsobjecten
@@ -79,7 +79,7 @@ Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor
 1. om het gebruik van een (deel van) een vastgoedobject (pand) vast te stellen, en; 
 2. om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
 
-#### Koppeling
+**Koppeling**
 <!--dit stuk staat al in H3, kijken of er nog aanvullingen zijn-->
 Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan de BAG. Deze registraties bevatten aanvullende vastgoedgegevens, of gegevens die iets zeggen over of het verblijfsobject in gebruik gebruik is of niet. In de LIV is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van: 
 
@@ -90,7 +90,7 @@ Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan
 > [<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.
 
-#### Dataspecificatie: bronnen en producten
+**Dataspecificatie: bronnen en producten**
 Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur x</mark>). Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>].
 
 <figure>
@@ -109,7 +109,7 @@ Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevens
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vindt plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
-#### Uitgangspunten
+**Uitgangspunten**
 * beschrijft totaalpakket aan informatie dat voorzien in een <mark>aantal datafunctionaliteiten</mark>:
 * bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
 * semantische afstemming [<mark>in hoeverre en op welke manier relevant?</mark>]
@@ -135,7 +135,7 @@ Een verblijfsobject heeft tenminste één gebruiksdoel
 De ... -->
 
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
-#### Data-uitwisselingsarchitectuur
+**Data-uitwisselingsarchitectuur**
 
 <figure>
 	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
