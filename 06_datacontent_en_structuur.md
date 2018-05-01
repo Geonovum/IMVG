@@ -15,7 +15,8 @@ Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistrati
 	<figcaption> - Referentiemodel IMVG (klik voor vergroting)</figcaption>
 </figure>
 
-**BAG**
+#### Over de Bag <mark>overlap H4</mark
+<!--**BAG**-->
 
 In de LIV staat de BAG centraal. Deze basisregistratie bevat alle adressen en geometrieën van gebouwen in Nederland en voorziet ze van een unieke identificatiecode. De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van die identificatiecode. Hierdoor is het mogelijk om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op een locatie. Bovendien voorziet de BAG het gebouwen van aanvullende informatie, zoals: bouwjaar (pand), gebruiksdoel en oppervlakte (verblijfsobject). [<mark>zie gedetailleerdere uitleg onder 4.2</mark>]
 
