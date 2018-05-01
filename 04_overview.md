@@ -39,7 +39,7 @@ Om verschillende redenen bleek het relevant om informatie over verschillende vas
 
 Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets over het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voor die specifieke functie, terwijl er aan andere functies misschien een tekort is. In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
-#### Over de BAG <mark>overlap H6</mark>
+#### Over de BAG en verblijfsobjecten <mark>overlap H6</mark>
 <!--**Over de BAG**-->
 
 In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast: *panden*, *verblijfsobjecten*, *standplaatsen* en *ligplaatsen*.
@@ -56,9 +56,9 @@ verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt omdat de definitie van het object "gebouw" onvoldoende aansloot op de gewenste toepassing van een gebouwenregistraties [<mark>bron: BAG 2009-2014</mark>].
 
 <!--Reeds herschreven-->
-De BAG voegt twee samenhangende basisregistraties samen: de Basisregistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (<a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a>) en (kleinste) gebruikseenheden (<a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>].
+De BAG voegt in feite twee samenhangende basisregistraties samen: de Basisregistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (<a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a>) en (kleinste) gebruikseenheden (<a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>].
 
-Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen hebben namelijk een ondersteunende functie voor een ander gebouw <!--[<mark>ondersteunendeFuncties</mark>]--> <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadreseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik<!--[<mark>bijgebouwen</mark>]-->. Deze is door Kadaster onderzocht [<mark>link naar rapport Kadaster</mark>]. De huidige versie van het IMVG neemt bijgebouwen niet mee.
+Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen hebben namelijk een ondersteunende functie voor een ander gebouw <!--[<mark>ondersteunendeFuncties</mark>]--> <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadreseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik<!--[<mark>bijgebouwen</mark>]-->. Het Kadaster deed onderzoek naar deze mogelijkheid [<mark>link naar rapport Kadaster</mark>]. De huidige versie van het IMVG neemt bijgebouwen niet mee.
 
 <!--[<mark>ondersteunendeFuncties</mark>] Voorbeelden zijn: vrijstaande garageboxen, schuren, silo's, stallen, schaapskooien of toiletgebouwen op campings--> <!-- BAG-2009-2014_objectenhandboek-->.
 
@@ -70,9 +70,7 @@ Een verblijfsobject in de BAG heeft een <a href="https://geonovum.github.io/LIV/
 
 <!--[<mark>gebruiksdoelen</mark>] De BAG onderscheidt 11 gebruiksdoelen: woon-, bijeekomst-, cel-, gezondheid-, industrie-, kantoor-, logies-, onderwijs-, sport-, winkel- en overige gebruiksfunctie. Deze indeling sluit niet altijd goed aan bij de praktijk. Agrarisch vastgoed wordt in deze classificatie bijvoorbeeld niet apart onderscheiden, maar valt onder industriefunctie.-->
 
-Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor het Informatiemodel Vastgoedgebruik: 
-1. om het gebruik van een (deel van) een vastgoedobject (pand) vast te stellen, en; 
-2. om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
+Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor het Informatiemodel Vastgoedgebruik: [**1**] om het gebruik van een (deel van) een vastgoedobject (pand) vast te stellen, en [**2**] om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
 
 **Dataspecificatie: bronnen en producten**
 
