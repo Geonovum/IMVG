@@ -205,7 +205,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 <b id="administratieveLeegstand">administratieve leegstand</b>
 
-> De situatie waarin de koppeling van de basisregistraties WOZ, NHR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (<mark>combinatie 8 in tabel x.x §3.1.6</mark>)
+> De situatie waarin de koppeling van de basisregistraties WOZ, NHR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (zie: combinatie 8 in <mark>figuur 4</mark>)
 
 **adresseerbaar object** <!--oorsprong definitie?-->
 
