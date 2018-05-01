@@ -1,8 +1,6 @@
 # Scope
 
-Dit document beschrijft de dataspecificatie van het Informatiemodel Vastgoedgebruik (IMVG). De dataspecificatie bevat een gedetailleerde uiteenzetting van de structuur, inhoud, data-inwinning en datakwaliteit van het IMVG. Op deze manier dient de dataspecificatie als basis voor de realisatie en ontsluiting van verschillende dataproducten. 
-
-De kern van het IMVG bestaat uit de koppeling van een viertal basisregistraties. Een toelichting op de koppeling vindt plaats in [<mark>paragraaf 3.1.6</mark>].
+Dit document beschrijft de dataspecificatie van het Informatiemodel Vastgoedgebruik (IMVG). De dataspecificatie bevat een gedetailleerde uiteenzetting van de structuur, inhoud, data-inwinning en datakwaliteit van het IMVG. Op deze manier dient de dataspecificatie als basis voor de realisatie en ontsluiting van verschillende dataproducten. De kern van het IMVG bestaat uit de koppeling van een viertal basisregistraties (zie: [<mark>link naar H6</mark>]).
 
 - Basisregistratie Adressen en Gebouwen (BAG);
 - Basisregistratie Waardering Onderoerende Zaken (WOZ);
