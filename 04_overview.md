@@ -153,37 +153,55 @@ Het doel van dit projectonderdeel is om te komen tot een geüniformeerde wijze v
 
 ### Ontwikkeling standaard
 **Bronnen**
-- BRP: 20161024 Verstuffingversie InfoMod RSGB.EAP
+- BRP: 20161024 Verstuffingversie InfoMod RSGB.EAP [<mark>gewijzigd</mark>]
 - BAG: 2017-02-10_IMBAG_UML_KKG_InOnderzoek_metagegevens.EAP
 - WOZ: imwoz 2012 08 31 11.30 technisch.EAP
 - NHR: Online Catalogus v3.01 Overheid (html)
 
-#### Stelsel
+#### Stelsel van Basisregistraties
 
-De LIV maakt optimaal gebruik van het stelsel van basisregistraties. Hergebruik van informatie. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds onwtikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
+In het kader van hergebruik van informatie neemt het Informatiemodel Vastgoedgebruik het stelsel van basisregistraties als vertrekpunt. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds ontwikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
 #### KKG
 
-*KING, Kadaster en Geonovum hebben gezamenlijk een metamodel ontwikkeld voor informatiemodellering. Dit Metamodel bundelt de kennis van de drie organisaties met betrekking tot informatiemodellering.[...] Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar. [bron:https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering ]*
+Het KKG is een metamodel voor informatiemodellering dat KING, Kadaster en Geonovum (KKG) gezamenlijk hebben ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar [<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)
 
 #### Knelpunten bij (operationele) uitvoering
 
-Bij de ontwikkeling van het informatiemodel, zijn we tegen een aantal uitdagingen aangelopen. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
+Bij de ontwikkeling van het informatiemodel, kwamen er een aantal uitdagingen aan het licht. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
-Van sommige basisregistraties waren meerdere modellen beschikbaar, waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
+**Formaten**
+
+Van sommige basisregistraties waren meerdere modellen beschikbaar waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
 Niet van alle modellen UML beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van NHR en BRP niet. 
+
+**NHR**
 
 Het informatiemodel van het NHR was wel beschikbaar als UML in html-formaat. Officieel is bij de Kamer van Koophandel ook een EA-versie, maar dit model wordt niet met andere partijen gedeeld. 
 
-Operatie BRP is <mark>...</mark> maar daar is de stekker uitgetrokken, en daarom geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees naar het Logisch Ontwerp BRP; een document in pdf-formaat. Echter dat document heeft neit als belangrijkste doel om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) hebben is het model van Gemeentelijke Basis Administie verkregen. IN het BRP zitten ook <mark>personen in het buitenland</mark>. Deze zijn voor de LIV niet relevant, dus kan met GBA volstaan worden <mark>verschil GBA en BRP kort toelichten</mark>. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG <!-- klopt dat? -->. In combinatie met het Logisch Ontwerp van de BRP en wel af te leiden waar die verbinding moet liggen.
+**BRP**
+
+Operatie BRP is <mark>...</mark> maar daar is de stekker uitgetrokken, en daarom geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees voor de benodigde informatie naar het Logisch Ontwerp BRP; een document in pdf-formaat.
+
+Echter dat document heeft niet als belangrijkste doel om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) hebben is het model van Gemeentelijke Basis Administie verkregen.
+
+Het BRP registreert ook niet-ingezetenen (personen in het buitenland). Deze zijn voor de het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG [<mark>klopt dat?</mark>]. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
+
+**WOZ**
 
 Het WOZ-model komt uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
 
+**Meerdere modelleerconventies binnen één model**
+
 Verder zien we dat binnen één model soms op twee verschillende manieren hetzeldfe gemodelleerd is. Mogelijk is hiervoor een goede reden, maar het maakt het model wel. Ook tussen de modellen gelden verschillende modelleeerconventies. In het LIV hebben we waar mogeiljk de oorspronkelijke modellen zoveel mogelijk overgenomen. Verschillen kunnen optreden op het koppelvlak met de BAG.
+
+**Koppelvlakken**
 
 In het stelsel zijn de BRP, WOZ en het NHR aan de BAG gekoppeld. Het was echter lastig om die structuur goed uit de modellen terug te lezen omdat er niet op een éénduidige manier werd gerefereerd. Om de modellen op elkaar aan te laten sluiten, moesten daarom keuzes gemaakt worden. <!-- dit moet zich nog verder uitkristaliseren -->
 
-Transparantie en reproduceerbaarheid zijn altijd een belangrijk speerpunt van de LIV geweest, maar naarmate het onderzoek vorderde, werden we geconfronteerd met een lastige tegenstelling: kwaliteit van de cijfers versus transparantie en reproduceerbaarheid van de methodiek. 
+**Discrepantie IMVG en LIV**
+
+Transparantie en reproduceerbaarheid zijn altijd een belangrijk speerpunt van het IMVG en de LIV geweest, maar naarmate het onderzoek vorderde, werden we geconfronteerd met een lastige tegenstelling: kwaliteit van de cijfers versus transparantie en reproduceerbaarheid van de methodiek. 
 
 Het CBS heeft voor statistische doeleinden toegang tot de informatie uit de  basisregistraties. Om verschillende redenen maakt het CBS eerst een kwaliteitsslag op de ruwe data. Deze stap gebeurt buiten het project om en geldt als input voor alle CBS-afdelingen die gebruik maken van de data. Het voordeel vis dat de kwaliteit van de broninformatie door deze bewerking toeneemt. Het heeft echter ook consequenties voor de transparantie en reproduceerbaarheid van de methodiek.
 
