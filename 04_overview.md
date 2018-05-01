@@ -20,13 +20,11 @@ Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader 
 
 ### Toelichting
 
-Het vastgoed in deze voorziening omvat alle <a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met <a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>. Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties.
+Formeel geregistreerd betekent in dit geval de registratie van informatie over (het gebruik van) vastgoedobjecten zoals die is vastgelegd in de basisregistraties. Het vastgoed in deze voorziening omvat alle <a href="https://geonovum.github.io/LIV/#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met een <a href="https://geonovum.github.io/LIV/#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobject</a>. Het IMVG richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik.
 
-Het IMVG richt zich in eerste instantie op het vaststellen en classificeren van administratief gebruik. In de eerste versie van de voorziening gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet* in gebruik is, ofwel: administratieve leegstand. De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
+In deze versie van het informatiomodel gaat de aandacht uit naar dat deel van de gebouwenvoorraad dat administratief *niet in gebruik* is, ofwel: dat administratief leegstaat. De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). Stand- en ligplaatsen vallen buiten de scope van de informatievoorziening.
 
-Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, NHR en BRP aan de BAG.
-
-Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een *gebruiker* in de WOZ[<mark>wozOnderscheid</mark>], een *vestiging* in het NHR en een *persoon* in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie.
+Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, NHR en BRP aan de BAG. Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een *gebruiker* in de WOZ[<mark>wozOnderscheid</mark>], een *vestiging* in het NHR en een *persoon* in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie.
 
 In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Het Informatiemodel Vastgoedgebruik legt deze afspraken op uniforme manier vast.
 
