@@ -10,7 +10,6 @@ Dit hoofdstuk geeft een overzicht van de <mark>[invullen]</mark>
 Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegstand 2.0, waarin de bevindingen van diverse plausibiliteitsonderzoeken zo veel mogelijk zijn verwerkt. Tevens wordt een processtandaard opgeleverd, gepubliceerd en in beheer genomen. Verder wordt de mogelijke dienstverlening aan partijen inzichtelijk gemaakt.-->
 
 <h2 id="informeleBeschrijving">Informele beschrijving</h2>
-## Informele beschrijving
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
