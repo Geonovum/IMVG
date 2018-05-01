@@ -26,7 +26,7 @@ Het vastgoed omvat in deze voorziening alle panden [<mark>LINK</mark>] met verbl
 
 In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Een informatiestanddaard is zo'n afspraak. Daarom leggen we hierin de beginselen van de LIV vast.
 
-<!--Dit is mogelijk een herhaling. Nodig? Anders weglaten-->
+[<mark>Dit is mogelijk een herhaling. Nodig? Anders weglaten</mark>]
 Om administratief gebruik vast te stellen, koppelt de LIV de WOZ, NHR en BRP aan de BAG. Deze registraties bevatten aanvullende vastgoedgegevens, of gegevens die iets zeggen over of het verblijfsobject in gebruik gebruik is of niet. In de LIV is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van: 
 
 * een gebruiker in de WOZ[<mark>wozOnderscheid</mark>]
