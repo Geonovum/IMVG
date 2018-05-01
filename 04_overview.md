@@ -139,10 +139,10 @@ nr | naam | view | download | detailnivau | voor wie?
 ## Totstandkoming
 
 ### Algemeen
-[<mark>alinea weglaten?</mark>]~~Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:
-* Landelijke Monitor Leegstand: het CBS heeft de eerdere monitor Overijssel landsdekkend gemaakt met de peiljaren 2015 en 2016 en een aantal ‘no-regret’ verbeteringen aangebracht;
-* Rapport over de vraagarticulatie van stakeholders: Geonovum heeft bij relevante overheidspartijen (rijk, provincie en gemeenten) en bij brancheorganisaties nagegaan welke behoefte naar leegstands- en vastgoedgebruiksinformatie er leven bij de verschillende partijen;
-* Rapport over de informatiekundige kwaliteit: het Kadaster heeft beschreven hoe met behulp van basisregistraties en aanvullende databronnen vastgoedgebruiksinformatie kan worden afgeleid~~.
+[<mark>alinea weglaten?</mark>]~~Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:~~
+* ~~Landelijke Monitor Leegstand: het CBS heeft de eerdere monitor Overijssel landsdekkend gemaakt met de peiljaren 2015 en 2016 en een aantal ‘no-regret’ verbeteringen aangebracht;~~
+* ~~Rapport over de vraagarticulatie van stakeholders: Geonovum heeft bij relevante overheidspartijen (rijk, provincie en gemeenten) en bij brancheorganisaties nagegaan welke behoefte naar leegstands- en vastgoedgebruiksinformatie er leven bij de verschillende partijen;~~
+* ~~Rapport over de informatiekundige kwaliteit: het Kadaster heeft beschreven hoe met behulp van basisregistraties en aanvullende databronnen vastgoedgebruiksinformatie kan worden afgeleid.~~
 
 [<mark>alinea weglaten?</mark>]~~Het initiatief en de resultaten zijn breed gedeeld en publiek kenbaar gemaakt~~.
 
