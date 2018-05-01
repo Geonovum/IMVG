@@ -6,7 +6,7 @@
 Het IMVG maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/)</mark>]. Door de de WOZ, het NHR en de BRP aan de BAG te koppelen, is het mogelijk om een indicatie te geven adminstratieve gebruiksstatus van een vastgoedobject. De volgende paragraven geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
 
 #### Referentiemodel
-Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject. In [<mark>hoofdstuk 4</mark>] werd die methodiek <mark>al kort</mark> toegelicht.  
+Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <mark>H4</mark>).  
 
 <figure>
 	<a target="_blank" href="images/referentiemodel.png">
@@ -15,8 +15,7 @@ Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistrati
 	<figcaption> - Referentiemodel IMVG (klik voor vergroting)</figcaption>
 </figure>
 
-#### Over BR's in R-model <mark>overlap H4</mark
-<!--**BAG**-->
+**BAG**
 Het Informatiemodel Vastgoedgebruik stelt de BAG centraal. Deze basisregistratie bevat alle adressen en geometrieën van gebouwen in Nederland en voorziet ze van een unieke identificatiecode. De andere drie basisregsistraties verwijzen voor locatiegegevens naar de BAG op basis van die identificatiecode. Hierdoor is het mogelijk om informatie uit de andere bronnen rechtstreeks aan een BAG-locatie te koppelen. Dat geeft inzicht in de gebeurtenissen op een locatie; in dit geval het gebruik. Bovendien voorziet de BAG gebouwen van aanvullende informatie, zoals: bouwjaar (pand), gebruiksdoel en oppervlakte (verblijfsobject).
 
 **BRP**
@@ -35,7 +34,7 @@ De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-won
 
 **Vastgoedgebruik**
 
-Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk [<mark>verwijzing tabel onder 3.1.1</mark>]. Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
+Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur <mark>4</mark>). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, beschouwen we het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
 
 <figure>
 	<a target="_blank" href="images/table_leegstand_large.png">
