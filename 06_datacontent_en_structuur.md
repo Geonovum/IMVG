@@ -6,7 +6,7 @@
 Het IMVG maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/)</mark>]. Door de de WOZ, het NHR en de BRP aan de BAG te koppelen, is het mogelijk om een indicatie te geven adminstratieve gebruiksstatus van een vastgoedobject. De volgende paragraven geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
 
 #### Referentiemodel
-Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie:<a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot wordt het object *LV-gebruik* kort uitgelegd.  
+Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar. Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot wordt het object *LV-gebruik* kort uitgelegd.  
 
 <figure>
 	<a target="_blank" href="images/referentiemodel.png">
@@ -38,7 +38,7 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 <figure>
 	<a target="_blank" href="images/table_leegstand_large.png">
-		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" width="75%" class="img-responsive">
+		<img src="images/table_leegstand_large.png" alt="Combinaties gebruik basisregistraties" width="80%" class="img-responsive">
 	</a>
 	<figcaption> - Mogelijke combinaties gebruiksstatus IMVG (klik voor vergroting)</figcaption>
 </figure>
