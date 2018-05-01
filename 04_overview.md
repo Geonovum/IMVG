@@ -42,12 +42,7 @@ Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets
 #### Over de BAG <mark>overlap H6</mark>
 <!--**Over de BAG**-->
 
-In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast. 
-- Panden
-- Verblijfsobjecten
-- Standplaatsen
-- Ligplaatsen
-
+In Nederland registreert de overheid "*alle met "gebouwen" samenhangende objecten*" in de Basisregistratie Adressen en Gebouwen (BAG). Deze objecten zijn afgebakend en voorzien van een unieke aanduiding. De BAG onderscheidt de volgende vier objecten en legt hiervan de gegevens vast: *panden*, *verblijfsobjecten*, *standplaatsen* en *ligplaatsen*.
 <!-- BAG-2009-2014_objectenhandboek -->
 
 <!-- **Note:** hierop aanvullen dat voor LIV *standplaatsen* en *ligplaatsten* niet meegenomen worden. Is het logisch dat we deze niet meenemen? Ja: want geen gebruiksfunctie? Nee, want soms wel gebruiksfunctie
@@ -63,19 +58,19 @@ Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt 
 <!--Reeds herschreven-->
 De BAG voegt twee samenhangende basisregistraties samen: de Basisregistratie Adresssen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (*panden*) en (kleinste) gebruikseenheden (*verblijfsobjecten*). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>]. 
 
-Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen hebben namelijk een ondersteunende functie voor een ander gebouw [<mark>ondersteunendeFuncties</mark>] <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadreseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik [<mark>bijgebouwen</mark>].
+Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen hebben namelijk een ondersteunende functie voor een ander gebouw <!--[<mark>ondersteunendeFuncties</mark>]--> <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadreseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik<!--[<mark>bijgebouwen</mark>]-->.
 
-> [<mark>ondersteunendeFuncties</mark>] Voorbeelden zijn: vrijstaande garageboxen, schuren, silo's, stallen, schaapskooien of toiletgebouwen op campings <!-- BAG-2009-2014_objectenhandboek -->.
+<!--[<mark>ondersteunendeFuncties</mark>] Voorbeelden zijn: vrijstaande garageboxen, schuren, silo's, stallen, schaapskooien of toiletgebouwen op campings--> <!-- BAG-2009-2014_objectenhandboek-->.
 
-> [<mark>bijgebouwen</mark>] Bijvoorbeeld in het geval van agrarische bedrijven. Die bestaan vaak uit meerdere vastgoedobjecten. Sommige van deze objecten hebben een verblijfsobject (boerderij) maar anderen niet (schuren, stallen, silo's etc.). Steeds meer agrarische bedrijven stoppen<!-- bron -->. Vaak komen de bijgebouwen dan leeg te staan, terwijl de boerderij bewoond blijft. Omdat de bijgebouwen niet (apart) geadresseerd zijn, is op basis van de BAG niet vast te stellen wat de gebruiksstatus van elk afzonderlijk object is.
+<!--[<mark>bijgebouwen</mark>] Bijvoorbeeld in het geval van agrarische bedrijven. Die bestaan vaak uit meerdere vastgoedobjecten. Sommige van deze objecten hebben een verblijfsobject (boerderij) maar anderen niet (schuren, stallen, silo's etc.). Steeds meer agrarische bedrijven stoppen [<mark>bron</mark>]. Vaak komen de bijgebouwen dan leeg te staan, terwijl de boerderij bewoond blijft. Omdat de bijgebouwen niet (apart) geadresseerd zijn, is op basis van de BAG niet vast te stellen wat de gebruiksstatus van elk afzonderlijk object is.-->
 
-Een verblijfsobject in de BAG heeft een gebruiksfunctie. [<mark>zie definitie</mark>]. Dit type gebruik wordt ook wel het vergunde gebruik genoemd. Zo is voor elk verblijfsobject tenminste één gebruiksdoel vastgesteld[<mark>dubbelfunctie</mark>]. Het gebruiksdoel is daarom geschikt voor een rudimentaire classificatie[<mark>gebruiksdoelen</mark>] van verblijfsobjecten. 
+Een verblijfsobject in de BAG heeft een <a href="https://geonovum.github.io/LIV/#bagGebruiksdoel" title="Ga naar: definitie BAG-gebruiksfunctie">gebruiksfunctie</a>. Dit type gebruik wordt ook wel het vergunde gebruik genoemd. Zo is voor elk verblijfsobject tenminste één gebruiksdoel vastgesteld<!--[<mark>dubbelfunctie</mark>]-->. Het gebruiksdoel is daarom geschikt voor een rudimentaire classificatie<!--[<mark>gebruiksdoelen</mark>]--> van verblijfsobjecten. 
 
-> [<mark>dubbelfunctie</mark>] In sommige gevallen kan de bronhouder (gemeente) ervoor kiezen om een zogenaamde dubbelfunctie toe te kennen, bijvoorbeeld: woon-/winkelfunctie.
+<!--[<mark>dubbelfunctie</mark>] In sommige gevallen kan de bronhouder (gemeente) ervoor kiezen om een zogenaamde dubbelfunctie toe te kennen, bijvoorbeeld: woon-/winkelfunctie.-->
 
-> [<mark>gebruiksdoelen</mark>] De BAG onderscheidt 11 gebruiksdoelen: woon-, bijeekomst-, cel-, gezondheid-, industrie-, kantoor-, logies-, onderwijs-, sport-, winkel- en overige gebruiksfunctie. Deze indeling sluit niet altijd goed aan bij de praktijk. Agrarisch vastgoed wordt in deze classificatie bijvoorbeeld niet apart onderscheiden, maar valt onder industriefunctie.
+<!--[<mark>gebruiksdoelen</mark>] De BAG onderscheidt 11 gebruiksdoelen: woon-, bijeekomst-, cel-, gezondheid-, industrie-, kantoor-, logies-, onderwijs-, sport-, winkel- en overige gebruiksfunctie. Deze indeling sluit niet altijd goed aan bij de praktijk. Agrarisch vastgoed wordt in deze classificatie bijvoorbeeld niet apart onderscheiden, maar valt onder industriefunctie.-->
 
-Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor de LIV: 
+Kortom, het onderscheid naar verblijfsobjecten is op twee manieren relevant voor het Informatiemodel Vastgoedgebruik: 
 1. om het gebruik van een (deel van) een vastgoedobject (pand) vast te stellen, en; 
 2. om binnen een vastgoedobject (pand) het type gebruik per eenheid te kunnen onderscheiden.
 
@@ -291,7 +286,7 @@ INSPIRE
 
 > De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object [<mark>bron: WOZ 2012, p. 21</mark>].
 
-**gebruiksdoel**
+<b id="bagGebruiksdoel">gebruiksdoel</b>
 
 > "Een categorisering van de gebruiksdoelen van het betreffende
 verblijfsobject, zoals dit door de overheid als zodanig is
