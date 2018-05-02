@@ -128,13 +128,6 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 ## Totstandkoming
 
 ### Algemeen
-[<mark>alinea weglaten?</mark>]~~Het ministerie van Infrastructuur en Milieu heeft, samen met het IPO, de ambitie uitgesproken om te komen tot een Landelijke Informatievoorziening Vastgoedgebruik (LIV). Om die ambitie te verwezenlijken is in najaar 2016 een project gestart om daartoe de nodige voorbereidingen te treffen. Dat project is in februari 2017 door CBS, Geonovum en Kadaster afgerond met de volgende resultaten:~~
-* ~~Landelijke Monitor Leegstand: het CBS heeft de eerdere monitor Overijssel landsdekkend gemaakt met de peiljaren 2015 en 2016 en een aantal ‘no-regret’ verbeteringen aangebracht;~~
-* ~~Rapport over de vraagarticulatie van stakeholders: Geonovum heeft bij relevante overheidspartijen (rijk, provincie en gemeenten) en bij brancheorganisaties nagegaan welke behoefte naar leegstands- en vastgoedgebruiksinformatie er leven bij de verschillende partijen;~~
-* ~~Rapport over de informatiekundige kwaliteit: het Kadaster heeft beschreven hoe met behulp van basisregistraties en aanvullende databronnen vastgoedgebruiksinformatie kan worden afgeleid.~~
-
-[<mark>alinea weglaten?</mark>]~~Het initiatief en de resultaten zijn breed gedeeld en publiek kenbaar gemaakt~~.
-
 In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte aan leegstandsinformatie bij marktpartijen en overheden. Daaruit bleek een duidelijke behoefte, bij marktpartijen en overheden, aan een geüniformeerde methodiek en aan eenduidige definities. Het vervolgonderzoek uit 2016 bevestigde dat beeld. Vanuit gebruiksoptiek en vanuit informatiekundig perspectief is het van belang deze methodiek en definities goed vast te leggen in een informatiestandaard. Het doel van een informatiestandaard is om te komen tot een geüniformeerde wijze voor het beschrijven van de semantische inhoud van de registraties. Deze wijze van beschrijven gebeurt door middel van deze dataspecificatie. Die beschrijft in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een hierin staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
 
 ### Ontwikkeling standaard
