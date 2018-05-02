@@ -67,7 +67,7 @@ Een verblijfsobject in de BAG heeft een <a href="#bagGebruiksdoel" title="Ga naa
 
 **Dataspecificatie: bronnen en producten**
 
-Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur x</mark>). Het vbo-ID is één van de authentieke gegevens[<mark>authentiekGegeven</mark>] uit de BAG, die de andere bronnen vanuit de stelselverplichting gebruiken [<mark>stelselVerplichting</mark>].
+Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur x</mark>). Het vbo-ID is één van de <a href="http://www.stelselvanbasisregistraties.nl/authentieke_gegevens/" title="Ga naar: definitie authentieke gegevens in stelselcatalogus">authentieke gegevens</a>uit de BAG, die de andere bronnen vanuit de <a href="https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/" title="Ga naar: Stelselafspraken">stelselverplichting</a> gebruiken.
 
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
@@ -75,13 +75,6 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en 
 	</a>
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
-
-[<mark>VOETNOTEN</mark>] creeren aan het eind van elk hoofdstuk zoals definitielijst? Wederzijdse referentie: vanuit tekst naar uitleg en vanuit uitleg terug naar tekst?
-
-> [<mark>authentiekGegeven</mark>] Authentieke gegevens zijn gegevens die de Nederlandse overheden verplicht zijn te gebruiken *(bron zoeken, **of** directe URL naar bron (geldt mogelijk deels ook voor andere voetnoten))*
-
-> [<mark>stelselVerplichting</mark>]
-Bron:[Stelselafspraken](https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/)
 
 De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling vindt plaats op vbo-id (kleinste gebruikseenheid). Daarbij is het pand is als de (kleinste) bouwkundige eenheid een belangrijk object.  De wens van gebruikers van de informatievoorziening is om op verblijfsobjectniveau te kunnen zien wat de administratieve gebruiksstatus is binnen het pand. Bovendien blijkt uit een [pilot](https://www.geonovum.nl/sites/default/files/methodiek_stappenplan_leegstand.pdf) dat bij [visualisatie van leegstand op objectniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) het hoge detailniveau en het type geometrie ("Point") van verblijfsobjecten de leesbaarheid bemoeilijkt, waardoor [aggregatie naar pandniveau](http://maps.objectvision.nl/hoornleegstand/?layers=OPENBASISKAART,Hoorn_GEBRUIKSDOEL_ALLE,&zoom=9&lat=518900&lon=133200&language=nl) (geometrie: "Polygon") wenselijk is.
 
