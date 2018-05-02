@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  pubDomain: "liv",
+  pubDomain: "IMVG",
   //format: "markdown",
   //publishDate: "2017-12-13",
   editors: [
@@ -11,10 +11,10 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
     },
   ],
-  shortName: "imliv",
+  shortName: "IMVG",
   //subtitle: "...",
-  github: "https://github.com/Geonovum/LIV",
-  issueBase: "https://github.com/Geonovum/LIV/issues/",
+  github: "https://github.com/Geonovum/IMVG",
+  issueBase: "https://github.com/Geonovum/IMVG/issues/",
   localBiblio: {
     "BAG_2009": {
       href: "https://www.geonovum.nl",
