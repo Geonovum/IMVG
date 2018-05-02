@@ -107,9 +107,7 @@ De ... -->
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 **Data-uitwisselingsarchitectuur**
 
-Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur dient ter illustratie van informatiestroom van bronhouder tot eindproduct en niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-levering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren. 
-
-authorisatie
+Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur dient ter illustratie van informatiestroom van bronhouder tot eindproduct en niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-levering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren.
 
 <figure>
 	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
@@ -126,7 +124,7 @@ De centrale database koppelt de verschillende bronnen aan elkaar met behulp van 
 
 <figure>
 	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
-		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" class="img-responsive">
+		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="40%" class="img-responsive">
 	</a>
 	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)</figcaption>
 </figure>
