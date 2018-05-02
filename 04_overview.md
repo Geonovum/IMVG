@@ -120,7 +120,7 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 
 <figure>
 	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
-		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="40%" class="img-responsive">
+		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="80%" class="img-responsive">
 	</a>
 	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)</figcaption>
 </figure>
