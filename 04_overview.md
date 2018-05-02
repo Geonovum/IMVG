@@ -107,7 +107,9 @@ De ... -->
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 **Data-uitwisselingsarchitectuur**
 
-[<mark>alinea herschrijven</mark>] "*Het volgende figuur schets de data-uitwisseling voor realisering van de data-functionaliteiten die gebruik maken van de LIV. **Het figuur is ter illustratie en niet normatief voor de implementatie van de voorziening**. Een onderscheid wordt gemaakt tussen data-uitlevering en data-aanlevering. Data-uitlevring betreft het leveren van data aan de uiteindelijke afnemers, de eindproducten. Data-aanlevering is de datastroom van bronhouders die nodig is om tussenproducten of voorzieningen te realiseren die met dei gegevens in staat zijn om de eindproducten te realiseren. Het figuur toont de informatiestroom van bronhouder tot eindproduct.*"
+Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur dient ter illustratie van informatiestroom van bronhouder tot eindproduct en niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-levering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren. 
+
+authorisatie
 
 <figure>
 	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
@@ -118,16 +120,16 @@ De ... -->
 
 Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. ~~De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen.~~ Behalve voor de BRP, zijn van deze bronnen landelijke voorzieningen beschikbaar.De landelijke voorziening levert gegevens aan een centrale database. ~~In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS).~~
 
-De centrale database koppelt de verschillende bronnen aan elkaar met behulp van het vbo-ID. Op die manier is het mogelijk om per verblijfsobject de adminsitratieve gebruiksstatus vast te stellen. Het resultaat hiervan is de [<mark>Landelijke Informatievoorziening Vastgoedgebruik</mark>]. De gegevens uit de [<mark>LIV</mark>] worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
+De centrale database koppelt de verschillende bronnen aan elkaar met behulp van het vbo-ID. Op die manier is het mogelijk om per verblijfsobject de adminsitratieve gebruiksstatus vast te stellen. Het resultaat hiervan is de [<mark>Landelijke Informatievoorziening Vastgoedgebruik</mark>]. De gegevens uit de [<mark>LIV</mark>] worden via een authorisatielaag door verschillende functies aangeroepen. Daarbinnen wordt onderscheidt gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->). 
 
-<mark>[let op: tabel als afbeelding invoegen]</mark>
+<!--Dat laatste klopt nog niet helemaal, want voor gemeenten inderdaad authorisatie bij CBS. Voor remote access (woonzorg=remote access) waarschijnlijk ook, maar tussen gemeenten en remote access is wel onderling verschil.-->
 
-nr | naam | view | download | detailnivau | voor wie?
------|------|------|----------|-------------|-----------
-1 | leegstandsmonitor | WFS? | csv / xlsx | wijk-/buurt | allen
-2 | remote access | ??? | ??? | vbo (output geaggregeerd | allen
-3 | "RIGO" | ??? | geen | 6-positiepostcode | allen
-4 | dump gemeenten | geen | ??? | vbo | gemeenten
+<figure>
+	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
+		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" class="img-responsive">
+	</a>
+	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)</figcaption>
+</figure>
 
 ## Normatieve referenties
 ## Totstandkoming
