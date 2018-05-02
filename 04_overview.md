@@ -67,7 +67,7 @@ Een verblijfsobject in de BAG heeft een <a href="#bagGebruiksdoel" title="Ga naa
 
 **Dataspecificatie: bronnen en producten**
 
-Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur x</mark>). Het vbo-ID is één van de <a href="http://www.stelselvanbasisregistraties.nl/authentieke_gegevens/" title="Ga naar: definitie authentieke gegevens in stelselcatalogus">authentieke gegevens</a>uit de BAG, die de andere bronnen vanuit de <a href="https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/" title="Ga naar: Stelselafspraken">stelselverplichting</a> gebruiken.
+Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, NHR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur 1</mark>). Het vbo-ID is één van de <a href="http://www.stelselvanbasisregistraties.nl/authentieke_gegevens/" title="Ga naar: definitie authentieke gegevens in stelselcatalogus">authentieke gegevens</a> uit de BAG, die de andere bronnen vanuit de <a href="https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/" title="Ga naar: Stelselafspraken">stelselverplichting</a> gebruiken.
 
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
@@ -116,8 +116,9 @@ De ... -->
 	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
 </figure>
 
+Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. ~~De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen.~~ Behalve voor de BRP, zijn van deze bronnen landelijke voorzieningen beschikbaar.De landelijke voorziening levert gegevens aan een centrale database. ~~In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS).~~
 
-Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder. Voor het NHR is dat de Kamer van Koophandel. De partijen zamelen de gegevens in voor de respectievelijke informatiebronnen. Behalve voor de BRP, zijn van deze bronnen  landelijke voorzieningen beschikbaar <!-- misschien onderscheid maken tussen bron en informatieproduct (LV en dataservice?) -->. Vanuit deze landelijke voorzieningen worden de gegevens aangeleverd aan een centrale database. In het huidige geval, gebeurt dit bij het Centraal Bureau voor de Statistiek (CBS). In de centrale database wordt de BAG aan de andere registraties gekoppeld op basis van het vbo-ID. Op basis van de koppeling wordt vervolgens per verblijfsobject (vbo) de administratieve gebruiksstatus vastgesteld. Het resultaat hiervan is de Landelijke Informatievoorziening Vastgoedgebruik. De gegevens uit de LIV worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
+De centrale database koppelt de verschillende bronnen aan elkaar met behulp van het vbo-ID. Op die manier is het mogelijk om per verblijfsobject de adminsitratieve gebruiksstatus vast te stellen. Het resultaat hiervan is de [<mark>Landelijke Informatievoorziening Vastgoedgebruik</mark>]. De gegevens uit de [<mark>LIV</mark>] worden door verschillende functies aangeroepen. Er wordt hierin onderscheid gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (<!-- zie tabel -->).
 
 <mark>[let op: tabel als afbeelding invoegen]</mark>
 
