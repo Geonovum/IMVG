@@ -87,10 +87,10 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 
 **Uitgangspunten**
 
-[<mark>Uitgangspunten toegepast bij het modelleren van IMVG:</mark>]
+Uitgangspunten toegepast bij het modelleren van IMVG:
 
 * Beschrijven van het totaalpakket aan informatie dat voorziet in het dataleveringsproces voor de Landelijke Informatievoorziening Vastgoedgebruik (LIV), waaruit de dataproducten Landelijke Leegstandsmonitor, Remote Access Vastgoedgebruik, Ruimtelijke Concentratie Leegtand (methode Woonzorgwijzer) en Datalevering op objectniveau voor Gemeenten zijn afgeleid;
-* het bevat ***geen*** specificatie van de datafunctionaliteiten zelf;
+* het bevat geen specificatie van de datafunctionaliteiten zelf;
 * het model vormt het afgestemde begrippenkader voor het domein vastgoedgebruik;
 <!--* beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de IMVG als basis dient.-->
 * het voorziet in een objectgerichte, gevectoriseerde data-uitwisseling;
@@ -131,6 +131,14 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 </figure>
 
 ## Normatieve referenties
+
+* Raamwerk van geo-standaarden 3.0 [<mark>link toevoegen, zie IMKL</mark>]
+* NEN 3610:2011/A1:2016 Basismodel Geo-informatie
+* Bouwbesluit 2012 ... [<mark>naam corrigeren</mark>]
+* Gegevenscatalogus BAG 2009/2014;
+* Gegevenscatalogus WOZ [<mark>naam corrigeren</mark>]
+* Gegevenscatalogus NHR [<mark>naam corrigeren</mark>]
+* Logisch Ontwerp BRP [<mark>naam corrigeren</mark>]
 
 ## Totstandkoming
 
