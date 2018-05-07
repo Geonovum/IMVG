@@ -147,22 +147,25 @@ Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van 
 <table style="width:70%">
 	<tr>
 		<td><b>Documenttitel</b></td>
-		<td>: [<mark>invoegen</mark>]</td>
+		<td>: IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
 	</tr>
 	<tr>
 		<td><b>Referentiedatum</b></td>
-		<td>: [<mark>invoegen</mark>]</td>
+		<td>: 2018-06-[<mark>15</mark>]</td>
 	</tr>
 	<tr>
 		<td><b>Auteur(s)</b></td>
-		<td>: [<mark>invoegen</mark>]</td>
+		<td>: Gerard Trouborst</td>
+	</tr>
+	<tr>
+		<td><b>Betrokken partijen</b></td>
+		<td>: CBS, Kadaster, Object Vision en Geonovum</td>
 	</tr>
 	<tr>
 		<td><b>Taal</b></td>
-		<td>: [<mark>invoegen</mark>]</td>
+		<td>: Nederlands</td>
 	</tr>
 </table>
-
 
 ### Algemeen
 In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte aan leegstandsinformatie bij marktpartijen en overheden. Daaruit bleek een duidelijke behoefte aan een geüniformeerde methodiek en aan eenduidige definities. Het vervolgonderzoek uit 2016 bevestigde dat beeld. Vanuit gebruiksoptiek en vanuit informatiekundig perspectief is het van belang deze methodiek en definities goed vast te leggen in een informatiestandaard.
