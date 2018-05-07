@@ -13,10 +13,17 @@ Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegs
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
-Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->en de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking <a href="#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->
+Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->om op die manier de informatie zo objectief mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking <a href="#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->
 
 ### Beschrijving
-Het Informatiemodel Vastgoedgebruik vormt het gemeenschappelijke begrippenkader voor de uitwisseling van informatie over vastgoedobjecten. De totale verzameling van vastgoedobjecten in Nederland is de gebouwenvoorraad. Deze bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Het IMVG beschrijft op een uniforme manier het *gebruik* van al het *formeel geregistreerde vastgoed* op het Nederlandse grondgebied (vasteland). De volgende paragraaf licht dit verder toe.
+
+Uit verschillende onderzoeken van de provincie Overijssel, CBS, Kadaster en Geonovum in 2015 en 2016, bleek een sterke behoefte bij overheden en marktpartijen aan integrale, uniforme en landsdekkende informatie over vastgoedgebruik. Voor de uitwisseling van informatie over vastgoedobjecten vormt het Informatiemodel Vastgoedgebruik het gemeenschappelijke begrippenkader. 
+
+De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Dit heet de gebouwenvoorraad en hiertoe behoort al het formeel geregistreerde vastgoed in Nederland. Het IMVG brengt informatie over het gebruik van deze objecten samen.
+
+Hiervoor koppelt het model de basisregistraties BAG, WOZ, NHR en BRP. Is een object administratief niet in gebruik, dan is sprake van administratieve leegstand. Omdat niet alle informatie uit deze bronnen relevant is voor het IMVG, is een gezamenlijke view op de bronnen gewenst. 
+
+De Landelijke Informatievoorziening Vastgoedgebruik (LIV) fungeert als *use case* voor het IMVG en levert informatie op het domein vastgoedgebruik. Bovendien richt de LIV zich in eerste instantie op het in beeld brengen van leegstand. Het IMVG volgt die doelstelling.
 
 ### Toelichting
 
