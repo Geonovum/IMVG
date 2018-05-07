@@ -16,7 +16,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	</tr>
 	<tr>
 		<td valign="top"><b>Onderwerpcategorieën</b></td>
-		<td valign="top"><i>Vastgoedgebruik, (Administratief) Vastgoedgebruik, (Administratieve)Leegstand, Basisregistraties<i></td>
+		<td valign="top">Vastgoedgebruik, (Administratief) Vastgoedgebruik, (Administratieve)Leegstand, Basisregistraties</td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Geografische beschrijving</b></td>
@@ -28,6 +28,6 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	</tr>
 	<tr>
 		<td valign="top"><b>Aanvullende informatie</b> [optioneel]</td>
-		<td valign="top">De eerste versie van het IMVG richt zich specifiek op administratieve leegstand, maar biedt aanknopingspunten voor uitbreiding in de toekomst met gebruiksinformatie in het algemeen. Bovendien is het denkbaar dat het IMVG wordt aangevuld met andere bronnen, zoals bijvoorbeeld energieverbruik.[<mark>tekst invoegen</mark>]</td>
+		<td valign="top">De eerste versie van het IMVG richt zich specifiek op administratieve leegstand, maar biedt aanknopingspunten voor uitbreiding in de toekomst met gebruiksinformatie in het algemeen. Bovendien is het denkbaar dat het IMVG wordt aangevuld met andere bronnen, zoals bijvoorbeeld energieverbruik.</td>
 	</tr>
 </table>
