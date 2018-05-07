@@ -5,7 +5,7 @@
 In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspecificatie.
 
 <figure>
-	<table style="width: 100%" border="1">
+	<table style="width: 100%" cellpadding="10">
 		<col width="25%">
 		<col width="75%">
 		<tr>
