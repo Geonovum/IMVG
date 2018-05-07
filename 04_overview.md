@@ -142,25 +142,25 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 
 ## Totstandkoming
 
-[<mark>TABLE TEST</mark>]
+Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van het <mark>INSPIRE Data Product Spedification</mark> en <mark>IMKL2015 Dataspecificatie 1.2.1</mark>.
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>
+<table style="width:70%">
+	<tr>
+		<td><b>Documenttitel</b></td>
+		<td>: [<mark>invoegen</mark>]</td>
+	</tr>
+	<tr>
+		<td><b>Referentiedatum</b></td>
+		<td>: [<mark>invoegen</mark>]</td>
+	</tr>
+	<tr>
+		<td><b>Auteur(s)</b></td>
+		<td>: [<mark>invoegen</mark>]</td>
+	</tr>
+	<tr>
+		<td><b>Taal</b></td>
+		<td>: [<mark>invoegen</mark>]</td>
+	</tr>
 
 
 ### Algemeen
