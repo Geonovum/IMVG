@@ -132,7 +132,7 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 
 ## Normatieve referenties
 
-* Raamwerk van geo-standaarden 3.0 [<mark>link toevoegen, zie IMKL</mark>]
+* Raamwerk van geo-standaarden 3.0 [<a target="_blank" href="https://www.geonovum.nl/uploads/documents/Raamwerk%20Geo-Standaarden%20v3.0.pdf">link</a>]
 * NEN 3610:2011/A1:2016 Basismodel Geo-informatie
 * Bouwbesluit 2012 ... [<mark>naam corrigeren</mark>]
 * Gegevenscatalogus BAG 2009/2014;
