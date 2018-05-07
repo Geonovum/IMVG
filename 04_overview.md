@@ -161,6 +161,7 @@ Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van 
 		<td><b>Taal</b></td>
 		<td>: [<mark>invoegen</mark>]</td>
 	</tr>
+</table>
 
 
 ### Algemeen
