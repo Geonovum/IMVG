@@ -6,7 +6,9 @@ In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspeci
 
 <figure>
 	<table style="width: 100%">
-		<tr style="width: 50%">
+		<col width="40%">
+		<col width="60%">
+		<tr>
 			<td><b>Titel</b></td>
 			<td>IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
 		</tr>
