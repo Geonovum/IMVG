@@ -129,6 +129,7 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 	</a>
 	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)</figcaption>
 </figure>
+[<mark>vervangen voor html-table</mark>]
 
 ## Normatieve referenties
 
