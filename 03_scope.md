@@ -13,3 +13,5 @@ Het IMVG dient als basis voor de Landelijke Informatievoorziening Vastgoedgebrui
 - <b>Leegstandswijzer</b> (gebaseerd op het model Woonzorgwijzer [<mark>link invoegen</mark>])
 - <b>Remote Access</b> (voorziening bij het CBS voor onderzoek op objectniveau)
 - <b>Teruglevering</b> (levering resultaten door CBS aan gemeenten op objectniveau)
+
+[<mark>vervangen voor html-table</mark>]
