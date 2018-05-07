@@ -1,12 +1,12 @@
 # Identificatie
 
-Dit hofodstuk beschrijft de identificatie van de dataspecificatie
+Dit hoofdstuk beschrijft de identificatie van de dataspecificatie
 
-In onderstaande tabel is de beschrijvende informatie opgenomen van de dataspecificatie
+In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspecificatie.
 
 <figure>
 	<table style="width: 100%">
-		<tr>
+		<tr style="width: 50%">
 			<td><b>Titel</b></td>
 			<td>IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
 		</tr>
