@@ -6,15 +6,15 @@ In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspeci
 
 <figure>
 	<table style="width: 100%">
-		<col width="40%">
-		<col width="60%">
+		<col width="25%">
+		<col width="75%">
 		<tr>
 			<td><b>Titel</b></td>
 			<td>IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
 		</tr>
 		<tr>
 			<td><b>Samenvatting</b></td>
-			<td>IMKL2015 beschrijft de semantiek van digitale bestanden van utiliteitsnetten. De netten worden getypeerd aan de hand van producten of thema’s: elektriciteit, gas en chemie, drinkwater, afvalwater, telecom en warmte. Netten zijn opgebouwd uit netwerkelementen zoals kabels, leidingen, buizen en verbindende componenten genaamd leidingelementen zoals moffen, schakelkasten, aansluitingen, pompen. Het geheel van deze netwerkelementen vormt een netwerk waarvan de topologie wordt beschreven en de directe geografische positie middels coördinaten.</td>
+			<td>IMVG beschrijft de semantiek van de view op de basisregistraties BAG, WOZ, NHR en BRP voor het vaststellen vastgoedgebruik. De BAG bevat de geometrieën van vastgoedobjecten (verblijfsobjecten; stand- en ligplaatsen vallen buiten de scope). Informatie uit de andere basisregistraties kan op die manier gekoppeld worden aan een locatie. De vastgoedobjecten worden getypeerd aan de hand van het gebruiksdoel van het verblijfsobject in de BAG. Het geheel van vastgoedobjecten vormt de vastgoedvoorraad waarvan de topologie en administratieve gebruiksstatus wordt beschreven en de directe geografische positie middles coördinaten</td>
 		</tr>
 		<tr>
 			<td><b>Onderwerp categorieën</b></td>
@@ -25,11 +25,11 @@ In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspeci
 			<td>Nederland</td>
 		</tr>
 		<tr>
-			<td><b>Doel</b> [<mark>optioneel</mark>]</td>
-			<td>Doel van dit document is het beschrijven van dataproduct IMKL2015 ten behoeve van KLIC. IMKL2015 is ontwikkeld voor de realisatie van digitaal berichtenverkeer rond het thema utiliteitsnetten en de daarin voorkomende kabels, leidingen en leidingelementen voor de realisatie van een aantal wetten en regelingen. Met name de wet WION en de Europese regeling INSPIRE en daarin het thema Utility Networks zijn bepalend.</td>
+			<td><b>Doel</b> [optioneel]</td>
+			<td>Doel van dit document is het beschrijven van het Informatiemodel Vastgoedgebruik (IMVG) ten behoeve van de Landelijke Informatievoorziening Vastgoedgebruik (LIV). IMVG is ontwikkeld voor de realisatie van digitaal berichtenverkeer rond het thema vastgoedgebruik en de daarin voorkomende vastgoedobjecten ... Ladder Duurzame Verstedelijking en de Leegstandswet.</td>
 		</tr>
 		<tr>
-			<td><b>Aanvullende informatie</b> [<mark>optioneel</mark>]</td>
+			<td><b>Aanvullende informatie</b> [optioneel]</td>
 			<td>[<mark>tekst invoegen</mark>]</td>
 		</tr>
 	</table>
