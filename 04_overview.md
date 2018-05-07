@@ -87,22 +87,21 @@ De BAG vormt daarmee het middelpunt van de informatievoorziening. De koppeling v
 
 **Uitgangspunten**
 
-* beschrijft totaalpakket aan informatie dat voorzien in een <mark>aantal datafunctionaliteiten</mark>:
-* bevat ***geen*** specificatie van de datafunctionaliteiten zelf 
-* semantische afstemming [<mark>in hoeverre en op welke manier relevant?</mark>]
-* beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de LIV als basis dient.
-* voorzien in een objectgerichte, gevectoriseerde data-uitwisseling
-* Afhankelijk van type informatieproduct kan LIV toegepast worden in *view service* (WMS) of *download service* (WFS of Atom feeds [csv, excel?])[<mark>weglaten?</mark>].
-* geen 3D-geometrie toegepast [<mark>voor lange termijn wel relevant: nog rekening houden met aanknopingspunten?</mark>]
-* voegt geen nieuwe geometrie toe? [<mark>wel nieuwe info, zeker naar verloop van tijd</mark>]
-* bevat ook temporele informatie? [<mark>waarschijnlijk niet, tenzij datum/tijd geldigheid object of de historie die weopbouwen daaronder vallen</mark>]
-* differentiatie van informatie: hoe en waar geregeld?
-* integraal
-* uniform
-* eenduidige definitie van leegstand (administratief, structureel, tijdelijk, gedeeltelijk, verborgen) en van vastgoedcategorieën, maar (nog) geen andere definities)
-* historie opbouwen zodat je over periodes (in eerste instantie jaren) heen kunt vergelijken
-* landsdekkend
-* [<mark>*etc.*</mark>]
+[<mark>Uitgangspunten toegepast bij het modelleren van IMVG:</mark>]
+
+* Beschrijven van het totaalpakket aan informatie dat voorziet in het dataleveringsproces voor de Landelijke Informatievoorziening Vastgoedgebruik (LIV), waaruit de dataproducten Landelijke Leegstandsmonitor, Remote Access Vastgoedgebruik, Ruimtelijke Concentratie Leegtand (methode Woonzorgwijzer) en Datalevering op objectniveau voor Gemeenten zijn afgeleid;
+* het bevat ***geen*** specificatie van de datafunctionaliteiten zelf;
+* het model vormt het afgestemde begrippenkader voor het domein vastgoedgebruik;
+<!--* beschrijft de informatievoorziening. Het bevat geen beschrijving van de 'eindproducten', danwel (data)functionaliteiten waarvoor de IMVG als basis dient.-->
+* het voorziet in een objectgerichte, gevectoriseerde data-uitwisseling;
+* het IMVG kan worden toegepast in *view* en *download services*;
+* De toepassing van 3D-informatie staat nog open. Enerzijds omdat dit mogelijk een onderwerp voor de toekomst is. Indien de BAG 3D beschikbaar komt, is het mogelijk relevant om voor panden met meerdere verblijfsobjecten met behulp van hoogte-informatie een meer nauwkeurige locatiebepaling te geven van de ligging van het verblijfsobject. Anderzijds ligt de implementatie ervan buiten de scope van het IMVG: die vindt immers plaats in de basisregistratie(s) waar het IMVG uit put;
+* het maakt gebruik van bestaande gemeometrieën, maar voegt hieraan geen nieuwe geometrie toe. Wel voegt het model extra inforamtie toe aan de bestaande geometrieën, met als belangrijkste kenmerk de gebruiksstatus van een verblijfsobject;
+* ook bevat het model temporele informatie. Voor het vaststellen van de gebruiksstatus van een verblijfsobject is bij uitstek relevant dat de koppling van de informatie gebeurt op basis van de dezelfde peildatum. Bovendien is voor het monitoren van leegstand relevant om over een langere periode de resultaten van meerdere meetmomenten met elkaar te kunnen vergelijken, zodat de ontwikkeling over meerder jaren met elkaar vergeleken kan worden;
+<!--* differentiatie van informatie: hoe en waar geregeld?-->
+* het biedt integrale informatie, dat wil zeggen: informatie over alle typen vastgoed;
+* het biedt uniforme informatie: de indicatie van de gebruiksstatus en andere relevante kenmerken is voor alle typen vastgoed op dezelfde wijze vastgelegd;
+* het biedt landsdekkende informatie door gebruik te maken van basisregistraties.
 
 <!-- Belangrijke criteria: toevoegen aan 'uitgangspunten'?
 Alle panden samen vormen de gebouwenvoorraad.
@@ -132,6 +131,7 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 </figure>
 
 ## Normatieve referenties
+
 ## Totstandkoming
 
 ### Algemeen
