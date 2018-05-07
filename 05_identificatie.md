@@ -1,6 +1,6 @@
 # Identificatie
 
-Dit hoofdstuk beschrijft de identificatie van de dataspecificatie
+**Dit hoofdstuk beschrijft de identificatie van de dataspecificatie**
 
 In onderstaande figuur is de beschrijvende informatie opgenomen van de dataspecificatie.
 
