@@ -1,9 +1,22 @@
 # Data content en structuur
+
+## Inleiding
+<!--IMKL 2015 bevat dit kopje extra t.o.v. template-->
+
 ## Algemene uitgangspunten
+<!--IMKL2015 bevat dit kopje niet t.o.v. template-->
+
 ## UML-diagrammen
 
 ### Beschrijving algemeen
-Het IMVG maakt gebruik van het [<mark>bron:[stelsel van basisregistraties](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/)</mark>]. Door de de WOZ, het NHR en de BRP aan de BAG te koppelen, is het mogelijk om een indicatie te geven adminstratieve gebruiksstatus van een vastgoedobject. De volgende paragraven geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
+Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/">stelsel van basisregistraties</a> (zie: figuur [<mark>x.x</mark>]. IMVG is gemodelleerd als de koppeling van de modellen van de basisregistraties WOZ, NHR, BRP aan het model van de BAG. Door deze koppeling ontstaat extra informatie over het administratieve gebruik en andere eigenschappen van een verblijfsobject in de BAG. De volgende paragrafen geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
+
+<figure>
+	<a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/8/8f/Stelsel_van_Basisregistraties.png">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Stelsel_van_Basisregistraties.png" alt="Stelselplaat" class="img-responsive">
+	</a>
+	<figcaption> - Stelsel van Basisregistraties: stelselplaat (klik voor vergroting)</figcaption>
+</figure>
 
 **Referentiemodel**
 
