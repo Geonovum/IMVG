@@ -23,8 +23,8 @@ Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleover
 Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar (zie: <mark>figuur 5</mark>). Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot wordt het object *LV-gebruik* kort uitgelegd.  
 
 <figure>
-	<a target="_blank" href="images/referentiemodel.png">
-		<img src="images/referentiemodel.png" alt="Referentiemodel" class="img-responsive">
+	<a target="_blank" href="images/IMVG_referentiemodel.png">
+		<img src="images/IMVG_referentiemodel.png" alt="Referentiemodel IMVG" class="img-responsive">
 	</a>
 	<figcaption> - Referentiemodel IMVG (klik voor vergroting)</figcaption>
 </figure>
@@ -59,6 +59,16 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 </figure>
 
 ### Overzicht
+
+Onderstaande figuur toont een overzicht van het volledige Informatiemodel Vastgoedgebruik.
+
+<figure>
+	<a target="_blank" href="images/IMVG_informatiemodel.png">
+		<img src="images/IMVG_informatiemodel.png" alt="Informatatiemodel IMVG" class="img-responsive">
+	</a>
+	<figcaption> - Informatiemodel IMVG (klik voor vergroting)</figcaption>
+</figure>
+
 ### Verschillende onderdelen uit het UML-diagram
 ### Consistentie tussen datasets (<mark>optioneel</mark>)
 ### Identifier management
