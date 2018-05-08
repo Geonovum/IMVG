@@ -27,6 +27,48 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 ## UML-diagrammen
 
 ### Beschrijving algemeen
+
+<figure>
+	<table style="width: 100%" cellpadding="10" valign="top">
+		<col width="30%">
+		<col width="20%">
+		<col width="50%">
+		<tr>
+			<th>Stereotype</th>
+			<th>Modelelement</th>
+			<th>Beschrijving</th>
+		</tr>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>
+		<tr>
+			<td>txt</td>
+			<td>txt</td>
+			<td>txt</td>		
+	</table>
+</figure>
+
 Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/">stelsel van basisregistraties</a> (zie: <mark>figuur 4</mark>). IMVG is gemodelleerd als de koppeling van de modellen van de basisregistraties WOZ, NHR, BRP aan het model van de BAG. Door deze koppeling ontstaat extra informatie over het administratieve gebruik en andere eigenschappen van een verblijfsobject in de BAG. De volgende paragrafen geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
 
 <figure>
