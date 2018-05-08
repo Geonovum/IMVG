@@ -2,6 +2,24 @@
 
 ## Inleiding
 <!--IMKL 2015 bevat dit kopje extra t.o.v. template-->
+[<mark>Structuur zoals in onderstaande alinea's besproken nog ter discussie</mark>]
+De volgende paragrafen beschrijven de inhoud en structuur van het IMVG met behulp van UML-diagrammen en bijbehorende objectcatalogus.
+
+De verschillende uitwisselingsprocessen BAG, WOZ, NHR en BRP worden slechts in zoverre in dit document behandelt, daar waar zij afwijken van hetgeen reeds in de betreffende eigen documentatie is opgenomen. Deze worden in aparte paragrafen behandeld. Dit resulteert in vier deelmodellen: 
+
+- IMVG-Gebruik[<mark>werktitel</mark>]
+- IMVG-BAG
+- IMVG-WOZ
+- IMVG-NHR
+- IMVG-BRP
+
+Als eerste geeft dit hoofdstuk een algemene beschrijving aan de hand van het referentiemodel IMVG. 
+
+Vervolgens wordt dieper ingegaan op de gedetailleerde technische kant van het informatiemodel. 
+
+Het eerste gedeelte van dit hoofdstuk bevat de UML-diagrammen van het referentiemodel, het volledige model en de deelmodellen. Objecten, attributen, datatypen en relaties tussen objecten beschrijven eenduidig, schematisch en *in full detail* de inhoudelijke informatie van het informatiemodel. Elke deelparagraaf geeft een toelichting op een deelmodel. De deelparagraaf bevat tevens een compleet diagram van het deelmodel. Indien een onderwerp een aparte toelichting nodig heeft, wordt dit aangeduid met de kop 'Extra toelichting'.
+
+Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm dezelfde infroamtie al de diagrammen, maar nu met taal beschreven. Alle informatie-elementen zijn daarbij voorzien van definities en waar nodig een toelichting. De objectcatalogus bevat de gezamenlijke informatie-inhoud van alle deelmodellen. De objectcatalogus maakt dus geen apart onderscheidt tussen de deelmodellen.
 
 ## Algemene uitgangspunten
 <!--IMKL2015 bevat dit kopje niet t.o.v. template-->
