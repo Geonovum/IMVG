@@ -28,8 +28,10 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 
 ### Beschrijving algemeen
 
+[<mark>Onderstaande figuur verplaatsen</mark>]
+
 <figure>
-	<table style="width: 100%" cellpadding="10" valign="top">
+	<table style="width: 100%" cellpadding="10" valign="top" border="1px solid black">
 		<col width="30%">
 		<col width="20%">
 		<col width="50%">
@@ -74,7 +76,7 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 			<td>txt</td>
 		</tr>		
 	</table>
-	<figcaption> - <mark>Gebruikte stereotypen vanuit het KKG UML profiel (MIM)</mark></figcaption>
+	<figcaption> - <mark>Gebruikte stereotypen vanuit het KKG UML-profiel (MIM)</mark></figcaption>
 </figure>
 
 Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/">stelsel van basisregistraties</a> (zie: <mark>figuur 4</mark>). IMVG is gemodelleerd als de koppeling van de modellen van de basisregistraties WOZ, NHR, BRP aan het model van de BAG. Door deze koppeling ontstaat extra informatie over het administratieve gebruik en andere eigenschappen van een verblijfsobject in de BAG. De volgende paragrafen geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG.
