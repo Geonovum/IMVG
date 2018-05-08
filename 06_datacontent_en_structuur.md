@@ -42,30 +42,37 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
 			<td>txt</td>
+		</tr>
 		<tr>
 			<td>txt</td>
 			<td>txt</td>
-			<td>txt</td>		
+			<td>txt</td>
+		</tr>		
 	</table>
 	<figcaption> - <mark>Gebruikte stereotypen vanuit het KKG UML profiel (MIM)</mark></figcaption>
 </figure>
