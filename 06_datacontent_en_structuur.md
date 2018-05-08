@@ -28,10 +28,17 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 
 ### Beschrijving algemeen
 
+Het IMVG neemt van elk deelmodel (basisregistraties) slecht een deel van de inhoud over en voegt daar de spedifieke informatie an toe die nodig is vor de realisatie van de in de scope genoemde processen.
+
+[<mark>Een zin als deze opnemen over gebruik KKG en voordeel voor IMVG en vice versa voor basisregistraties?</mark>]
+
+> "Met IMKL2015 kan daardoor een dataset geleverd worden of dataservice worden ingericht die
+INSPIRE conform is en voorziet in het detail van de eisen van de genoemde processen."
+
 [<mark>Onderstaande figuur verplaatsen</mark>]
 
 <figure>
-	<table style="width: 100%" cellpadding="10" valign="top" border="1px solid black">
+	<table style="width: 100%" cellpadding="10" valign="top">
 		<col width="30%">
 		<col width="20%">
 		<col width="50%">
