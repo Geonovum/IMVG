@@ -34,7 +34,7 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 > "Met IMKL2015 kan daardoor een dataset geleverd worden of dataservice worden ingericht die
 INSPIRE conform is en voorziet in het detail van de eisen van de genoemde processen."
 
-[<mark>Onderstaande figuur verplaatsen</mark>]
+[<mark>Onderstaande figuur invullen vanuit KKG/MIM</mark>]
 
 <figure>
 	<table style="width: 100%" cellpadding="10" valign="top">
