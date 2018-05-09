@@ -37,7 +37,7 @@ INSPIRE conform is en voorziet in het detail van de eisen van de genoemde proces
 [<mark>Onderstaande figuur invullen vanuit KKG/MIM</mark>]
 
 <figure>
-	<table style="width: 100%" cellpadding="10" valign="top">
+	<table style="width: 100%" cellpadding="10" valign="top" border="1">
 		<col width="30%">
 		<col width="20%">
 		<col width="50%">

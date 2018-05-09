@@ -145,7 +145,7 @@ Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is da
 
 Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van het <mark>INSPIRE Data Product Spedification</mark> en <mark>IMKL2015 Dataspecificatie 1.2.1</mark>.
 
-<table style="width:100%">
+<table style="width:100%" border="1">
 	<tr>
 		<td><b>Documenttitel</b></td>
 		<td>: IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
