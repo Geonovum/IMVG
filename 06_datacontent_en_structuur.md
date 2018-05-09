@@ -279,7 +279,30 @@ Meer in het algemeen geldt dat waardelijsten van het type «enumeration» binnen
 
 **Basisattributen voor identificatie**
 
-Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuut voor identificatie. Met deze identificatie kunne ze uniek geïdentificeerd worden. Het Nationaal metamodel voor informatiemodellering hanteert hiervoor het attribuut <mark>...</mark> . Niet alle informatiemodellen zijn al KKG-compliant. Omdat ervoor gekozen is om bij de modellering van het IMVG, de oorspronkelijke modelleringsconcepten in tact te laten, is de identificatie *an sich* wel gewaarbord, alleen gebeurt dit binnen het model niet op een uniforme manier [<mark>Klopt dit?</mark>].
+Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuut voor identificatie. Met deze identificatie kunne ze uniek geïdentificeerd worden. Het Nationaal metamodel voor informatiemodellering hanteert hiervoor het attribuut <mark>...</mark> . Niet alle informatiemodellen waren KKG-compliant in UML beschikbaar. Omdat ervoor gekozen is om bij de modellering van het IMVG, de oorspronkelijke modelleringsconcepten in tact te laten, is de identificatie *an sich* wel gewaarbord, alleen gebeurt dit binnen het model niet op een uniforme manier [<mark>Klopt dit?</mark>].
+
+Verder beschikken de objecten in de dataset over verschillende attributen met temporele informatie. Omdat gebruik is gemaakt van verschillende basisregistraties die semantisch (nog) niet op elkaar zijn afgestemd kan de benaming van dit attribuut onderling verschillen. Bovendien is het attribuut binnen sommige registraties generiek (bijv. BAG) en binnen andere registraties specifiek (bijv. NHR). Kortom, de benodigde temporele informatie is binnen de modellen aanwezig, maar niet eenduidig.
+
+<!--
+WOZ
+
+WOZ-object
+beginGeldigheid, eindeGeldigheid
+ingangsdatumObject, einddatumObject
+
+WOZ-belanghebbende
+beginGeldigheid, eindeGeldigheid
+
+NHR
+VestigingOndernemingRelatie **controleren**
+
+BRP
+[nog niet opgenomen!]
+
+BAG
+beginGeldigheid, eindeGeldigheid
+tijdstipRegistratie, eindRegistratie
+-->
 
 ### Verschillende onderdelen uit het UML-diagram
 <!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
@@ -292,3 +315,43 @@ Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuu
 ### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
 ### Objecttypen
 ### Datatypen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
