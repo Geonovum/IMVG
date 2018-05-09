@@ -272,11 +272,11 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 **alinea 4** De objecten in de koppelingslaag (Vastgoedgebruik, Verblijfsobject en Pand) vormen gezamenlijk de centrale objecten van de IMVG dataset. Via overwerving en relaties worden alle voor het model relevantie eigenschappen toegevoegd vanuit de basisregistraties. Vastgoedgebruik is een specialisatie van Verblijfsobject. Het verblijfsobject heeft weer een relatie met een pand. Een pand bevat de geometrie van een gebouw. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) van de tot een pand behorende verblijfsobjecten op gebouwniveau weer te geven op een kaart.
 
 ### Verschillende onderdelen uit het UML-diagram
-### Consistentie tussen datasets (<mark>optioneel</mark>)
+<!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
 ### Identifier management
-### Modellering van objectreferenties (<mark>optioneel</mark>)
-### Geometrie representatie (<mark>optioneel</mark>)
-### Tijdrepresentatie (<mark>optioneel</mark>)
+<!--### Modellering van objectreferenties (<mark>optioneel</mark>)-->
+<!--### Geometrie representatie (<mark>optioneel</mark>)-->
+<!--### Tijdrepresentatie (<mark>optioneel</mark>)-->
 ## Objectcatalogus
 ### Objectencatalogus metadata
 ### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
