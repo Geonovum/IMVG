@@ -279,11 +279,12 @@ Meer in het algemeen geldt dat waardelijsten van het type «enumeration» binnen
 
 **Basisattributen voor identificatie**
 
-Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuut voor identificatie. Met deze identificatie kunne ze uniek geïdentificeerd worden. Het Nationaal metamodel voor informatiemodellering hanteert hiervoor het attribuut <mark>...</mark> . Niet alle informatiemodellen waren KKG-compliant in UML beschikbaar. Omdat ervoor gekozen is om bij de modellering van het IMVG, de oorspronkelijke modelleringsconcepten in tact te laten, is de identificatie *an sich* wel gewaarbord, alleen gebeurt dit binnen het model niet op een uniforme manier [<mark>Klopt dit?</mark>].
+Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuut voor identificatie. Met deze identificatie kunne ze uniek geïdentificeerd worden. Het Nationaal metamodel voor informatiemodellering hanteert hiervoor het attribuut Id. Niet alle informatiemodellen waren KKG-compliant in UML beschikbaar. Omdat ervoor gekozen is om bij de modellering van het IMVG, de oorspronkelijke modelleringsconcepten in tact te laten, is de identificatie *an sich* wel gewaarbord, alleen gebeurt dit binnen het model niet op een uniforme manier [<mark>Klopt dit?</mark>].
 
 Verder beschikken de objecten in de dataset over verschillende attributen met temporele informatie. Omdat gebruik is gemaakt van verschillende basisregistraties die semantisch (nog) niet op elkaar zijn afgestemd kan de benaming van dit attribuut onderling verschillen. Bovendien is het attribuut binnen sommige registraties generiek (bijv. BAG) en binnen andere registraties specifiek (bijv. NHR). Kortom, de benodigde temporele informatie is binnen de modellen aanwezig, maar niet eenduidig.
 
 <!--
+
 WOZ
 
 WOZ-object
@@ -297,19 +298,43 @@ NHR
 VestigingOndernemingRelatie **controleren**
 
 BRP
-[nog niet opgenomen!]
+ingangsdatumGeldigheid (waarschijnlijk)
 
 BAG
 beginGeldigheid, eindeGeldigheid
 tijdstipRegistratie, eindRegistratie
+
 -->
 
-### Verschillende onderdelen uit het UML-diagram
+
+
+### Verschillende onderdelen uit het UML-diagram (<mark>semantische kern?</mark>)
 <!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
+
+[<mark>HIER VERDER GAAN</mark>]
+
 ### Identifier management
+[<mark>Moet vastgoedgebruik nog identifier hebben?</mark>]
+
+Identifiers van objecten worden in IMVG op verschillende manieren toegekend. Bovendien is niet van elk object of voor elk bron helder volgens welke conventies dit gebeurt. 
+ 
+is al meer implementatie, dus voor concept niet relevant
+wat je kan zeggen, kan je al zeggen
+
+"De data die ik ga leveren voor VG, is dat die leeft binnen mijn context, ddus is data van mij, dus die gaaf IK allemaal een ID en geef ik allemaal NEN3610, zelfs van BAG-object dat je hergebruikt, maar die heeft dan ook attribuut BAG-id"
+
+Als het een view is op een object dan wel bespreken, geef je eigen ID, maar je wilt wel herkomst weten, maar
+
+IMVG-ID in het MIM staat niet dat je het woord identificatie moet gebruiken. 
+
+
 <!--### Modellering van objectreferenties (<mark>optioneel</mark>)-->
 <!--### Geometrie representatie (<mark>optioneel</mark>)-->
 <!--### Tijdrepresentatie (<mark>optioneel</mark>)-->
+
+### Tijdrepresentatie en temporeelmodel
+[<mark>Moet vastgoedgebruik nog beginGeldigheid, eindeGeldigheid hebben?</mark>]
+
 ## Objectcatalogus
 ### Objectencatalogus metadata
 ### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
