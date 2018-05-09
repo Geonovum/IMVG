@@ -7,7 +7,7 @@ De volgende paragrafen beschrijven de inhoud en structuur van het IMVG met behul
 
 De verschillende uitwisselingsprocessen BAG, WOZ, NHR en BRP worden slechts in zoverre in dit document behandelt, daar waar zij afwijken van hetgeen reeds in de betreffende eigen documentatie is opgenomen. Deze worden in aparte paragrafen behandeld. Dit resulteert in vier deelmodellen: 
 
-- IMVG-Gebruik[<mark>werktitel</mark>]
+- IMVG-Gebruik [<mark>werktitel</mark>]
 - IMVG-BAG
 - IMVG-WOZ
 - IMVG-NHR
@@ -137,6 +137,41 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 </figure>
 
 ### Overzicht
+
+Het onderstaand UML diagram bevat het complete IMVG, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De volgende paragrafen lichten telkens een deel van het diagram toe.
+
+<figure>
+	<table style="width: 100%">
+	<col width="30%">
+	<col width="70%">
+		<tr>
+			<th>kleur</th>
+			<th>uitleg</th>
+		</tr>
+		<tr>
+			<td>Groen</td>
+			<td>Landelijke Voorziening Waarde Onroerende Zaken</td>
+		</tr>		
+		<tr>
+			<td>Blauw</td>
+			<td>Informatiemodel Vastgoedgebruik</td>
+		</tr>
+		<tr>
+			<td>Oranje</td>
+			<td>Landelijke Voorziening Basisregistratie Adressen en Gebouwen</td>
+		</tr>
+		<tr>
+			<td>Paars</td>
+			<td>Basisregistratie Nationaal Handelsregister</td>
+		</tr>
+		<tr>
+			<td>Roze</td>
+			<td>Basisregistratie Personen/Gemeentelijke Basisadministratie</td>
+		</tr>
+	</table>
+	<figcaption> - Kleurgebruik in UML diagrammen</figcaption>
+</figure>
+
 
 Onderstaande figuur toont een overzicht van het volledige Informatiemodel Vastgoedgebruik.
 
