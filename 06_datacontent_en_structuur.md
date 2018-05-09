@@ -36,8 +36,9 @@ INSPIRE conform is en voorziet in het detail van de eisen van de genoemde proces
 
 [<mark>Onderstaande figuur invullen vanuit KKG/MIM</mark>]
 
+<!--use cellpadding="10" for more space around cell content-->
 <figure>
-	<table style="width: 100%" cellpadding="10" valign="top" border="1">
+	<table style="width: 100%" valign="top" border="1">
 		<col width="30%">
 		<col width="20%">
 		<col width="50%">
@@ -47,40 +48,120 @@ INSPIRE conform is en voorziet in het detail van de eisen van de genoemde proces
 			<th>Beschrijving</th>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Objecttype</td>
+			<td>UML-Class</td>
+			<td>De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Attribuutsoort</td>
+			<td>UML-Property</td>
+			<td>De typering van gelijksoortige gegevens die voor een objecttype van toepassing is.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Gegevensgroep</td>
+			<td>UML-Property</td>
+			<td>Een typering van een groep van gelijksoortige gegevens die voor een objecttype van toepassing is.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Gegevensgroeptype</td>
+			<td>UML-Class</td>
+			<td>Een groep van met elkaar samenhangende attribuutsoorten. Een gegevensgroeptype is altijd een type van een gegevensgroep.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Generalisatie</td>
+			<td>UML-generalization</td>
+			<td>De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Relatiesoort</td>
+			<td>UML-association</td>
+			<td>De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.</td>
 		</tr>
 		<tr>
-			<td>txt</td>
-			<td>txt</td>
-			<td>txt</td>
+			<td>Relatieklasse</td>
+			<td>UML-associationClass</td>
+			<td>Een relatiesoort met eigenschappen.</td>
+		</tr>
+		<tr>
+			<td>Externe koppeling</td>
+			<td>UML-association</td>
+			<td>Een associatie waarmee vanuit het perspectief van het eigen informatiemodel een objecttype uit het ‘eigen’ informatiemodel gekoppeld wordt aan een objecttype van een extern informatiemodel. De relatie zelf hoort bij het ‘eigen’ objecttype.</td>
+		</tr>
+		<tr>
+			<td>Relatierol</td>
+			<td>UML-Property</td>
+			<td>De benaming van de manier waarop een object deelneemt aan een relatie met een ander object.</td>
+		</tr>
+		<tr>
+			<td>Referentielijst</td>
+			<td>UML-Datatype</td>
+			<td>Een lijst met een opsomming van de mogelijke domeinwaarden van een attribuutsoort, die buiten het model in een externe waardenlijst worden beheerd. De domeinwaarden in de lijst kunnen in de loop van de tijd aangepast, uitgebreid, of verwijderd worden, zonder dat het informatiemodel aangepast wordt (in tegenstelling tot bij een enumeratie).</td>
 		</tr>		
+		<tr>
+			<td>Referentie element</td>
+			<td>UML-Property</td>
+			<td>Een eigenschap van een object in een referentielijst in de vorm van een gegeven.</td>
+		</tr>
+		<tr>
+			<td>Enumeratie</td>
+			<td>UML-enumeration</td>
+			<td>Een datatype waarvan de mogelijke waarden limitatief zijn opgesomd in een statische lijst.</td>
+		</tr>
+		<tr>
+			<td>Enumeratiewaarde</td>
+			<td>UML-enumerationLiteral</td>
+			<td>Een gedefinieerde waarde, in de vorm van een eenmalig vastgesteld constant gegeven.</td>
+		</tr>
+		<tr>
+			<td>Stereotype «Codelist»</td>
+			<td>UML-datatype</td>
+			<td>De definitie van een codelist is gelijk aan de definitie van een referentielijst.</td>
+		</tr>
+		<tr>
+			<td>Primitief datatype</td>
+			<td>UML-PrimitiveType</td>
+			<td>Een in het eigen model gedefinieerd primitieve datatype. Deze worden wel door de modelleur gecreëerd, met een eigen naam en een eigen definitie (en eigen metagegevens).</td>
+		</tr>
+		<tr>
+			<td>Gestructureerd datatype</td>
+			<td>UML-property</td>
+			<td>Specifiek benoemd gestructureerd datatype dat de structuur van een gegeven beschrijft, samengesteld uit minimaal twee elementen.</td>
+		</tr>
+		<tr>
+			<td>Data element</td>
+			<td>UML-property</td>
+			<td>Een onderdeel/element van een Gestructureerd datatype die als type een datatype heeft.</td>
+		</tr>
+		<tr>
+			<td>Union</td>
+			<td>UML-datatype</td>
+			<td>Gestructureerd datatype, waarmee wordt aangegeven dat er meer dan één mogelijkheid is voor het datatype van een attribuut. Het attribuut zelf krijgt als datatype de union. De union biedt een keuze uit verschillende datatypes, elk afzonderlijk beschreven in een union element.</td>
+		</tr>		
+		<tr>
+			<td>Union element</td>
+			<td>UML-property</td>
+			<td>Een type dat gebruikt kan worden voor het attribuut zoals beschreven in de definitie van Union. Het union element is een onderdeel van een Union, uitgedrukt in een eigenschap (attribute) van een union, die als keuze binnen de Union is gerepresenteerd.</td>
+		</tr>
+		<tr>
+			<td>Extern</td>
+			<td>UML-package</td>
+			<td>Een groepering van constructies die een externe instantie beheert en beschikbaar stelt aan een informatiemodel en die in het informatiemodel ongewijzigd gebruikt worden.</td>
+		</tr>		
+		<tr>
+			<td>View</td>
+			<td>UML-package</td>
+			<td>Een groepering van objecttypen die gespecificeerd zijn in een extern informatiemodel en vanuit het perspectief van het eigen informatiemodel inzicht geeft welke gegevens van deze objecttypen relevant zijn binnen het eigen informatiemodel.</td>
+		</tr>
+		<tr>
+			<td>Id</td>
+			<td>UML-property</td>
+			<td>Aanduiding dat de relatiesoort waarop de «id» is gedefinieerd een onderdeel is van de unieke aanduiding van een objecttype.</td>
+		</tr>		
+		<tr>
+			<td>Constraint</td>
+			<td>UML-Constraint</td>
+			<td>Een constraint is een conditie of een beperking, die over een of meerdere modelelementen uit het informatiemodel geldt.</td>
+		</tr>			
 	</table>
 	<figcaption> - <mark>Gebruikte stereotypen vanuit het KKG UML-profiel (MIM)</mark></figcaption>
 </figure>
@@ -175,10 +256,29 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 **alinea 2** Dataverkeer [<mark>Nog opnemen? Lijkt nu (nog) niet relevant.</mark>]
 
-**alinea 3** Het UML-diagram toont de informatie die nodig is voor de indicatie van administratief vastgoedgebruik. Ook bevat het model alle gegevens uit de basisregistraties BAG, WOZ, NHR en BRP die vastgoedobject van relevante extra kenmerken voorziet (bijv. aantal vierkante meters in gebruik of leegstaand). Daarom zijn in het model ook de relaties met (delen van) deze basisregistraties opgenomen in het model. Aan de linkerkant bevindt zich de IMVG view op het informatiemodel van de LV WOZ (groen). Het deelmodel rechtsboven geeft in de IMVG view op de LV BAG weer (oranje). Rechtsonder toont de IMVG view op de NHR (paars). Het deelmodel middenboven geeft gestalte aan de IMVG view op het BRP/GBA. <mark>De kern van het model is het object in het midden (blauw): Vastgoedgebruik, dat wordt gegenereerd op het koppelvlak van de vier basisregistraties</mark>. Het IMVG objecttype Vastgoedgebruik koppelt de verschillende basisregistraties aan elkaar op basis van het objecttype Verblijfsobject dat in alle basisregistraties aanwezig is. Met andere woorden: het verblijfsobject fungeert als koppelsleutel.
+**alinea 3** Het UML-diagram toont de informatie die nodig is voor de indicatie van administratief vastgoedgebruik. Ook bevat het model alle gegevens uit de basisregistraties BAG, WOZ, NHR en BRP die vastgoedobject van relevante extra kenmerken voorziet (bijv. aantal vierkante meters in gebruik of leegstaand). Daarom zijn in het model ook de relaties met (delen van) deze basisregistraties opgenomen in het model. Aan de linkerkant bevindt zich de IMVG view op het informatiemodel van de LV WOZ (groen). Het deelmodel rechtsboven geeft in de IMVG view op de LV BAG weer (oranje). Rechtsonder toont de IMVG view op de NHR (paars). Het deelmodel middenboven geeft gestalte aan de IMVG view op het BRP/GBA. <mark>De kern van het model is het object in het midden (blauw): Vastgoedgebruik, dat wordt gegenereerd op het koppelvlak van de vier basisregistraties</mark>. Het IMVG objecttype Vastgoedgebruik koppelt de verschillende basisregistraties aan elkaar op basis van het objecttype Verblijfsobject dat in alle basisregistraties aanwezig is. Met andere woorden: het verblijfsobject fungeert als koppelsleutel. <mark>Voor de leesbaarheid zijn datatypen, gegevensgroepen en waardelijsten niet het overzicht opgenomen (waar wel?)</mark>.
 
-**alinea 4**
-De objecten in de koppelingslaag (Vastgoedgebruik, Verblijfsobject en Pand) vormen gezamenlijk de centrale objecten van de IMVG dataset. Via overwerving en relaties worden alle voor het model relevantie eigenschappen toegevoegd vanuit de basisregistraties. Vastgoedgebruik is een specialisatie van Verblijfsobject. Het verblijfsobject heeft weer een relatie met een pand. Een pand bevat de geometrie van een gebouw. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) van de tot een pand behorende verblijfsobjecten op gebouwniveau weer te geven op een kaart.
+**alinea 4** De objecten in de koppelingslaag (Vastgoedgebruik, Verblijfsobject en Pand) vormen gezamenlijk de centrale objecten van de IMVG dataset. Via overwerving en relaties worden alle voor het model relevantie eigenschappen toegevoegd vanuit de basisregistraties. Vastgoedgebruik is een specialisatie van Verblijfsobject. Het verblijfsobject heeft weer een relatie met een pand. Een pand bevat de geometrie van een gebouw. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) van de tot een pand behorende verblijfsobjecten op gebouwniveau weer te geven op een kaart.
+
+**Link naar het Nationaal metamodel voor informatiemodellering:**
+https://docs.geostandaarden.nl/mim/def-st-mim10-20170614
+
+**Objecten en attributen**
+Definitie Objecttype:
+"De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd" (MIM, p. 21).
+
+Toelichting: 
+"Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen"(MIM, p. 21).
+
+
+
+
+**Relaties**
+**Waardelijsten**
+**Datatypen**
+**Packages (niet)**
+**Overig (niet)**
+
 
 Onderstaande figuur toont een overzicht van het volledige Informatiemodel Vastgoedgebruik.
 
