@@ -141,9 +141,9 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 Het onderstaand UML diagram bevat het complete IMVG, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De volgende paragrafen lichten telkens een deel van het diagram toe.
 
 <figure>
-	<table style="width: 100%">
-	<col width="30%">
-	<col width="70%">
+	<table style="width: 100%" cellpadding="10" border="1">
+	<col width="15%">
+	<col width="85%">
 		<tr>
 			<th>kleur</th>
 			<th>uitleg</th>
