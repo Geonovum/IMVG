@@ -277,6 +277,10 @@ Waardelijsten die als datatype «codeList» zijn opgenomen in de IMVG-view op de
 
 Meer in het algemeen geldt dat waardelijsten van het type «enumeration» binnen het model zijn opgenomen en dat waardelijsten van het type «codeList» extern worden opgenomen, ook als ze wel onderdeel uitmaken van het inhoudelijke beheer van het IMVG. Dit gebeurt om twee redenen: [1] om het model leesbaar te houden (de startversies van de lijsten zijn wel opgenomen [<mark>Klopt dat in IMVG?</mark>]) en [2] omdat waardelijsten van het type «codeList» per definitie aan verandering onderhevig zijn. Met andere woorden: dynamische waardelijsten, worden uit de UML-beschrijving gehaald.
 
+**Basisattributen voor identificatie**
+
+Alle concrete objecttypen en daarmee objecten in een dataset hebben een attribuut voor identificatie. Met deze identificatie kunne ze uniek geïdentificeerd worden. Het Nationaal metamodel voor informatiemodellering hanteert hiervoor het attribuut <mark>...</mark> . Niet alle informatiemodellen zijn al KKG-compliant. Omdat ervoor gekozen is om bij de modellering van het IMVG, de oorspronkelijke modelleringsconcepten in tact te laten, is de identificatie *an sich* wel gewaarbord, alleen gebeurt dit binnen het model niet op een uniforme manier [<mark>Klopt dit?</mark>].
+
 ### Verschillende onderdelen uit het UML-diagram
 <!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
 ### Identifier management
