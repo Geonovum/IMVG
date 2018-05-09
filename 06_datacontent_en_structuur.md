@@ -273,7 +273,9 @@ De objecten in de koppelingslaag (Vastgoedgebruik, Verblijfsobject en Pand) vorm
 
 **Waardelijsten**
 
-De als datatype «codeList» opgenomen waardelijsten in de IMVG-view op de basisregistraties worden niet in het UML beheerd, maar in externe waardelijsten. Deze waardelijsten behoren toe aan andere bronhouders en worden derhalve niet binnen het IMVG en vallen daarmee buiten de scope van dit model.
+Waardelijsten die als datatype «codeList» zijn opgenomen in de IMVG-view op de basisregistraties worden niet in het UML beheerd, maar in externe waardelijsten. Deze waardelijsten behoren toe aan andere bronhouders en worden derhalve niet binnen het IMVG en vallen daarmee buiten de scope van dit model.
+
+Meer in het algemeen geldt dat waardelijsten van het type «enumeration» binnen het model zijn opgenomen en dat waardelijsten van het type «codeList» extern worden opgenomen, ook als ze wel onderdeel uitmaken van het inhoudelijke beheer van het IMVG. Dit gebeurt om twee redenen: [1] om het model leesbaar te houden (de startversies van de lijsten zijn wel opgenomen [<mark>Klopt dat in IMVG?</mark>]) en [2] omdat waardelijsten van het type «codeList» per definitie aan verandering onderhevig zijn. Met andere woorden: dynamische waardelijsten, worden uit de UML-beschrijving gehaald.
 
 ### Verschillende onderdelen uit het UML-diagram
 <!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
