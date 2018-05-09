@@ -39,9 +39,9 @@ INSPIRE conform is en voorziet in het detail van de eisen van de genoemde proces
 <!--use cellpadding="10" for more space around cell content-->
 <figure>
 	<table style="width: 100%" valign="top" border="1">
-		<col width="30%">
 		<col width="20%">
-		<col width="50%">
+		<col width="20%">
+		<col width="60%">
 		<tr>
 			<th>Stereotype</th>
 			<th>Modelelement</th>
