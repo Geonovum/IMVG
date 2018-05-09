@@ -34,7 +34,8 @@ Het tweede gedeelte van dit hoofdstuk bevat de objectcatalogus met ain tabelvorm
 > "Met IMKL2015 kan daardoor een dataset geleverd worden of dataservice worden ingericht die
 INSPIRE conform is en voorziet in het detail van de eisen van de genoemde processen."
 
-[<mark>Onderstaande figuur invullen vanuit KKG/MIM</mark>]
+[<mark>Onderstaande figuur invullen vanuit KKG/MIM</mark>]. Link naar document:
+https://docs.geostandaarden.nl/mim/def-st-mim10-20170614
 
 <!--use cellpadding="10" for more space around cell content-->
 <figure>
@@ -219,8 +220,18 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 
 ### Overzicht
 
+<mark>Onderstaande figuur toont een overzicht van het volledige Informatiemodel Vastgoedgebruik.</mark>
 
 **alinea 1** Het onderstaand UML diagram bevat het complete IMVG, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De volgende paragrafen lichten telkens een deel van het diagram toe.
+
+<figure>
+	<a target="_blank" href="images/IMVG_informatiemodel.png">
+		<img src="images/IMVG_informatiemodel.png" alt="Informatatiemodel IMVG" class="img-responsive">
+	</a>
+	<figcaption> - Informatiemodel IMVG (klik voor vergroting)</figcaption>
+</figure>
+
+[<mark>Vastgoedobject in referentiemodel opnemen</mark>: pand is specialisatie van vastgoedobject] 
 
 <figure>
 	<table style="width: 100%" cellpadding="10" border="1">
@@ -259,37 +270,6 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 **alinea 3** Het UML-diagram toont de informatie die nodig is voor de indicatie van administratief vastgoedgebruik. Ook bevat het model alle gegevens uit de basisregistraties BAG, WOZ, NHR en BRP die vastgoedobject van relevante extra kenmerken voorziet (bijv. aantal vierkante meters in gebruik of leegstaand). Daarom zijn in het model ook de relaties met (delen van) deze basisregistraties opgenomen in het model. Aan de linkerkant bevindt zich de IMVG view op het informatiemodel van de LV WOZ (groen). Het deelmodel rechtsboven geeft in de IMVG view op de LV BAG weer (oranje). Rechtsonder toont de IMVG view op de NHR (paars). Het deelmodel middenboven geeft gestalte aan de IMVG view op het BRP/GBA. <mark>De kern van het model is het object in het midden (blauw): Vastgoedgebruik, dat wordt gegenereerd op het koppelvlak van de vier basisregistraties</mark>. Het IMVG objecttype Vastgoedgebruik koppelt de verschillende basisregistraties aan elkaar op basis van het objecttype Verblijfsobject dat in alle basisregistraties aanwezig is. Met andere woorden: het verblijfsobject fungeert als koppelsleutel. <mark>Voor de leesbaarheid zijn datatypen, gegevensgroepen en waardelijsten niet het overzicht opgenomen (waar wel?)</mark>.
 
 **alinea 4** De objecten in de koppelingslaag (Vastgoedgebruik, Verblijfsobject en Pand) vormen gezamenlijk de centrale objecten van de IMVG dataset. Via overwerving en relaties worden alle voor het model relevantie eigenschappen toegevoegd vanuit de basisregistraties. Vastgoedgebruik is een specialisatie van Verblijfsobject. Het verblijfsobject heeft weer een relatie met een pand. Een pand bevat de geometrie van een gebouw. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) van de tot een pand behorende verblijfsobjecten op gebouwniveau weer te geven op een kaart.
-
-**Link naar het Nationaal metamodel voor informatiemodellering:**
-https://docs.geostandaarden.nl/mim/def-st-mim10-20170614
-
-**Objecten en attributen**
-Definitie Objecttype:
-"De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd" (MIM, p. 21).
-
-Toelichting: 
-"Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen"(MIM, p. 21).
-
-
-
-
-**Relaties**
-**Waardelijsten**
-**Datatypen**
-**Packages (niet)**
-**Overig (niet)**
-
-
-Onderstaande figuur toont een overzicht van het volledige Informatiemodel Vastgoedgebruik.
-
-[<mark>Vastgoedobject in referentiemodel opnemen</mark>: pand is specialisatie van vastgoedobject] 
-
-<figure>
-	<a target="_blank" href="images/IMVG_informatiemodel.png">
-		<img src="images/IMVG_informatiemodel.png" alt="Informatatiemodel IMVG" class="img-responsive">
-	</a>
-	<figcaption> - Informatiemodel IMVG (klik voor vergroting)</figcaption>
-</figure>
 
 ### Verschillende onderdelen uit het UML-diagram
 ### Consistentie tussen datasets (<mark>optioneel</mark>)
