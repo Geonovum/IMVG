@@ -265,19 +265,30 @@ Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, 
 	<figcaption> - Informatiemodel IMVG (klik voor vergroting)</figcaption>
 </figure>
 
+**Objecten, attributen en relaties**
+
 <!--Dataverkeer (zie IMKL) nog opnemen? Lijkt nu (nog) niet relevant.-->
 Het UML-diagram toont de informatie die nodig is voor de indicatie van administratief vastgoedgebruik. Ook bevat het model alle gegevens uit de basisregistraties BAG, WOZ, NHR en BRP die vastgoedobject van relevante extra kenmerken voorziet (bijv. aantal vierkante meters in gebruik of leegstaand). Daarom zijn in het model ook de relaties met (delen van) deze basisregistraties opgenomen in het model. Aan de linkerkant bevindt zich de IMVG view op het informatiemodel van de LV WOZ (groen). Het deelmodel rechtsboven geeft in de IMVG view op de LV BAG weer (oranje). Rechtsonder toont de IMVG view op de NHR (paars). Het deelmodel middenboven geeft gestalte aan de IMVG view op het BRP/GBA.
 
 <mark>De kern van het model, vastgoedgebruik, bevindt zich in het midden van het diagram (blauw). Vastgoedgebruik wordt gegenereerd op het koppelvlak van de vier basisregistraties</mark>. Het IMVG-objecttype vastgoedgebruik koppelt de verschillende basisregistraties aan elkaar op basis van het objecttype verblijfsobject uit de BAG. Dat object fungeert in alle basisregistraties als unieke koppelsleutel. <mark>Voor de leesbaarheid zijn de datatypen, gegevensgroepen en waardelijsten van de basisregistraties niet het overzicht opgenomen </mark>.
 
-De objecten in de koppelingslaag (Vastgoedgebruik, Vastgoedobject, Verblijfsobject en Pand) vormen gezamenlijk de centrale objecten van de IMVG-dataset. Via overwerving en relaties worden alle voor het model relevantie eigenschappen toegevoegd vanuit de basisregistraties. 
+Het objecttype *vastgoedobject* is bijvoorbeeld een specialisatie van het objecttype *pand* uit de BAG. Het IMVG modelleert specifiek de administratieve gebruiksstatus van *panden met een verblijfsobject*. Het objecttype *pand* uit de BAG bevat echter ook standplaatsen, ligplaatsen en ongeadresseerde objecten (bijgebouwen). Maar, die typen panden vallen buiten de scope van het informatiemodel. Daarom is het specifieke objecttype *vastgoedobject* gecreëerd. Via de relaties met *verblijfsobject* en *pand* erf het objecttype *vastgoedobject* de geometrieën en andere attributen uit de BAG. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) op gebouwniveau weer te geven op een kaart.
 
-Het objecttype *vastgoedobject* is bijvoorbeeld een specialisatie van het objecttype *pand* uit de BAG. Het IMVG modelleert specifiek de administratieve gebruiksstatus van *panden met een verblijfsobject*. Het objecttype *pand* uit de BAG bevat echter ook standplaatsen, ligplaatsen en ongeadresseerde objecten (bijgebouwen). Maar, die typen panden vallen buiten de scope van het informatiemodel. Daarom is het specifieke objecttype *vastgoedobject* gecreëerd.
+Naast het vastgoedobject is ook het objecttype *vastgoedgebruik* opgenomen. Dit objecttype bevat, naast een aantal administratief relevante attributen, ook het attribuut *gebruiksstatusVerblijfsobject*. Dit is het centrale gegeven van het informatiemodel. Via dit objecttype worden de registraties aan elkaar gekoppeld. Dit element heeft daarom een relatie met de verblijfsobjectidentificatie uit elke registratie. Voor de koppeling met het NHR en het BRP geldt dat wanneer de koppeling met de BAG voor één van deze registraties slaagt (de registratie bevat een relatie met een verblijfsobject in de BAG), is er sprake van gebruik. De koppeling met de WOZ ziet anders uit. De WOZ heeft per definitie een link met een verblijfsobject in de BAG. Relevant is echter om te controleren of een verblijfobject naast een eigenaar ook daadwerkelijk een gebruiker heeft. Koppelt één van de andere registraties niet, maar wordt er wel ee ngebruiker in de WOZ gevonden, dan is er sprake van administratief gebruik. Slechts in het geval waarin via het NHR en BRP geen link kan worden gelegd met de BAG én in de WOZ geen gebruiker wordt gevonden is er sprake van administratieve leegstand. Deze voorwaarde is weergegeven in het blauwe element *contraint note* «Pre-condition».
 
-Via deze relatie erf het objecttype *vastgoedobject* de geometrie en andere attributen van een pand uit de BAG.
+De mogelijke waarden (*objectInGebruik* of *objectStaatLeeg*) zijn weergegeven in de waardelijst *gebruiksStatus*.
+
+Naast de relaties met de vier basisregistraties heeft het objecttype *vastgoedgebruik* ook een relaties met het objecttype *vastgoedobject*. 
 
 
-Vastgoedgebruik is bijvoorbeeld een specialisatie van Verblijfsobject. Het verblijfsobject heeft weer een relatie met een pand. Een pand bevat de geometrie van een gebouw. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) van de tot een pand behorende verblijfsobjecten op gebouwniveau weer te geven op een kaart.
+
+Het gebruik wordt dus vastgelegd op verblijfsobjectniveau. 
+
+In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de toepassing van de gegevens. 
+
+<a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a>
+
+De relatie tussen pand, verblijfsobject en de voor het IMVG daaruit gefilterede specifieke populatie vastgoedobjecten is belangrijk (zie: (DATASPECIFICATIE)) 
 
 **Waardelijsten**
 
