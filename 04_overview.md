@@ -115,6 +115,7 @@ De ... -->
 
 Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur illustreert de informatiestroom van bronhouder tot eindproduct en is niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-uitlevering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren.
 
+<!--FIGUUR uitwisselingarchitectuur-->
 <figure>
 	<a target="_blank" href="images/IMVG_data-uitwisselingsarchitectuur.png">
 		<img src="images/IMVG_data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" class="img-responsive">
@@ -123,6 +124,8 @@ Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG ond
 </figure>
 
 Voor de BAG, de WOZ en de BRP zijn de gemeenten bronhouder en voor het NHR is dat de Kamer van Koophandel. Zij verzamelen en beheren de gegevens in de basisregistraties. Behalve voor de BRP, zijn deze bronnen ontsloten via een landelijke voorziening <!--Als laag toevoegen in het model?-->. De landelijke voorziening levert gegevens aan een centrale database die de verschillende bronnen aan elkaar koppelt met behulp van het vbo-ID. Op die manier is het mogelijk om per verblijfsobject de adminsitratieve gebruiksstatus vast te stellen. Het resultaat hiervan is de Landelijke Informatievoorziening Vastgoedgebruik (LIV). De gegevens uit de LIV. worden via een authorisatielaag door verschillende functies aangeroepen. Daarbinnen wordt onderscheidt gemaakt tussen functionaliteiten voor zowel alle overheden als marktpartijen en functionaliteiten die exclusief aan gemeenten toebehoren (zie: figuur 3).<!--Dat laatste klopt nog niet helemaal, want voor gemeenten inderdaad authorisatie bij CBS. Voor remote access (woonzorg=remote access) waarschijnlijk ook, maar tussen gemeenten en remote access is wel onderling verschil.-->
+
+<!--TABEL uitwisselingsarchitectuur-->
 <figure>
 	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
 		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="80%" class="img-responsive">
