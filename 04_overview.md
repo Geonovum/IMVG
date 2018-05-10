@@ -113,11 +113,11 @@ De ... -->
 <!-- **Note:** lijst van objecten die geen pand en geen verblijfsobject zijn, zie: BAG_2009-2014_objectenhandboek, p. 82/96 -->
 **Data-uitwisselingsarchitectuur**
 
-Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur dient ter illustratie van informatiestroom van bronhouder tot eindproduct en niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-levering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren.
+Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG onderdeel uitmaakt. Het figuur illustreert de informatiestroom van bronhouder tot eindproduct en is niet normatief voor de implementatie van de voorziening. Het figuur onderscheidt data-uitlevering en data-aanlevering. Data-uitlevering heeft betrekking op het leveren van data aan de uiteindelijke afnemers. Data-aanlevering is de aanlevering van data door bronhouders ten behoeve van de realistie van de tussenproducten of voorzieningen die met die gegevens in staat zijn om eindproducten te realiseren.
 
 <figure>
-	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
-		<img src="images/data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" class="img-responsive">
+	<a target="_blank" href="images/IMVG_data-uitwisselingsarchitectuur.png">
+		<img src="images/IMVG_data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" class="img-responsive">
 	</a>
 	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
 </figure>
