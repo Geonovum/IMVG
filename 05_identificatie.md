@@ -12,7 +12,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	</tr>
 	<tr>
 		<td valign="top"><b>Samenvatting</b></td>
-		<td valign="top">IMVG beschrijft de semantiek van de view op de basisregistraties BAG, WOZ, NHR en BRP voor het vaststellen vastgoedgebruik. De BAG bevat de geometrieën van vastgoedobjecten (verblijfsobjecten; stand- en ligplaatsen vallen buiten de scope). Informatie uit de andere basisregistraties kan op die manier gekoppeld worden aan een locatie. De vastgoedobjecten worden getypeerd aan de hand van het gebruiksdoel van het verblijfsobject in de BAG. Het geheel van vastgoedobjecten vormt de vastgoedvoorraad waarvan de topologie en administratieve gebruiksstatus wordt beschreven en de directe geografische positie middels coördinaten</td>
+		<td valign="top">IMVG beschrijft de semantiek van de view op de basisregistraties BAG, WOZ, NHR en BRP voor het vaststellen vastgoedgebruik. De BAG bevat de geometrieën van vastgoedobjecten (panden met verblijfsobjecten; stand- en ligplaatsen vallen buiten de scope). Informatie uit de andere basisregistraties kan op die manier gekoppeld worden aan een locatie. De vastgoedobjecten worden getypeerd aan de hand van het gebruiksdoel van het verblijfsobject in de BAG. Het geheel van vastgoedobjecten vormt de vastgoedvoorraad waarvan de topologie en administratieve gebruiksstatus wordt beschreven en de directe geografische positie middels coördinaten</td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Onderwerpcategorieën</b></td>
