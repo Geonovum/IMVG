@@ -284,11 +284,7 @@ Naast de relaties met de vier basisregistraties heeft het objecttype *vastgoedge
 
 Het gebruik wordt dus vastgelegd op verblijfsobjectniveau. 
 
-In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de toepassing van de gegevens. 
-
-<a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a>
-
-De relatie tussen pand, verblijfsobject en de voor het IMVG daaruit gefilterede specifieke populatie vastgoedobjecten is belangrijk (zie: (DATASPECIFICATIE)) 
+In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de <a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a> van de gegevens. 
 
 **Waardelijsten**
 
