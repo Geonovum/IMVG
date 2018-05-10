@@ -183,15 +183,15 @@ Het doel van een informatiestandaard is om te komen tot een geüniformeerde wijz
 - WOZ: imwoz 2012 08 31 11.30 technisch.EAP
 - NHR: Online Catalogus v3.01 Overheid (html)
 
-#### Stelsel van Basisregistraties
+**Stelsel van Basisregistraties**
 
 In het kader van hergebruik van informatie neemt het Informatiemodel Vastgoedgebruik het stelsel van basisregistraties als vertrekpunt. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds ontwikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
-#### KKG
+**KKG**
 
 Het KKG is een metamodel voor informatiemodellering dat KING, Kadaster en Geonovum (KKG) gezamenlijk hebben ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar ([<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)). Het IMVG sluit waar mogelijk aan op het KKG metamodel, in sommige gevallen is vastgehouden aan een specifice modelleerconventie binnen een model.
 
-#### Knelpunten bij (operationele) uitvoering
+**Knelpunten bij (operationele) uitvoering**
 
 Bij de ontwikkeling van het informatiemodel, kwamen er een aantal uitdagingen aan het licht. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, NHR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
@@ -224,7 +224,7 @@ Verder zien we dat binnen één model soms op twee verschillende manieren hetzel
 
 In het stelsel zijn de BRP, WOZ en het NHR aan de BAG gekoppeld. Het was echter lastig om die structuur goed uit de modellen terug te lezen omdat er niet op een éénduidige manier werd gerefereerd. Om de modellen op elkaar aan te laten sluiten, moesten daarom keuzes gemaakt worden. <!-- dit moet zich nog verder uitkristaliseren -->
 
-**Discrepantie IMVG en LIV**
+**Mogelijke discrepantie IMVG en LIV**
 
 Transparantie en reproduceerbaarheid zijn altijd een belangrijk speerpunt van het IMVG en de LIV geweest, maar naarmate het onderzoek vorderde, werden we geconfronteerd met een lastige tegenstelling: kwaliteit van de cijfers versus transparantie en reproduceerbaarheid van de methodiek. 
 
