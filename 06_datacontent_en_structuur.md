@@ -274,17 +274,11 @@ Het UML-diagram toont de informatie die nodig is voor de indicatie van administr
 
 Het objecttype *vastgoedobject* is bijvoorbeeld een specialisatie van het objecttype *pand* uit de BAG. Het IMVG modelleert specifiek de administratieve gebruiksstatus van *panden met een verblijfsobject*. Het objecttype *pand* uit de BAG bevat echter ook standplaatsen, ligplaatsen en ongeadresseerde objecten (bijgebouwen). Maar, die typen panden vallen buiten de scope van het informatiemodel. Daarom is het specifieke objecttype *vastgoedobject* gecreëerd. Via de relaties met *verblijfsobject* en *pand* erf het objecttype *vastgoedobject* de geometrieën en andere attributen uit de BAG. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) op gebouwniveau weer te geven op een kaart.
 
-Naast het vastgoedobject is ook het objecttype *vastgoedgebruik* opgenomen. Dit objecttype bevat, naast een aantal administratief relevante attributen, ook het attribuut *gebruiksstatusVerblijfsobject*. Dit is het centrale gegeven van het informatiemodel. Via dit objecttype worden de registraties aan elkaar gekoppeld. Dit element heeft daarom een relatie met de verblijfsobjectidentificatie uit elke registratie. Voor de koppeling met het NHR en het BRP geldt dat wanneer de koppeling met de BAG voor één van deze registraties slaagt (de registratie bevat een relatie met een verblijfsobject in de BAG), is er sprake van gebruik. De koppeling met de WOZ ziet anders uit. De WOZ heeft per definitie een link met een verblijfsobject in de BAG. Relevant is echter om te controleren of een verblijfobject naast een eigenaar ook daadwerkelijk een gebruiker heeft. Koppelt één van de andere registraties niet, maar wordt er wel ee ngebruiker in de WOZ gevonden, dan is er sprake van administratief gebruik. Slechts in het geval waarin via het NHR en BRP geen link kan worden gelegd met de BAG én in de WOZ geen gebruiker wordt gevonden is er sprake van administratieve leegstand. Deze voorwaarde is weergegeven in het blauwe element *contraint note* «Pre-condition».
+Naast het vastgoedobject is ook het objecttype *vastgoedgebruik* opgenomen. Dit objecttype bevat, naast een aantal administratief relevante attributen, ook het attribuut *gebruiksstatusVerblijfsobject*. Dit is het centrale gegeven van het informatiemodel. Via dit objecttype worden de registraties aan elkaar gekoppeld. Dit element heeft daarom een relatie met de verblijfsobjectidentificatie uit elke registratie. Voor de koppeling met het NHR en het BRP geldt dat wanneer de koppeling met de BAG voor één van deze registraties slaagt (de registratie bevat een relatie met een verblijfsobject in de BAG), is er sprake van gebruik.
 
-De mogelijke waarden (*objectInGebruik* of *objectStaatLeeg*) zijn weergegeven in de waardelijst *gebruiksStatus*.
+De koppeling met de WOZ ziet anders uit. De WOZ heeft per definitie een link met een verblijfsobject in de BAG. Relevant is echter om te controleren of een verblijfobject naast een eigenaar ook daadwerkelijk een gebruiker heeft. Koppelt één van de andere registraties niet, maar wordt er wel ee ngebruiker in de WOZ gevonden, dan is er sprake van administratief gebruik. Slechts in het geval waarin via het NHR en BRP geen link kan worden gelegd met de BAG én in de WOZ geen gebruiker wordt gevonden is er sprake van administratieve leegstand. Deze voorwaarde is weergegeven in het blauwe element *contraint note* «Pre-condition».
 
-Naast de relaties met de vier basisregistraties heeft het objecttype *vastgoedgebruik* ook een relaties met het objecttype *vastgoedobject*. 
-
-
-
-Het gebruik wordt dus vastgelegd op verblijfsobjectniveau. 
-
-In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de <a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a> van de gegevens. 
+De mogelijke waarden (*objectInGebruik* of *objectStaatLeeg*) zijn weergegeven in de waardelijst *gebruiksStatus*. Naast de relaties met de vier basisregistraties heeft het objecttype *vastgoedgebruik* ook een relatie met het objecttype *vastgoedobject*. In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de <a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a> van de gegevens. 
 
 **Waardelijsten**
 
@@ -322,23 +316,21 @@ tijdstipRegistratie, eindRegistratie
 -->
 
 
-
-### Verschillende onderdelen uit het UML-diagram (<mark>semantische kern?</mark>)
-<!--### Consistentie tussen datasets (<mark>optioneel</mark>)-->
-
-[<mark>HIER VERDER GAAN</mark>]
+<!--### Verschillende onderdelen uit het UML-diagram (<mark>semantische kern?</mark>)
+### Consistentie tussen datasets (<mark>optioneel</mark>)
 
 ### Identifier management
 [<mark>Moet vastgoedgebruik nog identifier hebben?</mark>]
 
-<!--### Modellering van objectreferenties (<mark>optioneel</mark>)-->
-<!--### Geometrie representatie (<mark>optioneel</mark>)-->
-<!--### Tijdrepresentatie (<mark>optioneel</mark>)-->
+### Modellering van objectreferenties (<mark>optioneel</mark>)
+### Geometrie representatie (<mark>optioneel</mark>)
+### Tijdrepresentatie (<mark>optioneel</mark>)
 
 ### Tijdrepresentatie en temporeelmodel
-[<mark>Moet vastgoedgebruik nog beginGeldigheid, eindeGeldigheid hebben?</mark>]
+[<mark>Moet vastgoedgebruik nog beginGeldigheid, eindeGeldigheid hebben?</mark>]-->
 
 ## Objectcatalogus
+[<mark>Volgt nog!</mark>]
 ### Objectencatalogus metadata
 ### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
 ### Objecttypen

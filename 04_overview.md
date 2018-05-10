@@ -476,5 +476,7 @@ instantie geen informatie bevat
 
 > beeld van de echte of hypothetische wereld die alles van belang omvat
 
+<!--
 ## Symbolen en afkortingen
 ## Notatie van regels en aanbevelingen
+-->
