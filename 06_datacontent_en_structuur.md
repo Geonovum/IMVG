@@ -316,18 +316,6 @@ tijdstipRegistratie, eindRegistratie
 ### Identifier management
 [<mark>Moet vastgoedgebruik nog identifier hebben?</mark>]
 
-Identifiers van objecten worden in IMVG op verschillende manieren toegekend. Bovendien is niet van elk object of voor elk bron helder volgens welke conventies dit gebeurt. 
- 
-is al meer implementatie, dus voor concept niet relevant
-wat je kan zeggen, kan je al zeggen
-
-"De data die ik ga leveren voor VG, is dat die leeft binnen mijn context, ddus is data van mij, dus die gaaf IK allemaal een ID en geef ik allemaal NEN3610, zelfs van BAG-object dat je hergebruikt, maar die heeft dan ook attribuut BAG-id"
-
-Als het een view is op een object dan wel bespreken, geef je eigen ID, maar je wilt wel herkomst weten, maar
-
-IMVG-ID in het MIM staat niet dat je het woord identificatie moet gebruiken. 
-
-
 <!--### Modellering van objectreferenties (<mark>optioneel</mark>)-->
 <!--### Geometrie representatie (<mark>optioneel</mark>)-->
 <!--### Tijdrepresentatie (<mark>optioneel</mark>)-->
