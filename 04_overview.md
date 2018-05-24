@@ -38,6 +38,7 @@ In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoe
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.-->
 
 **Integrale benadering**
+
 Bestaande informatievoorzieningen richten zich vaak op een specifiek segment van het vastgoed, bijvoorbeeld kantoren of winkels. Ondanks de voordelen die dit heeft voor de marktspecifieke informatiebehoefte, zijn er ook nadelen. Het blijkt lastig om informatie tussen deze voorziening uit te wisselen. Bovendien bestaat niet voor alle typen vastgoed een informatievoorziening. Integraliteit is een belangrijke voorwaarde voor het IMVG. Het informatiemodel beschrijft daarom alle <i>typen</i> vastgoed die voorkomen in de BAG. 
 
 Om verschillende redenen bleek het relevant om informatie over verschillende vastgoedtypen in een bepaald gebied te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen voor het in kaart brengen van de ruimtebehoefte. Op die manier ligt het belang van integraal inzicht in feite verankerd in een wettelijk basis.
@@ -202,37 +203,22 @@ In het kader van hergebruik van informatie neemt het Informatiemodel Vastgoedgeb
 	<figcaption> - gebruikte informatiemodellen voor het IMVG</figcaption>
 </figure>
 
-**MIM**
 Om informatiemodellen binnen het overheidsdomein onderling beter op elkaar af te stemmen, hebben VNG Realisatie, Kadaster en Geonovum gezamenlijk het Metamodel voor Informatiemodellering ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar ([<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)).
 
 Waar mogelijk past het IMVG het MIM toe. Maar, het IMVG koppelt bestaande informatiemodellen aan elkaar en sommige informatiemodellen bestonden al vóór het MIM en hanteren een afwijkende UML-notatie. In bepaalde gevallen was het verschil tussen de oorspronkelijke notatie en het MIM te groot. Het IMVG hanteert dan de oorspronkelijke UML-notatie. We zien ook dat binnen één model soms op twee verschillende manieren dezelfde relatie gemodelleerd is. Beide manieren zijn overgenomen. Dit maakt het model wel minder eenduidig.
-
-
 
 **Knelpunten bij (operationele) uitvoering**
 
 Bij de ontwikkeling van het informatiemodel, kwamen er een aantal uitdagingen aan het licht. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar dat volgens het MIM was gemodelleerd. <!--De informatiemodellen van de WOZ, HR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
-**Formaten**
-
 Van sommige basisregistraties waren meerdere modellen beschikbaar waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
-Niet van alle modellen was een UML-versie beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van HR en BRP niet. 
-
-**HR**
-
-Het informatiemodel van het HR was wel aanwezig als UML in html-formaat. Officieel is bij de Kamer van Koophandel ook een EA-versie, maar dit model wordt niet met andere partijen gedeeld. 
-
-**BRP**
+Niet van alle modellen was een UML-versie beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van HR en BRP niet. Het informatiemodel van het HR was wel aanwezig als UML in html-formaat. Officieel is bij de Kamer van Koophandel ook een EA-versie, maar dit model wordt niet met andere partijen gedeeld. 
 
 Van de BRP is geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees voor de benodigde informatie naar het Logisch Ontwerp BRP; een document in pdf-formaat. Het doel van het logisch ontwerp is niet om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) is het model van Gemeentelijke Basis Administratie verkregen.
 
 Het BRP registreert naast ingezetenen (GBA) ook niet-ingezetenen (personen in het buitenland). Personen in het buitenland zijn voor het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG [<mark>CONTROLEREN</mark>]. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
 
-**WOZ**
-
 Deze versie van het WOZ-model is uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
-
-**Koppelvlakken**
 
 In het stelsel zijn de BRP, WOZ en het HR aan de BAG gekoppeld. Het was lastig om die structuur goed uit de modellen terug te lezen omdat er niet op een éénduidige manier werd gerefereerd. Om de modellen op elkaar aan te laten sluiten, moesten daarom keuzes gemaakt worden. <!-- dit moet zich nog verder uitkristaliseren -->
 
