@@ -136,6 +136,8 @@ De LIV maakt onderscheidt tussen functionaliteiten voor zowel alle overheden als
 
 ## Normatieve referenties
 
+De volgende documenten <!--waarnaar in verwezen ... --> zijn onmisbaar voor de totstandkoming van dit document: 
+
 * Raamwerk van geo-standaarden 3.0 [<a target="_blank" href="https://www.geonovum.nl/uploads/documents/Raamwerk%20Geo-Standaarden%20v3.0.pdf">link</a>]
 * NEN 3610:2011/A1:2016 Basismodel Geo-informatie
 * Bouwbesluit 2012 ... [<mark>officiële naam toevoegen</mark>]
@@ -143,10 +145,11 @@ De LIV maakt onderscheidt tussen functionaliteiten voor zowel alle overheden als
 * Gegevenscatalogus WOZ [<mark>officiële naam toevoegen</mark>]
 * Gegevenscatalogus HR [<mark>officiële naam toevoegen</mark>]
 * Logisch Ontwerp BRP [<mark>officiële naam toevoegen</mark>]
+* Referentiemodel Stelsel van Gemeentelijke Basisregistraties (RSGB) [<mark>officiele naam toevoegen</mark>]
 
 ## Totstandkoming
 
-Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van het <mark>INSPIRE Data Product Spedification</mark> en <mark>IMKL2015 Dataspecificatie 1.2.1</mark>.
+Deze specificatie is opgesteld door Geonovum en is gebaseerd op het voorbeeld Dataspecificatie Template DSO.
 
 <table style="width:100%" border="1">
 	<tr>
@@ -172,69 +175,78 @@ Deze specificatie is opgesteld door Geonovum en is gebaseerd op de template van 
 </table>
 
 ### Algemeen
-In 2015 voerden het Kadaster en Geonovum gezamenlijk onderzoek uit naar behoefte aan leegstandsinformatie bij marktpartijen en overheden. Daaruit bleek een duidelijke behoefte aan een geüniformeerde methodiek en aan eenduidige definities. Het vervolgonderzoek uit 2016 bevestigde dat beeld. Vanuit gebruiksoptiek en vanuit informatiekundig perspectief is het van belang deze methodiek en definities goed vast te leggen in een informatiestandaard.
-
-Het doel van een informatiestandaard is om te komen tot een geüniformeerde wijze voor het beschrijven van de semantische inhoud van de registraties. Deze wijze van beschrijven gebeurt door middel van deze dataspecificatie. Die beschrijft in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een hierin staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
+Het doel van een informatiestandaard is om te komen tot een geüniformeerde wijze voor het beschrijven van de semantische inhoud van de registraties. Semantiek heeft betrekking op de betekenis van taal. In een standaard leggen we die betekenis eenduidig vast. Deze wijze van beschrijven gebeurt door middel van deze dataspecificatie. Die beschrijft in detail de data-inhoud van de informatievoorziening en de dataproducten die worden geleverd. Centraal in een hierin staat het informatiemodel. Dit zet de afspraken over begrippen en definities van gegevens binnen een bepaald domein schematisch op een rij. Dit helpt om de uitwisseling van informatie te vereenvoudigen.
 
 ### Ontwikkeling standaard
-**Bronnen**
-- BRP: 20161024 Verstuffingversie InfoMod RSGB.EAP [<mark>gewijzigd</mark>]
-- BAG: 2017-02-10_IMBAG_UML_KKG_InOnderzoek_metagegevens.EAP
-- WOZ: imwoz 2012 08 31 11.30 technisch.EAP
-- HR: Online Catalogus v3.01 Overheid (html)
-
-**Stelsel van Basisregistraties**
-
 In het kader van hergebruik van informatie neemt het Informatiemodel Vastgoedgebruik het stelsel van basisregistraties als vertrekpunt. Ook voor de ontwikkeling van het informatiemodel kan op die manier gebruik gemaakt worden van bijbehorende bestaande datastructuren. Niet alleen zijn deze datastructuren reeds ontwikkeld, vanuit de stelselgedachte zijn ze ook al op elkaar afgestemd.
 
-**KKG**
+<figure>
+	<table style="width: 100%" border="1">
+		<tr>
+			<td><b>BAG</b></td>
+			<td>2017-02-10_IMBAG_UML_MIM_InOnderzoek_metagegevens.EAP</td>
+		</tr>
+		<tr>
+			<td><b>WOZ</b></td>
+			<td>imwoz 2012 08 31 11.30 technisch.EAP</td>
+		</tr>
+		<tr>
+			<td><b>HR</b></td>
+			<td>Online Catalogus v3.01 Overheid (html)</td>
+		</tr>
+		<tr>
+			<td><b>BRP</b></td>
+			<td>20161024 Verstuffingversie InfoMod RSGB.EAP [<mark>gewijzigd</mark>]</td>
+		</tr>
+	</table>
+	<figcaption> - gebruikte informatiemodellen voor het IMVG</figcaption>
+</figure>
 
-Het KKG is een metamodel voor informatiemodellering dat KING, Kadaster en Geonovum (KKG) gezamenlijk hebben ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar ([<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)). Het IMVG sluit waar mogelijk aan op het KKG metamodel, in sommige gevallen is vastgehouden aan een specifice modelleerconventie binnen een model.
+**MIM**
+Om informatiemodellen binnen het overheidsdomein onderling beter op elkaar af te stemmen, hebben VNG Realisatie, Kadaster en Geonovum gezamenlijk het Metamodel voor Informatiemodellering ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar ([<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)).
+
+Waar mogelijk past het IMVG het MIM toe. Maar, het IMVG koppelt bestaande informatiemodellen aan elkaar en sommige informatiemodellen bestonden al vóór het MIM en hanteren een afwijkende UML-notatie. In bepaalde gevallen was het verschil tussen de oorspronkelijke notatie en het MIM te groot. Het IMVG hanteert dan de oorspronkelijke UML-notatie. We zien ook dat binnen één model soms op twee verschillende manieren dezelfde relatie gemodelleerd is. Beide manieren zijn overgenomen. Dit maakt het model wel minder eenduidig.
+
+
 
 **Knelpunten bij (operationele) uitvoering**
 
-Bij de ontwikkeling van het informatiemodel, kwamen er een aantal uitdagingen aan het licht. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar die volgens het KKG metamodel was gemodelleerd. <!--De informatiemodellen van de WOZ, HR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
+Bij de ontwikkeling van het informatiemodel, kwamen er een aantal uitdagingen aan het licht. Van de vier basisregistraties was alleen een informatiemodel van de BAG beschikbaar dat volgens het MIM was gemodelleerd. <!--De informatiemodellen van de WOZ, HR en BRP waren nog vanuit eerdere inzichten opgebouwd.--> 
 
 **Formaten**
 
 Van sommige basisregistraties waren meerdere modellen beschikbaar waarbij niet zonder meer duidelijk was welk model het meest toereikend zou zijn.
-Niet van alle modellen UML beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van HR en BRP niet. 
+Niet van alle modellen was een UML-versie beschikbaar in Enterprice Architect (EA). Van de BAG en WOZ waren deze wel beschikbaar, maar van HR en BRP niet. 
 
 **HR**
 
-Het informatiemodel van het HR was wel beschikbaar als UML in html-formaat. Officieel is bij de Kamer van Koophandel ook een EA-versie, maar dit model wordt niet met andere partijen gedeeld. 
+Het informatiemodel van het HR was wel aanwezig als UML in html-formaat. Officieel is bij de Kamer van Koophandel ook een EA-versie, maar dit model wordt niet met andere partijen gedeeld. 
 
 **BRP**
 
-Operatie BRP is <mark>...</mark> maar daar is de stekker uitgetrokken, en daarom geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees voor de benodigde informatie naar het Logisch Ontwerp BRP; een document in pdf-formaat.
+Van de BRP is geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees voor de benodigde informatie naar het Logisch Ontwerp BRP; een document in pdf-formaat. Het doel van het logisch ontwerp is niet om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) is het model van Gemeentelijke Basis Administratie verkregen.
 
-Echter dat document heeft niet als belangrijkste doel om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) hebben is het model van Gemeentelijke Basis Administie verkregen.
-
-Het BRP registreert ook niet-ingezetenen (personen in het buitenland). Deze zijn voor de het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG [<mark>klopt dat?</mark>]. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
+Het BRP registreert naast ingezetenen (GBA) ook niet-ingezetenen (personen in het buitenland). Personen in het buitenland zijn voor het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG [<mark>CONTROLEREN</mark>]. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
 
 **WOZ**
 
 Het WOZ-model komt uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
 
-**Meerdere modelleerconventies binnen één model**
-
-Verder zien we dat binnen één model soms op twee verschillende manieren hetzeldfe gemodelleerd is. Mogelijk is hiervoor een goede reden, maar het maakt het model wel. Ook tussen de modellen gelden verschillende modelleeerconventies. In het LIV hebben we waar mogeiljk de oorspronkelijke modellen zoveel mogelijk overgenomen. Verschillen kunnen optreden op het koppelvlak met de BAG.
-
 **Koppelvlakken**
 
-In het stelsel zijn de BRP, WOZ en het HR aan de BAG gekoppeld. Het was echter lastig om die structuur goed uit de modellen terug te lezen omdat er niet op een éénduidige manier werd gerefereerd. Om de modellen op elkaar aan te laten sluiten, moesten daarom keuzes gemaakt worden. <!-- dit moet zich nog verder uitkristaliseren -->
+In het stelsel zijn de BRP, WOZ en het HR aan de BAG gekoppeld. Het was lastig om die structuur goed uit de modellen terug te lezen omdat er niet op een éénduidige manier werd gerefereerd. Om de modellen op elkaar aan te laten sluiten, moesten daarom keuzes gemaakt worden. <!-- dit moet zich nog verder uitkristaliseren -->
 
 **Mogelijke discrepantie IMVG en LIV**
 
 Transparantie en reproduceerbaarheid zijn altijd een belangrijk speerpunt van het IMVG en de LIV geweest, maar naarmate het onderzoek vorderde, werden we geconfronteerd met een lastige tegenstelling: kwaliteit van de cijfers versus transparantie en reproduceerbaarheid van de methodiek. 
 
-Het CBS heeft voor statistische doeleinden toegang tot de informatie uit de  basisregistraties. Om verschillende redenen maakt het CBS eerst een kwaliteitsslag op de ruwe data. Deze stap gebeurt buiten het project om en geldt als input voor alle CBS-afdelingen die gebruik maken van de data. Het voordeel vis dat de kwaliteit van de broninformatie door deze bewerking toeneemt. Het heeft echter ook consequenties voor de transparantie en reproduceerbaarheid van de methodiek.
+Het CBS heeft voor statistische doeleinden toegang tot de informatie uit de  basisregistraties. Om verschillende redenen maakt het CBS eerst een kwaliteitsslag op de ruwe data. Deze stap gebeurt buiten de directe scope van het IMVG om en geldt als input voor alle CBS-afdelingen die gebruik maken van deze data. Het voordeel is dat de kwaliteit van de broninformatie door deze bewerking toeneemt. Het heeft echter ook consequenties voor de transparantie en reproduceerbaarheid van de methodiek.
 
-Een poging om de gemaakte keuzes en gebruikte aanvullende data uit de voorberwerking in beeld te brengen, toonde aan dat het een complexe stap is, die veel tijd en moeite zou kosten die binnen het project niet aanwezig waren. Bovendien was de vraag of van deze bewerkte bronnen ook informatiemodellen aanwezig waren. In hoeverre en in welke mate dit tot verschillen leidt, is daarom onduidelijk. 
+Een poging om de gemaakte keuzes en gebruikte aanvullende data uit de voorbewerking in beeld te brengen, toonde aan dat dit een complexe stap is. Bovendien waren van deze bewerkte bronnen niet altijd informatiemodellen beschikbaar. In hoeverre en in welke mate dit tot verschillen leidt, is daarom onduidelijk.
 
-Wat we wel weten is dat de bewerking op het handelsregister het meest complex is. Daarvoor zullen de verschillen tussen ruwe en bewerkte data dus het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt nagebeld en een koppeling gemaakt met informatie van buiten de vier basisregistraties. 
+Wat we wel weten is dat de bewerking op het HR het meest complex is. Daar zullen de verschillen tussen ruwe en bewerkte data dus het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt gebruik gemaakt van informatie uit aanvullende bronnen.
 
-Er is daarom een pragmatische keuze gemaakt. Eerdere cijfers die in het kader van de LIV door het CBS gepubliceerd zijn, vonden op dezelfde brondata plaats. Bovendien gaat het om een bewerking die de kwaliteit van de cijfers verbetert. Daarom is besloten om hierop voort te bouwen. Deze dataspecificatie sluit zo dicht mogelijk aan bij deze methodiek, maar wijkt op een aantal kleine punten af. <!--[a] Dit opnemen? [b] Vraagt deze formulering niet om een toelichting? -->  
+Concluderend: er is voor LIV een pragmatische keuze gemaakt. Eerdere cijfers die in het kader van de LIV door het CBS gepubliceerd zijn, vonden op dezelfde brondata plaats. Bovendien gaat het om een bewerking die de kwaliteit van de cijfers verbetert. Daarom is besloten om hierop voort te bouwen. Deze dataspecificatie sluit zo dicht mogelijk aan bij deze methodiek, maar wijkt op een aantal kleine punten af.
 
 ## Termen en Definities
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
