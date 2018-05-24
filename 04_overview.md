@@ -228,9 +228,7 @@ Transparantie en reproduceerbaarheid zijn altijd een belangrijk speerpunt van he
 
 Het CBS heeft voor statistische doeleinden toegang tot de informatie uit de  basisregistraties. Om verschillende redenen maakt het CBS eerst een kwaliteitsslag op de ruwe data. Deze stap gebeurt buiten de directe scope van het IMVG om en geldt als input voor alle CBS-afdelingen die gebruik maken van deze data. Het voordeel is dat de kwaliteit van de broninformatie door deze bewerking toeneemt. Het heeft echter ook consequenties voor de transparantie en reproduceerbaarheid van de methodiek.
 
-Een poging om de gemaakte keuzes en gebruikte aanvullende data uit de voorbewerking in beeld te brengen, toonde aan dat dit een complexe stap is. Bovendien waren van deze bewerkte bronnen niet altijd informatiemodellen beschikbaar. In hoeverre en in welke mate dit tot verschillen leidt, is daarom onduidelijk.
-
-Wat we wel weten is dat de bewerking op het HR het meest complex is. Op dat punt zullen de verschillen tussen ruwe en bewerkte data het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt gebruik gemaakt van informatie uit aanvullende bronnen.
+Een poging om de gemaakte keuzes en gebruikte aanvullende data uit de voorbewerking in beeld te brengen, toonde aan dat dit een complexe stap is. Bovendien waren van deze bewerkte bronnen niet altijd informatiemodellen beschikbaar. In hoeverre en in welke mate dit tot verschillen leidt, is daarom onduidelijk. Wat we wel weten is dat de bewerking op het HR het meest complex is. Op dat punt zullen de verschillen tussen ruwe en bewerkte data het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt gebruik gemaakt van informatie uit aanvullende bronnen.
 
 Concluderend: er is voor LIV een pragmatische keuze gemaakt. Eerdere cijfers die in het kader van de LIV door het CBS gepubliceerd zijn, vonden op dezelfde brondata plaats. Bovendien gaat het om een bewerking die de kwaliteit van de cijfers verbetert. Daarom is besloten om hierop voort te bouwen. Deze dataspecificatie sluit zo dicht mogelijk aan bij deze methodiek, maar wijkt op een aantal kleine punten af.
 
