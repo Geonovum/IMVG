@@ -130,13 +130,13 @@ De LIV maakt onderscheidt tussen functionaliteiten voor zowel alle overheden als
 	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
 		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="80%" class="img-responsive">
 	</a>
-	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)</figcaption>
+	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)[<mark>vervangen voor html-table</mark>]</figcaption>
 </figure>
-[<mark>vervangen voor html-table</mark>]
+
 
 ## Normatieve referenties
 
-De volgende documenten <!--waarnaar in verwezen ... --> zijn onmisbaar voor de totstandkoming van dit document: 
+De volgende documenten zijn onmisbaar voor de totstandkoming van dit document: 
 
 * Raamwerk van geo-standaarden 3.0 [<a target="_blank" href="https://www.geonovum.nl/uploads/documents/Raamwerk%20Geo-Standaarden%20v3.0.pdf">link</a>]
 * NEN 3610:2011/A1:2016 Basismodel Geo-informatie
@@ -230,7 +230,7 @@ Het BRP registreert naast ingezetenen (GBA) ook niet-ingezetenen (personen in he
 
 **WOZ**
 
-Het WOZ-model komt uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
+Deze versie van het WOZ-model is uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
 
 **Koppelvlakken**
 
@@ -244,7 +244,7 @@ Het CBS heeft voor statistische doeleinden toegang tot de informatie uit de  bas
 
 Een poging om de gemaakte keuzes en gebruikte aanvullende data uit de voorbewerking in beeld te brengen, toonde aan dat dit een complexe stap is. Bovendien waren van deze bewerkte bronnen niet altijd informatiemodellen beschikbaar. In hoeverre en in welke mate dit tot verschillen leidt, is daarom onduidelijk.
 
-Wat we wel weten is dat de bewerking op het HR het meest complex is. Daar zullen de verschillen tussen ruwe en bewerkte data dus het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt gebruik gemaakt van informatie uit aanvullende bronnen.
+Wat we wel weten is dat de bewerking op het HR het meest complex is. Op dat punt zullen de verschillen tussen ruwe en bewerkte data het grootst zijn. Om de kwaliteit van de cijfers te verbeteren wordt gebruik gemaakt van informatie uit aanvullende bronnen.
 
 Concluderend: er is voor LIV een pragmatische keuze gemaakt. Eerdere cijfers die in het kader van de LIV door het CBS gepubliceerd zijn, vonden op dezelfde brondata plaats. Bovendien gaat het om een bewerking die de kwaliteit van de cijfers verbetert. Daarom is besloten om hierop voort te bouwen. Deze dataspecificatie sluit zo dicht mogelijk aan bij deze methodiek, maar wijkt op een aantal kleine punten af.
 
