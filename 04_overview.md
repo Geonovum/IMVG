@@ -116,8 +116,8 @@ Het volgende figuur toont de data-uitwisselingsarchitectuur waarvan het IMVG ond
 
 <!--FIGUUR uitwisselingarchitectuur-->
 <figure>
-	<a target="_blank" href="images/IMVG_data-uitwisselingsarchitectuur.png">
-		<img src="images/IMVG_data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" class="img-responsive">
+	<a target="_blank" href="images/data-uitwisselingsarchitectuur.png">
+		<img src="images/data-uitwisselingsarchitectuur.png" alt="Data-uitwisselingsarchitectuur IMVG" class="img-responsive">
 	</a>
 	<figcaption> - IMVG Data-uitwisselingsarchitectuur (klik voor vergroting)</figcaption>
 </figure>
