@@ -293,10 +293,10 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 > parameter of set van parameters voor het definiëren van het nulpunt, de schaal en de oriëntatie van een
 coördinaatsysteem
 
-**diepte**
+<!--**diepte**
 
 > Afstand van een punt tot een gekozen referentievlak neerwaarts gemeten langs een lijn welke loodrecht
-op dat referentievlak staat.
+op dat referentievlak staat.-->
 
 **download service**
 
@@ -348,7 +348,7 @@ verzameling van concepten en begrippen
 
 > benoemd, identificeerbaar object uit een objectklasse
 
-**label**
+<!--**label**
 
 > tekst of getal dat een eigenschap omschrijft of kwantificeert en als annotatie op een kaartbeeld wordt
 afgebeeld
@@ -361,7 +361,7 @@ afgebeeld
 
 > "_application running at the network application layer and above, that provides data storage, manipulation,
 presentation, communication or other capability which is often implemented using a client-server or peerto-
-peer architecture based on application layer network protocols_" - (Wikipedia)
+peer architecture based on application layer network protocols_" - (Wikipedia)-->
 
 **objectklasse (feature class)**
 
@@ -413,21 +413,21 @@ identificatoren (indirecte locatie).
 
 > model voor beschrijving van de werkelijkheid binnen het domein van een beleidsveld
 
-**symbool**
+<!--**symbool**
 
-> presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan
+> presentatieprimitieve van grafische, audio of tactiele aard of een combinatie hiervan-->
 
 **temporeel referentiesysteem**
 
 > Referentiesysteem waarin de tijd is bepaald.
 
-**netwerktopologie**
+<!--**netwerktopologie**
 
 > beschrijving van de plaats van de knooppunten en de onderlinge verbindingen in een netwerk
 
 **rasterformaat**
 
-> representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)
+> representatie van beeld middel een gewoonlijk rechthoekig patroon van parallelle lijnen (v)-->
 
 **vastgoedgebruik**
 
@@ -458,11 +458,11 @@ Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het 
 viewable spatial data sets and to display legend information and any relevant content of metadata.
 INSPIRE
 
-**void, nl**
+<!--**void, nl**
 
 > void, en
 object, of kenmerk van een object, dat syntactisch of semantisch is vereist, maar dat in de gegeven
-instantie geen informatie bevat
+instantie geen informatie bevat-->
 
 **waardelijst**
 
