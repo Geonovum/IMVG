@@ -2,6 +2,7 @@
 
 ## Naam en Acroniemen
 **IMVG** - Dataspecificatie voor vastgoedgebruiksinformatie
+
 **Informatiemodel Vastgoedgebruik** - Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)
 
 <h2 id="informeleBeschrijving">Informele beschrijving</h2>
@@ -14,9 +15,9 @@ Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht
 
 Uit verschillende onderzoeken van de provincie Overijssel, CBS, Kadaster en Geonovum in 2015 en 2016, bleek een sterke behoefte bij overheden en marktpartijen aan integrale, uniforme en landsdekkende informatie over vastgoedgebruik. Voor de uitwisseling van informatie over vastgoedobjecten vormt het IMVG het gemeenschappelijke begrippenkader. 
 
-De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken, winkels en sportfaciliteiten. Dit heet de gebouwenvoorraad en hiertoe behoort al het vastgoed dat is vastgelegd in de BAG. Het IMVG brengt informatie over het gebruik van deze objecten samen.
+De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken en sportfaciliteiten. Dit heet de gebouwenvoorraad en hiertoe behoort al het vastgoed dat is vastgelegd in de BAG. Het IMVG brengt informatie over het gebruik van deze objecten samen.
 
-Hiervoor koppelt het model de basisregistraties BAG, WOZ, HR en BRP. Is een object administratief niet in gebruik, dan is sprake van administratieve leegstand. Niet alle informatie uit deze bronnen is relevant voor het IMVG. Er is een een afspraak nodig over welke informatie wel of niet wordt opgenomen in het IMVG.
+Hiervoor koppelt het model de basisregistraties BAG, WOZ, HR en BRP. Is een object administratief niet in gebruik, dan is sprake van administratieve leegstand. Niet alle informatie uit deze bronnen is relevant voor het IMVG. Er is een afspraak nodig over welke informatie wel of niet wordt opgenomen in het IMVG.
 
 Om die reden is een selectieve en geïntegreerde <i>view</i> gewenst. Een view geeft weer welke objecten, relaties en attributen van een informatiemodel relevant zijn voor een specifiek doel (in dit geval: vastgoedgebruik). Elementen die voor dit doel overbodig zijn, worden weggelaten en indien nodig worden extra elementen toegevoegd.
 
@@ -189,7 +190,7 @@ Deze specificatie is opgesteld door Geonovum en is gebaseerd op het voorbeeld Da
 	</tr>
 	<tr>
 		<td><b>Referentiedatum</b></td>
-		<td>: 2018-06-<mark>15</mark></td>
+		<td>: 2018-06-15</td>
 	</tr>
 	<tr>
 		<td><b>Auteur(s)</b></td>

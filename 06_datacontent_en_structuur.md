@@ -7,7 +7,7 @@ Dit hoofdstuk beschrijft de inhoud en structuur van het IMVG met behulp van UML-
 
 De verschillende uitwisselingsprocessen BAG, WOZ, NHR en BRP worden alleen in dit document behandeld als ze afwijken van hetgeen in de betreffende eigen documentatie is opgenomen. Het IMVG is opgebouwd uit de volgende onderdelen:
 
-- IMVG-Gebruik [<mark>werktitel</mark>]
+- IMVG-Vastgoedgebruik
 - IMVG-BAG
 - IMVG-WOZ
 - IMVG-NHR
@@ -169,10 +169,10 @@ Het Informatiemodel Vastgoedgebruik is opgebouwd uit verschillende onderdelen. I
 			<td>Een constraint is een conditie of een beperking, die over een of meerdere modelelementen uit het informatiemodel geldt.</td>
 		</tr>			
 	</table>
-	<figcaption> - <mark>Gebruikte stereotypen vanuit het KKG UML-profiel (MIM)</mark></figcaption>
+	<figcaption> - Gebruikte stereotypen vanuit het MIM</figcaption>
 </figure>
 
-Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/" title="Ga naar: Stelselplaat">stelsel van basisregistraties</a> (zie: <mark>figuur 4</mark>). Binnen het IMVG vastgoedgebruik gemodelleerd als de koppeling van de modellen van de basisregistraties WOZ, NHR, BRP aan het model van de BAG. Door deze koppeling ontstaat informatie over het administratieve gebruik. Bovendien bevatten de registraties relevante aanvullende informtie over het object. De volgende paragrafen geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG. Vervolgens wordt de kern van het model: vastgoedgebruik toegelicht aan de hand van een volledig overzicht van het informatiemodel vastgoedgebruik. 
+Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/stelselplaat/" title="Ga naar: Stelselplaat">stelsel van basisregistraties</a> (zie: figuur 6). Binnen het IMVG vastgoedgebruik gemodelleerd als de koppeling van de modellen van de basisregistraties WOZ, NHR, BRP aan het model van de BAG. Door deze koppeling ontstaat informatie over het administratieve gebruik. Bovendien bevatten de registraties relevante aanvullende informtie over het object. De volgende paragrafen geven een verdere uiwerking van de verschillende elementen van het IMVG. Eerst volgt een uiteenzetting van de globale structuur aan de hand van het referentiemodel IMVG. Vervolgens wordt de kern van het model: vastgoedgebruik toegelicht aan de hand van een volledig overzicht van het informatiemodel vastgoedgebruik. 
 
 <figure>
 	<a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/8/8f/Stelsel_van_Basisregistraties.png">
@@ -183,9 +183,7 @@ Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleover
 
 **Referentiemodel**
 
-Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar (zie: <mark>figuur 5</mark>). Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot wordt het object *LV-gebruik* kort uitgelegd.
-
-[<mark>Vastgoedobject in referentiemodel opnemen</mark>: pand is specialisatie van vastgoedobject]  
+Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar (zie: figuur 7). Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot wordt het object *LV-gebruik* kort uitgelegd.
 
 <figure>
 	<a target="_blank" href="images/IMVG_referentiemodel.png">
@@ -210,11 +208,11 @@ De [<mark>overige 20%</mark>] van de gebouwenvoorraad bestaat uit niet-woningen 
 
 Alle gegevens die nodig zijn om de WOZ-waarde te relateren aan zowel een onroerende zaak als aan een belanghebende, zijn ondergebracht in de basisregistratie WOZ [<mark>bron: [DigitaleOverheid](https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/woz/)</mark>]. Voor de adressering van een onroerende zaak maakt de WOZ een koppeling met de BAG. Grofweg kent de WOZ twee typen belanghebbenden: een *eigenaar* of een *gebruiker*. Een WOZ-object heeft tenminste één eigenaar en geen of meerdere gebruikers. Soms is de eigenaar zelf gebruiker. Maar, als dat niet het geval is, kan het voorkomen dat een WOZ-object wel een eigenaar, maar geen gebruiker heeft.
 
-De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-woningen). Daardoor geeft het extra inzicht in het gebruik van zowel woningen [<mark>kanttekening?</mark>] als niet-woningen. Het afleiden van gebruik uit de WOZ, verschilt dus van de manier waarop dat met de BRP en het NHR gebeurt, want daar is de koppeling *an sich* de indicatie voor gebruik. <!-- WEGLATEN: dit heeft geen betrekking op de het informatieproduct, maar op de voorziening (LIV)-->Overigens komt het ook voor dat de WOZ geen uitsluitsel geeft óf dat de WOZ niet koppelt aan de BAG. Hier houdt de huidige versie van het IMVG nog geen rekening mee.
+De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-woningen). Daardoor geeft het extra inzicht in het gebruik van zowel woningen als niet-woningen. Het afleiden van gebruik uit de WOZ, verschilt dus van de manier waarop dat met de BRP en het NHR gebeurt, want daar is de koppeling *an sich* de indicatie voor gebruik. <!-- WEGLATEN: dit heeft geen betrekking op de het informatieproduct, maar op de voorziening (LIV)-->Overigens komt het ook voor dat de WOZ geen uitsluitsel geeft óf dat de WOZ niet koppelt aan de BAG. Hier houdt de huidige versie van het IMVG nog geen rekening mee.
 
 **Vastgoedgebruik**
 
-Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: <mark>figuur 4</mark>). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
+Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
 
 <figure>
 	<a target="_blank" href="images/tabel_leegstand_groot.png">
@@ -224,7 +222,7 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 </figure>
 
 ### Overzicht
-Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen lichten telkens een deel van het diagram toe. Het IMVG neemt van elke basisregistratie slecht een deel van de inhoud over en voegt daar de specifieke informatie an toe die nodig is vor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief vastgoedgebruik.
+Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen lichten telkens een deel van het diagram toe. Het IMVG neemt van elke basisregistratie slecht een deel van de inhoud over en voegt daar de specifieke informatie aan toe die nodig is voor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief vastgoedgebruik.
 
 <figure>
 	<table style="width: 100%" cellpadding="10" border="1">
