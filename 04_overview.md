@@ -18,7 +18,7 @@
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
-Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven <!--weglaten: (zie: definitie van administratieve leegstand)-->om op die manier de informatie zo precies mogelijk weer te geven. <!--toevoeging uit andere bron -->In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking op <a href="#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>. <!--Dus geen termen als frictie-, langdurige of structurele leegstand, maar de factor tijd publiceren. Bijvoorbeeld door het tijdstip van het meetmoment te publiceren in plaats van een waardeoordeel over het tijdsmoment (langer dan 3 jaar niet in gebruik: structurele leegstand).-->
+Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht mogelijk bij de bron te blijven om op die manier de informatie zo precies mogelijk weer te geven. In de praktijk zien we meerdere definities van het begrip leegstand, die soms onderling conflicteren. Het IMVG heeft specifiek betrekking op <a href="#administratieveLeegstand" title="Ga naar: definitie administratieve leegstand">administratieve leegstand</a>. Deze definitie wijkt af van de <a href="#feitelijkeLeegstand" title="Ga naar: definitie feitelijke leegstand">feitelijke leegstand</a>.
 
 ### Beschrijving
 
@@ -172,7 +172,7 @@ De LIV maakt onderscheidt tussen functionaliteiten voor zowel alle overheden als
 			<td>gemeenten</td>
 		</tr>
 	</table>
-	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)[<mark>vervangen voor html-table</mark>]</figcaption>
+	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik</figcaption>
 </figure>
 
 ## Normatieve referenties
