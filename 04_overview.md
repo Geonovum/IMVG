@@ -14,7 +14,8 @@
 	</tr>
 </table>
 
-<h2 id="informeleBeschrijving">Informele beschrijving</h2>
+<!--<h2 id="informeleBeschrijving">Informele beschrijving</h2>-->
+## Informele beschrijving
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
 
 ### Definitie
