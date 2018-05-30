@@ -37,7 +37,7 @@ De volgende uitgangspunten lagen ten grondslag aan de modellering van het Inform
 - mogelijkheid om ontwikkelingen in de tijd te kunnen volgen
 - mogelijkheid om model in toekomst o.b.v. gebruikswensen uit te breiden met view op en/of extra informatie: generiek of met specifieke extensies voor verschillende doelgroepen
 
-## UML-diagrammen
+<h2 id="uitwerking">UML-diagrammen</h2>
 
 ### Beschrijving algemeen
 Het Informatiemodel Vastgoedgebruik is opgebouwd uit verschillende onderdelen. In de kern bestaat een model uit *objecten* met *attributen* en de onderlinge relaties tussen *objecten*. Maar een model kan nog meer onderdelen (stereotypen) bevatten. Al deze onderdelen zijn gedefinieerd en vastgelegd in het <a target="_blank" href="https://docs.geostandaarden.nl/mim/def-st-mim10-20170614" title="Ga naar: documentatie Nationaal Metamodel Informatiemodellering">Nationaal Metamodel Informatiemodellering</a>. In onderstaande tabel zijn alle stereotypen opgenomen met hun definitie. Een uitgebreidere toelichting is opgenomen de documentatie die via bovenstaande link beschikbaar is.

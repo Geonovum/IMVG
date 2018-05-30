@@ -1,8 +1,18 @@
 # Overview
 
 ## Naam en Acroniemen
-- IMVG - Dataspecificatie voor vastgoedgebruiksinformatie
-- Informatiemodel Vastgoedgebruik - Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)
+<table style="width:100%" valign="top" border="1">
+	<col width="20%">
+	<col width="80%">
+	<tr>
+		<td><b>IMVG</b></td>
+		<td>Dataspecificatie voor vastgoedgebruiksinformatie</td>
+	</tr>
+	<tr>
+		<td><b>Informatiemodel Vastgoedgebruik</b></td>
+		<td>Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)</td>
+	</tr>
+</table>
 
 <!--Doelstelling
 Het doel is om in februari 2018 te komen tot een nieuwe landelijke monitor leegstand 2.0, waarin de bevindingen van diverse plausibiliteitsonderzoeken zo veel mogelijk zijn verwerkt. Tevens wordt een processtandaard opgeleverd, gepubliceerd en in beheer genomen. Verder wordt de mogelijke dienstverlening aan partijen inzichtelijk gemaakt.-->
@@ -21,7 +31,7 @@ De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, wi
 
 Hiervoor koppelt het model de basisregistraties BAG, WOZ, HR en BRP. Is een object administratief niet in gebruik, dan is sprake van administratieve leegstand. Niet alle informatie uit deze bronnen is relevant voor het IMVG. Er is een een afspraak nodig over welke informatie wel of niet wordt opgenomen in het IMVG.
 
-Om die reden is een selectieve en geïntegreerde <i>view</i> gewenst. Een view geeft weer welke objecten, relaties en attributen van een informatiemodel relevant zijn voor een specifiek doel (in dit geval: vastgoedgebruik) en laat overbodige elementen weg.
+Om die reden is een selectieve en geïntegreerde <i>view</i> gewenst. Een view geeft weer welke objecten, relaties en attributen van een informatiemodel relevant zijn voor een specifiek doel (in dit geval: vastgoedgebruik). Elementen die voor dit doel overbodig zijn, worden weggelaten en indien nodig worden extra elementen toegevoegd.
 
 De LIV fungeert als *use case* voor het IMVG en levert informatie op het domein van vastgoedgebruik. Bovendien richt de LIV zich in eerste instantie op het in beeld brengen van leegstand. Het IMVG volgt die doelstelling.
 
@@ -41,7 +51,7 @@ Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sp
 
 Bestaande informatievoorzieningen richten zich vaak op een specifiek segment van het vastgoed, bijvoorbeeld kantoren of winkels. Ondanks de voordelen die dit heeft voor de marktspecifieke informatiebehoefte, zijn er ook nadelen. Het blijkt lastig om informatie tussen deze voorziening uit te wisselen. Bovendien bestaat niet voor alle typen vastgoed een informatievoorziening. Integraliteit is een belangrijke voorwaarde voor het IMVG. Het informatiemodel beschrijft daarom alle <i>typen</i> vastgoed die voorkomen in de BAG. 
 
-Om verschillende redenen bleek het relevant om informatie over verschillende vastgoedtypen in een bepaald gebied te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen voor het in kaart brengen van de ruimtebehoefte. Op die manier ligt het belang van integraal inzicht in feite verankerd in een wettelijk basis.
+Om verschillende redenen bleek het relevant om binnen een bepaald gebied informatie over verschillende vastgoedtypen aan elkaar te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen voor het in kaart brengen van de ruimtebehoefte. Op die manier ligt het belang van integraal inzicht in feite verankerd in een wettelijk basis.
 
 Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets over het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voor die specifieke functie (bijv. kantoor), terwijl er aan een andere functie misschien een tekort is (bijv. woning). In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
@@ -128,25 +138,58 @@ De LIV maakt onderscheidt tussen functionaliteiten voor zowel alle overheden als
 
 <!--TABEL uitwisselingsarchitectuur-->
 <figure>
-	<a target="_blank" href="images/tabel_data-uitwisselingsarchitectuur.png">
-		<img src="images/tabel_data-uitwisselingsarchitectuur.png" alt="Tabel data-uitwisselingsarchitectuur IMVG" width="80%" class="img-responsive">
-	</a>
+	<table style="width:100%" border="1">
+		<tr>
+			<th>naam</th>
+			<th>type</th>
+			<th>detailniveau</th>
+			<th>toegang</th>
+			<th>wie</th>
+		</tr>
+		<tr>
+			<td>Landelijke Leegstandsmonitor</td>
+			<td>viewer</td>
+			<td>gemeenten</td>
+			<td>openbaar</td>
+			<td>allen</td>
+		</tr>
+		<tr>
+			<td>Landelijke Leegstandsmonitor</td>
+			<td>download</td>
+			<td>gemeenten</td>
+			<td>openbaar</td>
+			<td>allen</td>
+		</tr>
+		<tr>
+			<td>Remote Access</td>
+			<td>download</td>
+			<td>verblijfsobject</td>
+			<td>gesloten</td>
+			<td>toegang CBS</td>
+		</tr>
+		<tr>
+			<td>Teruglevering</td>.
+			<td>download</td>
+			<td>verblijfsobject</td>
+			<td>gesloten</td>
+			<td>gemeenten</td>
+		</tr>
+	</table>
 	<figcaption> - Type voorzieningen binnen het dataproduct Landelijke Informatievoorziening Vastgoedgebruik (klik voor vergroting)[<mark>vervangen voor html-table</mark>]</figcaption>
 </figure>
-
 
 ## Normatieve referenties
 
 De volgende documenten zijn onmisbaar voor de totstandkoming van dit document: 
 
-* Raamwerk van geo-standaarden 3.0 [<a target="_blank" href="https://www.geonovum.nl/uploads/documents/Raamwerk%20Geo-Standaarden%20v3.0.pdf">link</a>]
+* <a target="_blank" href="https://www.geonovum.nl/uploads/documents/Raamwerk%20Geo-Standaarden%20v3.0.pdf" title="Ga naar: Raamwerk geo-standaarden">Raamwerk van geo-standaarden 3.0</a>
 * NEN 3610:2011/A1:2016 Basismodel Geo-informatie
-* Bouwbesluit 2012 ... [<mark>officiële naam toevoegen</mark>]
-* Gegevenscatalogus BAG 2009/2014 [<mark>officiële naam toevoegen</mark>];
-* Gegevenscatalogus WOZ [<mark>officiële naam toevoegen</mark>]
-* Gegevenscatalogus HR [<mark>officiële naam toevoegen</mark>]
-* Logisch Ontwerp BRP [<mark>officiële naam toevoegen</mark>]
-* Referentiemodel Stelsel van Gemeentelijke Basisregistraties (RSGB) [<mark>officiele naam toevoegen</mark>]
+* <a target="_blank" href="https://www.bouwbesluitonline.nl/Inhoud/docs/wet/bb2012" title="Ga naar: Bouwbesluit 2012 (online)">Bouwbesluit 2012</a>
+* <a target="_blank" href="https://www.geobasisregistraties.nl/binaries/basisregistraties-ienm/documenten/publicatie/2018/03/12/catalogus-2018/Catalogus-BAG-2018.pdf" title="Ga naar: Catalogus basisregistraties adressen en gebouwen 2018">Catalogus basisregistraties adressen en gebouwen 2018</a>;
+* <a target="_blank" href="https://www.waarderingskamer.nl/fileadmin/publieksportaal/documents/public/lv-woz/Catalogus_Basisregistratie_WOZ_versie_1.7.pdf" title="Ga naar: Catalogus Basisregistratie WOZ">Catalogus Basisregistratie WOZ versie 1.7</a>
+* Gegevenscatalogus Handelsregister versie 2.3
+* <a target="_blank" href="https://www.rvig.nl/binaries/rvig/documenten/richtlijnen/2016/10/14/logisch-ontwerp-gba-versie-3-10/LO+GBA+3.10.pdf" title="Ga naar: Logisch Ontwerp GBA">Logisch Ontwerp BRP</a>
+* <a target="_blank" href="https://www.vngrealisatie.nl/sites/king/files/RSG%20Basisgegevens%202.01%20%20deel%20I%20(in%20gebruik).pdf" title="Ga naar: Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB)">Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB)</a>
 
 ## Totstandkoming
 
