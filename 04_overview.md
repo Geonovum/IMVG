@@ -1,19 +1,8 @@
 # Overview
 
 ## Naam en Acroniemen
-Misschien eerst nog andere tekst?
-<table style="width:100%" valign="top" border="1">
-	<col width="20%">
-	<col width="80%">
-	<tr>
-		<td><b>IMVG</b></td>
-		<td>Dataspecificatie voor vastgoedgebruiksinformatie</td>
-	</tr>
-	<tr>
-		<td><b>Informatiemodel Vastgoedgebruik</b></td>
-		<td>Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)</td>
-	</tr>
-</table>
+**IMVG** - Dataspecificatie voor vastgoedgebruiksinformatie
+**Informatiemodel Vastgoedgebruik** - Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)
 
 <h2 id="informeleBeschrijving">Informele beschrijving</h2>
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
