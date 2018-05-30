@@ -1,7 +1,7 @@
 # Overview
 
 ## Naam en Acroniemen
-<!--
+Misschien eerst nog andere tekst?
 <table style="width:100%" valign="top" border="1">
 	<col width="20%">
 	<col width="80%">
@@ -14,7 +14,6 @@
 		<td>Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)</td>
 	</tr>
 </table>
--->
 
 <h2 id="informeleBeschrijving">Informele beschrijving</h2>
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
