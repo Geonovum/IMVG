@@ -1,5 +1,10 @@
 # Inleiding en Leeswijzer
 
+<section><h2>Voorwoord</h2>
+	<p>Tekst template voorwoord</p>
+</section>
+
+
 <!--Voorwoord zou geen section tag moeten krijgen-->
 De dataspecificatie van het IMVG is opgebouwd uit [<mark>acht hoofdstukken</mark>].
 

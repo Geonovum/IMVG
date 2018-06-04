@@ -24,7 +24,7 @@ Dit hoofdstuk beschrijft de identificatie van de dataspecificatie. In onderstaan
 	</tr>
 	<tr>
 		<td valign="top"><b>Doel</b> [optioneel]</td>
-		<td valign="top">Doel van dit document is het beschrijven van het Informatiemodel Vastgoedgebruik (IMVG) ten behoeve van de Landelijke Informatievoorziening Vastgoedgebruik (LIV). IMVG is ontwikkeld voor de realisatie van digitaal berichtenverkeer rond het thema vastgoedgebruik en de daarin voorkomende vastgoedobjecten ... Ladder Duurzame Verstedelijking en de Leegstandswet.</td>
+		<td valign="top">Doel van dit document is het beschrijven van het Informatiemodel Vastgoedgebruik (IMVG) ten behoeve van de Landelijke Informatievoorziening Vastgoedgebruik (LIV). IMVG is ontwikkeld voor de realisatie van digitaal berichtenverkeer rond het thema vastgoedgebruik en de daarin voorkomende vastgoedobjecten.<!-- ... Ladder Duurzame Verstedelijking en de Leegstandswet.--></td>
 	</tr>
 	<tr>
 		<td valign="top"><b>Aanvullende informatie</b> [optioneel]</td>

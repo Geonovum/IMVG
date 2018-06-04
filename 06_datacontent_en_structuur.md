@@ -40,7 +40,7 @@ De volgende uitgangspunten lagen ten grondslag aan de modellering van het Inform
 <h2 id="uitwerking">UML-diagrammen</h2>
 
 ### Beschrijving algemeen
-Het Informatiemodel Vastgoedgebruik is opgebouwd uit verschillende onderdelen. In de kern bestaat een model uit *objecten* met *attributen* en de onderlinge relaties tussen *objecten*. Maar een model kan nog meer onderdelen (stereotypen) bevatten. Al deze onderdelen zijn gedefinieerd en vastgelegd in het <a target="_blank" href="https://docs.geostandaarden.nl/mim/def-st-mim10-20170614" title="Ga naar: documentatie Nationaal Metamodel Informatiemodellering">Nationaal Metamodel Informatiemodellering</a>. In onderstaande tabel zijn alle stereotypen opgenomen met hun definitie. Een uitgebreidere toelichting is opgenomen de documentatie die via bovenstaande link beschikbaar is.
+Het Informatiemodel Vastgoedgebruik is opgebouwd uit verschillende onderdelen. In de kern bestaat een model uit *objecten* met *attributen* en de onderlinge relaties tussen *objecten*. Maar een model kan nog meer onderdelen (stereotypen) bevatten. Al deze onderdelen zijn gedefinieerd en vastgelegd in het <a target="_blank" href="https://docs.geostandaarden.nl/mim/def-st-mim10-20170614" title="Ga naar: documentatie Nationaal Metamodel Informatiemodellering (MIM)">MIM</a>. In onderstaande tabel zijn alle stereotypen opgenomen met hun definitie. Een uitgebreidere toelichting is opgenomen de documentatie die via bovenstaande link beschikbaar is.
 
 <!--use cellpadding="10" for more space around cell content-->
 <figure>
@@ -210,7 +210,7 @@ Alle gegevens die nodig zijn om de WOZ-waarde te relateren aan zowel een onroere
 
 De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-woningen). Daardoor geeft het extra inzicht in het gebruik van zowel woningen als niet-woningen. Het afleiden van gebruik uit de WOZ, verschilt dus van de manier waarop dat met de BRP en het NHR gebeurt, want daar is de koppeling *an sich* de indicatie voor gebruik. <!-- WEGLATEN: dit heeft geen betrekking op de het informatieproduct, maar op de voorziening (LIV)-->Overigens komt het ook voor dat de WOZ geen uitsluitsel geeft óf dat de WOZ niet koppelt aan de BAG. Hier houdt de huidige versie van het IMVG nog geen rekening mee.
 
-**Vastgoedgebruik**
+**Vastgoedgebruik: gebruiksstatus**
 
 Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
 
