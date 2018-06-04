@@ -222,7 +222,7 @@ Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er ver
 </figure>
 
 ### Overzicht
-Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen lichten telkens een deel van het diagram toe. Het IMVG neemt van elke basisregistratie slecht een deel van de inhoud over en voegt daar de specifieke informatie aan toe die nodig is voor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief vastgoedgebruik.
+Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen lichten telkens een deel van het diagram toe. Het IMVG neemt van elke basisregistratie slechts een deel van de inhoud over en voegt daar de specifieke informatie aan toe die nodig is voor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief van vastgoedgebruik.
 
 <figure>
 	<table style="width: 100%" cellpadding="10" border="1">
