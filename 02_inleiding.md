@@ -1,10 +1,5 @@
 # Inleiding en Leeswijzer
 
-<section><h2>Voorwoord</h2>
-	<p>Tekst template voorwoord</p>
-</section>
-
-
 <!--Voorwoord zou geen section tag moeten krijgen-->
 De dataspecificatie van het IMVG is opgebouwd uit [<mark>acht hoofdstukken</mark>].
 
@@ -21,3 +16,7 @@ De dataspecificatie van het IMVG is opgebouwd uit [<mark>acht hoofdstukken</mark
 [<mark>Hoofdstuk 7 ([NAAM?])</mark>] geeft de implementatiespecificaties opgenomen in de vorm van referenties aan XML schema's.
 
 <!--[<mark>Hoofdstuk 8 ([NAAM?])</mark>] tenslotte, behandelt de specificatie van de visualidstaie van ruimtelijke dat in een kaartbeeld.-->
+
+<!--
+TEKST VOOR ONTBREKENDE HOOFDSTUKKEN
+Dit hoofdstuk is nog niet geschreven. Dit hoofdstuk is relevant op het moment dat het informatiemodel ook daadwerkelijk geimplementeerd zal gaan worden. Voor nu  is de beschikbare informatie nog niet gedetailleerd en uitwerkt genoeg om dit nu in te kunnen vullen. We hebben dit hoofdstuk wel opgenomen in de dataspecificatie om te laten zien op welke fronten de doorontwikkeling van het informatiemodel kan plaatsvinden.-->

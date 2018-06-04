@@ -212,7 +212,7 @@ De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-won
 
 **Vastgoedgebruik: gebruiksstatus**
 
-Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7).
+Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7). Deze indicatie heet in het IMVG de [<mark><b>gebruiksstatus (nog definieren en linken)</b></mark>
 
 <figure>
 	<a target="_blank" href="images/tabel_leegstand_groot.png">
