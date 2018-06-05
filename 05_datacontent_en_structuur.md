@@ -411,6 +411,8 @@ tijdstipRegistratie, eindRegistratie
 	<tr>
 		<td>RELATIE 1</td>
 		<td>DEF 1</td>
+		<td>empty</td>
+		<td>empty</td>
 	</tr>
 </table>
 
