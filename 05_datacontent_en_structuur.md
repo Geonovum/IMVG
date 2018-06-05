@@ -372,13 +372,13 @@ tijdstipRegistratie, eindRegistratie
 		<th>Card</th>
 	</tr>
 	<tr>
-		<td><mark>begindatumGeldigheid</mark></td>
+		<td><mark>tijdstipRegistratie</mark></td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
 	</tr>
 	<tr>
-		<td><mark>einddatumGeldigheid</mark></td>
+		<td><mark>eindRegistratie</mark></td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
@@ -423,14 +423,16 @@ tijdstipRegistratie, eindRegistratie
 	<col width="70%">
 	<tr>
 		<td>IMVG_gebruiksstatus</td>
+		<td></td>
 	</tr>
 </table>
 
 *Enumeratie details IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
+	<col width="10%">
 	<col width="30%">
-	<col width="70%">
+	<col width="60%">
 	<tr>
 		<th colspan="3"><b>Definitie (v/d lijst)></b></th>
 	</tr>
