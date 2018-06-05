@@ -1,3 +1,0 @@
-# Referentiesystemen
-## Ruimtelijkreferentiesysteem
-## Tijdreferentiesysteem

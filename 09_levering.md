@@ -1,3 +1,0 @@
-# Levering
-## Leveringsmedium
-## Formaten (encodings)
