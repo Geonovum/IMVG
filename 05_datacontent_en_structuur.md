@@ -403,8 +403,10 @@ tijdstipRegistratie, eindRegistratie
 	<col width="30%">
 	<col width="70%">
 	<tr>
-		<th>Rol naam met kardinaliteit</th>
+		<th>Rolnaam</th>
 		<th>Definitie</th>
+		<th>Doelklasse</th>
+		<th>Kardinaliteit</th>
 	</tr>
 	<tr>
 		<td>RELATIE 1</td>
