@@ -416,33 +416,35 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 </table>
 
-<!--
-<table style="width: 100%" cellpadding="10" border="1">
-<col width="15%">
-<col width="85%">
+*Enumeratie*
+
+<table style="width: 100%" border="1">
+	<col width="30%">
+	<col width="70%">
 	<tr>
-		<th>Kleur</th>
-		<th>Uitleg</th>
-	</tr>
-	<tr>
-		<td>Groen</td>
-		<td>Landelijke Voorziening Waarde Onroerende Zaken</td>
-	</tr>		
-	<tr>
-		<td>Blauw</td>
-		<td>Informatiemodel Vastgoedgebruik</td>
-	</tr>
-	<tr>
-		<td>Oranje</td>
-		<td>Landelijke Voorziening Basisregistratie Adressen en Gebouwen</td>
-	</tr>
-	<tr>
-		<td>Paars</td>
-		<td>Basisregistratie Nationaal Handelsregister</td>
-	</tr>
-	<tr>
-		<td>Roze</td>
-		<td>Basisregistratie Personen/Gemeentelijke Basisadministratie</td>
+		<td>IMVG_gebruiksstatus</td>
 	</tr>
 </table>
--->
+
+<table style="width: 100%" border="1">
+	<col width="30%">
+	<col width="70%">
+	<tr>
+		<th colspan="3"><b>Definitie (v/d lijst)></b></th>
+	</tr>
+	<tr>
+		<th>Code</th>
+		<th>Naam</th>
+		<th>Definitie (v/d waarde)</th>
+	</tr>
+	<tr>
+		<td>leeg</td>
+		<td>objectInGebruik</td>
+		<td><mark>voorstel: object administratief in gebruik</mark></td>
+	</tr>
+	<tr>
+		<td>leeg</td>
+		<td>objectStaatLeeg</td>
+		<td><mark>voorstel: object administratief <b>niet</b> in gebruik</mark></td>
+	</tr>
+</table>
