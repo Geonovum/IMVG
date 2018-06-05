@@ -338,53 +338,59 @@ tijdstipRegistratie, eindRegistratie
 #### Objecttype 1 - Vastgoedgebruik
 
 <table style="width: 100%" border="1">
+	<col width="20%">
+	<col width="80%">
 	<tr>
 		<td><b>Naam</b></td>
-		<td>TEXT</td>
+		<td>IMVG_Vastgoedgebruik</td>
 	</tr>
 	<tr>
 		<td><b>Herkomst</b></td>
-		<td>TEXT</td>
+		<td>Geonovum</td>
 	</tr>
 	<tr>
 		<td><b>Definitie</b></td>
-		<td>TEXT</td>
+		<td>De gebruiksstatus van een vastgoedobject</td>
 	</tr>
 	<tr>
 		<td><b>Herkomst definitie</b></td>
-		<td>TEXT</td>
+		<td>Rapport Landelijke Leegstand 2017</td>
 	</tr>
 </table>
 
 *Overzicht Attributen*
 
 <table style="width: 100%" border="1">
+	<col width="15%">
+	<col width="40%">
+	<col width="35%">
+	<col width="10%">
 	<tr>
-		<th>Attribuutnaam</th>
+		<th>Einddatum</th>
 		<th>Definitie</th>
 		<th>Formaat</th>
 		<th>Card</th>
 	</tr>
 	<tr>
-		<td>ATTRIBUUT 1</td>
+		<td>begindatumGeldigheid</td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
 	</tr>
 	<tr>
-		<td>ATTRIBUUT 2</td>
+		<td>einddatumGeldigheid</td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
 	</tr>
 	<tr>
-		<td>ATTRIBUUT 3</td>
+		<td>peildatumKoppeling</td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
 	</tr>
 	<tr>
-		<td>ATTRIBUUT 4</td>
+		<td>gebruiksstatusVerblijfsobject</td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
@@ -394,6 +400,8 @@ tijdstipRegistratie, eindRegistratie
 *Overzicht Relaties*
 
 <table style="width: 100%" border="1">
+	<col width="30%">
+	<col width="70%">
 	<tr>
 		<th>Rol naam met kardinaliteit</th>
 		<th>Definitie</th>
