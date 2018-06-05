@@ -346,7 +346,7 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 	<tr>
 		<td><b>Herkomst</b></td>
-		<td>Geonovum</td>
+		<td>IMVG</td>
 	</tr>
 	<tr>
 		<td><b>Definitie</b></td>
@@ -372,13 +372,13 @@ tijdstipRegistratie, eindRegistratie
 		<th>Card</th>
 	</tr>
 	<tr>
-		<td>begindatumGeldigheid</td>
+		<td><mark>begindatumGeldigheid</mark></td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
 	</tr>
 	<tr>
-		<td>einddatumGeldigheid</td>
+		<td><mark>einddatumGeldigheid</mark></td>
 		<td>DEF</td>
 		<td>FORM</td>
 		<td>CARD</td>
@@ -425,6 +425,8 @@ tijdstipRegistratie, eindRegistratie
 		<td>IMVG_gebruiksstatus</td>
 	</tr>
 </table>
+
+*Enumeratie details IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
 	<col width="30%">
