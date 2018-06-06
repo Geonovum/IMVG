@@ -359,10 +359,10 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Overzicht Attributen*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
+	<col width="20%">
 	<col width="60%">
 	<col width="15%">
-	<col width="10%">
+	<col width="5%">
 	<tr>
 		<th>Attribuutnaam</th>
 		<th>Definitie</th>
@@ -391,8 +391,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Overzicht Relaties*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
-	<col width="85%">
+	<col width="20%">
+	<col width="80%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -423,8 +423,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 #### Gegevensgroeptype 1 - Vastgoedgebruik
 
 <table style="width: 100%" border="1">
-	<col width="15%">
-	<col width="85%">
+	<col width="20%">
+	<col width="80%">
 	<tr>
 		<td><b>Naam</b></td>
 		<td>IMVG_Vastgoedgebruik</td>
@@ -446,10 +446,10 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Overzicht Attributen*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
+	<col width="20%">
 	<col width="60%">
 	<col width="15%">
-	<col width="10%">
+	<col width="5%">
 	<tr>
 		<th>Attribuutnaam</th>
 		<th>Definitie</th>
@@ -467,8 +467,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Overzicht Relaties*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
-	<col width="85%">
+	<col width="20%">
+	<col width="80%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -490,8 +490,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Enumeratie*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
-	<col width="85%">
+	<col width="20%">
+	<col width="80%">
 	<tr>
 		<td>IMVG_gebruiksstatus</td>
 		<td></td>
@@ -501,8 +501,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 *Enumeratie details IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
-	<col width="15%">
-	<col width="25%">
+	<col width="20%">
+	<col width="20%">
 	<col width="60%">
 	<tr>
 		<th colspan="3"><b>Definitie (v/d lijst)</b></th>
