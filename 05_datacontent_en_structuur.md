@@ -358,7 +358,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 *Overzicht Attributen*
 
-<table style="width: 100%" border="1">
+<table style="width: 100%" valign="top" border="1">
 	<col width="20%">
 	<col width="60%">
 	<col width="15%">
@@ -372,7 +372,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	<tr>
 		<td>identificatie</td>
 		<td>Identificatiegegevens voor de universeeel unieke identificatie van een object</td>
-		<td><mark>NEN3610ID</mark></td>
+		<td>NEN3610ID</td>
 		<td>1</td>
 	</tr>
 	<tr>
