@@ -416,6 +416,93 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 </table>
 
+#### Gegevensgroeptype 1 - Vastgoedobject
+
+<table style="width: 100%" border="1">
+	<col width="20%">
+	<col width="80%">
+	<tr>
+		<td><b>Naam</b></td>
+		<td>IMVG_Vastgoedgebruik</td>
+	</tr>
+	<tr>
+		<td><b>Herkomst</b></td>
+		<td>IMVG</td>
+	</tr>
+	<tr>
+		<td><b>Definitie</b></td>
+		<td>De gebruiksstatus van een vastgoedobject</td>
+	</tr>
+	<tr>
+		<td><b>Herkomst definitie</b></td>
+		<td>Rapport Landelijke Leegstand 2017</td>
+	</tr>
+</table>
+
+*Overzicht Attributen*
+
+<table style="width: 100%" border="1">
+	<col width="15%">
+	<col width="40%">
+	<col width="35%">
+	<col width="10%">
+	<tr>
+		<th>Einddatum</th>
+		<th>Definitie</th>
+		<th>Formaat</th>
+		<th>Card</th>
+	</tr>
+	<tr>
+		<td><mark>tijdstipRegistratie</mark></td>
+		<td>DEF</td>
+		<td>FORM</td>
+		<td>CARD</td>
+	</tr>
+	<tr>
+		<td><mark>eindRegistratie</mark></td>
+		<td>DEF</td>
+		<td>FORM</td>
+		<td>CARD</td>
+	</tr>
+	<tr>
+		<td>peildatumKoppeling</td>
+		<td>DEF</td>
+		<td>FORM</td>
+		<td>CARD</td>
+	</tr>
+	<tr>
+		<td>gebruiksstatusVerblijfsobject</td>
+		<td>DEF</td>
+		<td>FORM</td>
+		<td>CARD</td>
+	</tr>
+</table>
+
+*Overzicht Relaties*
+
+<table style="width: 100%" border="1">
+	<col width="30%">
+	<col width="70%">
+	<tr>
+		<th>Rolnaam</th>
+		<th>Definitie</th>
+		<th>Doelklasse</th>
+		<th>Kardinaliteit</th>
+	</tr>
+	<tr>
+		<td>RELATIE 1</td>
+		<td>DEF 1</td>
+		<td>empty</td>
+		<td>empty</td>
+	</tr>
+</table>
+
+#### Gestructureerd datatype
+
+
+
+#### Enumeraties
+
 *Enumeratie*
 
 <table style="width: 100%" border="1">
@@ -434,7 +521,7 @@ tijdstipRegistratie, eindRegistratie
 	<col width="30%">
 	<col width="60%">
 	<tr>
-		<th colspan="3"><b>Definitie (v/d lijst)></b></th>
+		<th colspan="3"><b>Definitie (v/d lijst)</b></th>
 	</tr>
 	<tr>
 		<th>Code</th>
@@ -442,12 +529,12 @@ tijdstipRegistratie, eindRegistratie
 		<th>Definitie (v/d waarde)</th>
 	</tr>
 	<tr>
-		<td>leeg</td>
+		<td></td>
 		<td>objectInGebruik</td>
 		<td><mark>voorstel: object administratief in gebruik</mark></td>
 	</tr>
 	<tr>
-		<td>leeg</td>
+		<td></td>
 		<td>objectStaatLeeg</td>
 		<td><mark>voorstel: object administratief <b>niet</b> in gebruik</mark></td>
 	</tr>
