@@ -328,12 +328,6 @@ tijdstipRegistratie, eindRegistratie
 [<mark>Moet vastgoedgebruik nog beginGeldigheid, eindeGeldigheid hebben?</mark>]-->
 
 ## Objectcatalogus
-[<mark>Volgt nog!</mark>]
-### Objectencatalogus metadata
-### Elementen die in de objectencatalogus gedefinieerd zijn (alfabetisch ordenen)
-### Objecttypen
-### Datatypen
-
 ### Objecttypen
 #### Objecttype 1 - Vastgoedgebruik
 
@@ -416,6 +410,7 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 </table>
 
+### Gegevensgroeptypen
 #### Gegevensgroeptype 1 - Vastgoedobject
 
 <table style="width: 100%" border="1">
@@ -497,11 +492,9 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 </table>
 
-#### Gestructureerd datatype
+### Gestructureerd datatype
 
-
-
-#### Enumeraties
+### Enumeraties
 
 *Enumeratie*
 
