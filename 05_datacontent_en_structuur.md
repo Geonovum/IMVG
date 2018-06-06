@@ -392,7 +392,9 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 <table style="width: 100%" border="1">
 	<col width="20%">
-	<col width="80%">
+	<col width="60%">
+	<col width="15%">
+	<col width="5%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -468,7 +470,9 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 <table style="width: 100%" border="1">
 	<col width="20%">
-	<col width="80%">
+	<col width="60%">
+	<col width="15%">
+	<col width="5%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -502,7 +506,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 <table style="width: 100%" border="1">
 	<col width="20%">
-	<col width="20%">
+	<col width="2%">
 	<col width="60%">
 	<tr>
 		<th colspan="3"><b>Definitie (v/d lijst)</b></th>
