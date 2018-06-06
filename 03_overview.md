@@ -1,9 +1,9 @@
 # Overview
 
 ## Naam en Acroniemen
-**IMVG** - Dataspecificatie voor vastgoedgebruiksinformatie
+> **IMVG**: Dataspecificatie voor vastgoedgebruiksinformatie
 
-**Informatiemodel Vastgoedgebruik** - Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)
+> **Informatiemodel Vastgoedgebruik**: Dataspecificatie voor het dataproduct van de Landelijke Informatievoorziening Vastgoedgebruik (LIV)
 
 <h2 id="informeleBeschrijving">Informele beschrijving</h2>
 Deze paragraaf gaat uitgebreid in op de gehanteerde definities en gebruikte bronnen.
