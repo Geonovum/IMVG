@@ -329,14 +329,14 @@ tijdstipRegistratie, eindRegistratie
 
 ## Objectcatalogus
 ### Objecttypen
-#### Objecttype 1 - Vastgoedgebruik
+#### Objecttype 1 - Vastgoedobject
 
 <table style="width: 100%" border="1">
 	<col width="20%">
 	<col width="80%">
 	<tr>
 		<td><b>Naam</b></td>
-		<td>IMVG_Vastgoedgebruik</td>
+		<td>IMVG_Vastgoedobject</td>
 	</tr>
 	<tr>
 		<td><b>Herkomst</b></td>
@@ -344,11 +344,11 @@ tijdstipRegistratie, eindRegistratie
 	</tr>
 	<tr>
 		<td><b>Definitie</b></td>
-		<td>De gebruiksstatus van een vastgoedobject</td>
+		<td>Een BAG-pand met een BAG-verblijfsobject</td>
 	</tr>
 	<tr>
 		<td><b>Herkomst definitie</b></td>
-		<td>Rapport Landelijke Leegstand 2017</td>
+		<td>IMVG</td>
 	</tr>
 </table>
 
@@ -360,35 +360,28 @@ tijdstipRegistratie, eindRegistratie
 	<col width="35%">
 	<col width="10%">
 	<tr>
-		<th>Einddatum</th>
+		<th>Attribuutnaam</th>
 		<th>Definitie</th>
 		<th>Formaat</th>
-		<th>Card</th>
+		<th>Kardinaliteit</th>
 	</tr>
 	<tr>
-		<td><mark>tijdstipRegistratie</mark></td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
+		<td>identificatie</td>
+		<td>Identificatiegegevens voor de universeeel unieke identificatie van een object</td>
+		<td><mark>NEN3610ID</mark></td>
+		<td>1</td>
 	</tr>
 	<tr>
-		<td><mark>eindRegistratie</mark></td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
+		<td>objectBeginTijd</td>
+		<td>Tijdstip waarop het object in de registratie is ontstaan</td>
+		<td>DateTime</td>
+		<td>1</td>
 	</tr>
 	<tr>
-		<td>peildatumKoppeling</td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
-	</tr>
-	<tr>
-		<td>gebruiksstatusVerblijfsobject</td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
-	</tr>
+		<td>objectEindTijd</td>
+		<td>Tijdstip waarop het object in de registratie niet meer geldig is</td>
+		<td>DateTime</td>
+		<td>0</td>
 </table>
 
 *Overzicht Relaties*
@@ -411,7 +404,7 @@ tijdstipRegistratie, eindRegistratie
 </table>
 
 ### Gegevensgroeptypen
-#### Gegevensgroeptype 1 - Vastgoedobject
+#### Gegevensgroeptype 1 - Vastgoedgebruik
 
 <table style="width: 100%" border="1">
 	<col width="20%">
@@ -442,28 +435,10 @@ tijdstipRegistratie, eindRegistratie
 	<col width="35%">
 	<col width="10%">
 	<tr>
-		<th>Einddatum</th>
+		<th>Attribuutnaam</th>
 		<th>Definitie</th>
 		<th>Formaat</th>
-		<th>Card</th>
-	</tr>
-	<tr>
-		<td><mark>tijdstipRegistratie</mark></td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
-	</tr>
-	<tr>
-		<td><mark>eindRegistratie</mark></td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
-	</tr>
-	<tr>
-		<td>peildatumKoppeling</td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
+		<th>Kardinaliteit</th>
 	</tr>
 	<tr>
 		<td>gebruiksstatusVerblijfsobject</td>
