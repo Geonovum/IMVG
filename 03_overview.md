@@ -186,23 +186,23 @@ Deze specificatie is opgesteld door Geonovum en is gebaseerd op het voorbeeld Da
 <table style="width:100%" border="1">
 	<tr>
 		<td><b>Documenttitel</b></td>
-		<td>: IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
+		<td>IMVG - Dataspecificatie Informatiemodel Vastgoedgebruik</td>
 	</tr>
 	<tr>
 		<td><b>Referentiedatum</b></td>
-		<td>: 2018-06-15</td>
+		<td>2018-06-15</td>
 	</tr>
 	<tr>
 		<td><b>Auteur(s)</b></td>
-		<td>: Gerard Trouborst</td>
+		<td>Gerard Trouborst</td>
 	</tr>
 	<tr>
 		<td><b>Betrokken partijen</b></td>
-		<td>: CBS, Kadaster, Object Vision en Geonovum</td>
+		<td>CBS, Kadaster, Object Vision en Geonovum</td>
 	</tr>
 	<tr>
 		<td><b>Taal</b></td>
-		<td>: Nederlands</td>
+		<td>Nederlands</td>
 	</tr>
 </table>
 
