@@ -331,6 +331,10 @@ tijdstipRegistratie, eindRegistratie
 ### Objecttypen
 #### Objecttype 1 - Vastgoedobject
 
+<!--In de toekomst kun je de gegevensgroep "Vastgoedgebruik" uitbreiden met andere gebruikskenmerken, bijv. 
+
+Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroepen gehangen worden, bijvoorbeeld "Vastgoedobjectkenmerken" (fysieke eigenschappen van een vastgoedobject: gebouwpaspoort, kolomstructuur, energielabel, etc.) of een relatie met een gegevensgroep "VastgoedobjectLocatiekenmerken" (waarin bereikbaarheid, planologische belemmeringen etc. worden gerelateerd)-->
+
 <table style="width: 100%" border="1">
 	<col width="20%">
 	<col width="80%">
@@ -356,8 +360,8 @@ tijdstipRegistratie, eindRegistratie
 
 <table style="width: 100%" border="1">
 	<col width="15%">
-	<col width="40%">
-	<col width="35%">
+	<col width="60%">
+	<col width="15%">
 	<col width="10%">
 	<tr>
 		<th>Attribuutnaam</th>
@@ -387,8 +391,8 @@ tijdstipRegistratie, eindRegistratie
 *Overzicht Relaties*
 
 <table style="width: 100%" border="1">
-	<col width="30%">
-	<col width="70%">
+	<col width="15%">
+	<col width="85%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -396,10 +400,22 @@ tijdstipRegistratie, eindRegistratie
 		<th>Kardinaliteit</th>
 	</tr>
 	<tr>
-		<td>RELATIE 1</td>
-		<td>DEF 1</td>
-		<td>empty</td>
-		<td>empty</td>
+		<td>is specialisatie van</td>
+		<td>n.v.t.</td>
+		<td>Pand</td>
+		<td>n.v.t.</td>
+	</tr>
+		<tr>
+		<td>verblijfsobject</td>
+		<td>n.v.t.</td>
+		<td>Verblijfsobject</td>
+		<td>1</td>
+	</tr>
+		<tr>
+		<td>vastgoedgebruik</td>
+		<td>n.v.t.</td>
+		<td>Vastgoedgebruik</td>
+		<td>1</td>
 	</tr>
 </table>
 
@@ -407,8 +423,8 @@ tijdstipRegistratie, eindRegistratie
 #### Gegevensgroeptype 1 - Vastgoedgebruik
 
 <table style="width: 100%" border="1">
-	<col width="20%">
-	<col width="80%">
+	<col width="15%">
+	<col width="85%">
 	<tr>
 		<td><b>Naam</b></td>
 		<td>IMVG_Vastgoedgebruik</td>
@@ -431,8 +447,8 @@ tijdstipRegistratie, eindRegistratie
 
 <table style="width: 100%" border="1">
 	<col width="15%">
-	<col width="40%">
-	<col width="35%">
+	<col width="60%">
+	<col width="15%">
 	<col width="10%">
 	<tr>
 		<th>Attribuutnaam</th>
@@ -451,8 +467,8 @@ tijdstipRegistratie, eindRegistratie
 *Overzicht Relaties*
 
 <table style="width: 100%" border="1">
-	<col width="30%">
-	<col width="70%">
+	<col width="15%">
+	<col width="85%">
 	<tr>
 		<th>Rolnaam</th>
 		<th>Definitie</th>
@@ -474,8 +490,8 @@ tijdstipRegistratie, eindRegistratie
 *Enumeratie*
 
 <table style="width: 100%" border="1">
-	<col width="30%">
-	<col width="70%">
+	<col width="15%">
+	<col width="85%">
 	<tr>
 		<td>IMVG_gebruiksstatus</td>
 		<td></td>
@@ -485,8 +501,8 @@ tijdstipRegistratie, eindRegistratie
 *Enumeratie details IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
-	<col width="10%">
-	<col width="30%">
+	<col width="15%">
+	<col width="25%">
 	<col width="60%">
 	<tr>
 		<th colspan="3"><b>Definitie (v/d lijst)</b></th>
