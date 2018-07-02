@@ -586,11 +586,11 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	<tr>
 		<td>n.v.t.</td>
 		<td>objectInGebruik</td>
-		<td><b>voorstel: object administratief in gebruik</b></td>
+		<td><b>voorstel</b>: object administratief in gebruik</td>
 	</tr>
 	<tr>
 		<td>n.v.t.</td>
 		<td>objectStaatLeeg</td>
-		<td><b>voorstel: object administratief <b>niet</b> in gebruik</b></td>
+		<td><b>voorstel</b>: object administratief <b>niet</b> in gebruik</td>
 	</tr>
 </table>
