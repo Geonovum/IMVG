@@ -407,13 +407,13 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 		<td>Pand</td>
 		<td>n.v.t.</td>
 	</tr>
-		<tr>
+	<tr>
 		<td>verblijfsobject</td>
 		<td>n.v.t.</td>
 		<td>Verblijfsobject</td>
 		<td>1</td>
 	</tr>
-		<tr>
+	<tr>
 		<td>vastgoedgebruik</td>
 		<td>n.v.t.</td>
 		<td>Vastgoedgebruik</td>
@@ -460,9 +460,21 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	</tr>
 	<tr>
 		<td>gebruiksstatusVerblijfsobject</td>
-		<td>DEF</td>
-		<td>FORM</td>
-		<td>CARD</td>
+		<td>De aanduiding van het gebruik van een vastgoedobject</td>
+		<td>IMVG_Gebruiksstatus</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>objectBeginTijd</td>
+		<td>Tijdstip waarop het object in de registratie is ontstaan</td>
+		<td>DateTime</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>objectEindTijd</td>
+		<td>Tijdstip waarop het object in de registratie niet meer geldig is</td>
+		<td>DateTime</td>
+		<td>0</td>
 	</tr>
 </table>
 
@@ -480,14 +492,68 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 		<th>Kardinaliteit</th>
 	</tr>
 	<tr>
-		<td>RELATIE 1</td>
-		<td>DEF 1</td>
-		<td>empty</td>
-		<td>empty</td>
+		<td>gebruiksstatusVerblijfsobject</td>
+		<td>n.v.t.</td>
+		<td>IMVG_Vastgoedobject</td>
+		<td>1</td>
 	</tr>
 </table>
 
 ### Gestructureerd datatype
+
+<table style="width: 100%" border="1">
+	<col width="20%">
+	<col width="80%">
+	<tr>
+		<td><b>Naam</b></td>
+		<td>NEN3610ID</td>
+	</tr>
+	<tr>
+		<td><b>Herkomst</b></td>
+		<td>NEN 3610:2011</td>
+	</tr>
+	<tr>
+		<td><b>Definitie</b></td>
+		<td>Identificatiegegevens voor de universeel unieke identificatie van een object</td>
+	</tr>
+	<tr>
+		<td><b>Herkomst definitie</b></td>
+		<td>NEN 3610:2011</td>
+	</tr>
+</table>
+
+*Overzicht Attributen*
+
+<table style="width: 100%" border="1">
+	<col width="20%">
+	<col width="60%">
+	<col width="15%">
+	<col width="5%">
+	<tr>
+		<th>Attribuutnaam</th>
+		<th>Definitie</th>
+		<th>Formaat</th>
+		<th>Kardinaliteit</th>
+	</tr>
+	<tr>
+		<td>namespace</td>
+		<td>Unieke verwijzing naar een registratie van objecten</td>
+		<td>CharacterString</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>lokaalID</td>
+		<td>Unieke identificatiecode binnen een registratie</td>
+		<td>CharacterString</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>versie</td>
+		<td>Versie-aanduiding van een object</td>
+		<td>CharacterString</td>
+		<td>0</td>
+	</tr>
+</table>
 
 ### Enumeraties
 
@@ -517,12 +583,12 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 		<th>Definitie (v/d waarde)</th>
 	</tr>
 	<tr>
-		<td></td>
+		<td>n.v.t.</td>
 		<td>objectInGebruik</td>
 		<td><mark>voorstel: object administratief in gebruik</mark></td>
 	</tr>
 	<tr>
-		<td></td>
+		<td>n.v.t.</td>
 		<td>objectStaatLeeg</td>
 		<td><mark>voorstel: object administratief <b>niet</b> in gebruik</mark></td>
 	</tr>
