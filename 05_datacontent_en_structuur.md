@@ -501,6 +501,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 ### Gestructureerd datatype
 
+*Gestructureerd datatype IMVG_gebruiksstatus*
 <table style="width: 100%" border="1">
 	<col width="20%">
 	<col width="80%">
@@ -557,7 +558,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 ### Enumeraties
 
-*Enumeratie*
+*Enumeratie IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
 	<col width="20%">
@@ -568,7 +569,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	</tr>
 </table>
 
-*Enumeratie details IMVG_gebruiksstatus*
+*Enumeratiedetails IMVG_gebruiksstatus*
 
 <table style="width: 100%" border="1">
 	<col width="20%">
@@ -585,11 +586,11 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	<tr>
 		<td>n.v.t.</td>
 		<td>objectInGebruik</td>
-		<td><mark>voorstel: object administratief in gebruik</mark></td>
+		<td><b>voorstel: object administratief in gebruik</b></td>
 	</tr>
 	<tr>
 		<td>n.v.t.</td>
 		<td>objectStaatLeeg</td>
-		<td><mark>voorstel: object administratief <b>niet</b> in gebruik</mark></td>
+		<td><b>voorstel: object administratief <b>niet</b> in gebruik</b></td>
 	</tr>
 </table>
