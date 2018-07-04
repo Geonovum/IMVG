@@ -1,8 +1,6 @@
 # Data content en structuur
 
 ## Inleiding
-<!--IMKL 2015 bevat dit kopje extra t.o.v. template-->
-[<mark>Structuur zoals in onderstaande alinea's besproken nog ter discussie</mark>]
 Dit hoofdstuk beschrijft de inhoud en structuur van het IMVG met behulp van UML-diagrammen en bijbehorende objectcatalogus.
 
 De verschillende uitwisselingsprocessen BAG, WOZ, NHR en BRP worden alleen in dit document behandeld als ze afwijken van hetgeen in de betreffende eigen documentatie is opgenomen. Het IMVG is opgebouwd uit de volgende onderdelen:
