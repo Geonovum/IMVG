@@ -233,7 +233,7 @@ Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, 
 			<th>Uitleg</th>
 		</tr>
 		<tr>
-			<td><font color="green">Groen</font></td>
+			<td style="background-color:DodgerBlue;"><font color="green">Groen</font></td>
 			<td>Landelijke Voorziening Waarde Onroerende Zaken</td>
 		</tr>		
 		<tr>
