@@ -183,7 +183,7 @@ Het IMVG maakt gebruik van het <a target="_blank" href="https://www.digitaleover
 
 **Referentiemodel**
 
-Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar (zie: figuur 7). Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve* gebruiksstatus van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 4.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot volgt een beknopte toelichting op de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*.
+Het Informatiemodel Vastgoedgebruik (IMVG) koppelt verschillende basisregistraties aan elkaar (zie: figuur 7). Het doel en de structuur van deze bronnen bepalen in belangrijke mate de afbakening van het begrip *vastgoedgebruik*. Met andere woorden: het model geeft informatie over de *administratieve gebruiksstatus* van een verblijfsobject (zie: <a href="#informeleBeschrijving" title="Ga naar: Informele beschrijving">paragraaf 3.2</a>). Per bron leggen we hieronder kort uit wat de rol is in het informatiemodel. Tot slot volgt een beknopte toelichting op de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*.
 
 <figure>
 	<a target="_blank" href="images/IMVG_referentiemodel.png">
@@ -198,25 +198,21 @@ Het Informatiemodel Vastgoedgebruik stelt de BAG centraal. Deze basisregistratie
 
 **BRP**
 
-<a target="_blank" href="https://docs.geostandaarden.nl/mim/def-st-mim10-20170614" title="Ga naar: documentatie Nationaal Metamodel Informatiemodellering (MIM)">MIM</a>
-
 Woningen vormen het belangrijkste deel van de gebouwenvoorraad, namelijk 80%. De <a target="blank" href="https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/basisregistratie-personen-brp" title="Ga naar: privacy en persoonsgegevens op rijksoverheid.nl">BRP</a> legt van alle inwoners van Nederland het woonadres vast. Hiermee is het mogelijk om te zien of een woning in gebruik is. Heeft een woning tenminste één bewoner, dan bevat het BRP op die locatie een inschrijving. Het BRP verwijst voor het adres naar de BAG. Met andere woorden: koppelt de BAG aan de BRP, dan heeft het BAG-object een gebruiker.
 
 **NHR**
 
-De overige 20% van de gebouwenvoorraad bestaat uit niet-woningen (kantoren, winkels, scholen, etc.). Voor de aanwezigheid van activiteiten op deze locaties kan het Handelsregister geraadpleegd worden. Het <a target="_blank" href="https://www.kvk.nl/over-de-kvk/over-het-handelsregister/" title="Ga naar: kvk.nl">Handelsregister</a> registreert alle bedrijven, rechtspersonen en andere organisaties die deelnemen aan het economisch verkeer in Nederland. Op een vergelijkbare manier als met het BRP is voor de niet-woningen na te gaan of er op een locatie gebruik is. Vindt er op een locatie tenminste één economische activiteit plaats, dan bevat het NHR op die locatie tenminste één inschrijving. Voor de adresgegevens maakt het register een verwijzing naar de BAG. Daarom is de aanname: koppelt de BAG aan het NHR, dan heeft het BAG-object een gebruiker.
+De overige 20% van de gebouwenvoorraad bestaat uit niet-woningen (kantoren, winkels, scholen, etc.). Voor de aanwezigheid van activiteiten op deze locaties is het Handelsregister raadpleegbaar. Het <a target="_blank" href="https://www.kvk.nl/over-de-kvk/over-het-handelsregister/" title="Ga naar: kvk.nl">Handelsregister</a> registreert alle bedrijven, rechtspersonen en andere organisaties die deelnemen aan het economisch verkeer in Nederland. Op een vergelijkbare manier als met het BRP is voor de niet-woningen na te gaan of er op een locatie gebruik is. Vindt er op een locatie tenminste één economische activiteit plaats, dan bevat het NHR op die locatie tenminste één inschrijving. Voor de adresgegevens maakt het register een verwijzing naar de BAG. Daarom is de aanname: koppelt de BAG aan het NHR, dan heeft het BAG-object een gebruiker.
 
 **WOZ**
 
 Alle gegevens die nodig zijn om de WOZ-waarde te relateren aan zowel een onroerende zaak als aan een belanghebende, zijn ondergebracht in de basisregistratie <a target="_blank" href="https://www.digitaleoverheid.nl/voorzieningen/gegevens/inhoud-basisregistraties/woz/" title="Ga naar: inhoud basisregistratie WOZ">WOZ</a>. Voor de adressering van een onroerende zaak maakt de WOZ een koppeling met de BAG. Grofweg kent de WOZ twee typen belanghebbenden: een *eigenaar* of een *gebruiker*. Een WOZ-object heeft tenminste één eigenaar en geen of meerdere gebruikers. Soms is de eigenaar zelf gebruiker. Maar, als dat niet het geval is, kan het voorkomen dat een WOZ-object wel een eigenaar, maar geen gebruiker heeft.
 
-De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-woningen). Daardoor geeft het extra inzicht in het gebruik van zowel woningen als niet-woningen. Het afleiden van gebruik uit de WOZ, verschilt dus van de manier waarop dat met de BRP en het NHR gebeurt, want daar is de koppeling *an sich* de indicatie voor gebruik. <!-- WEGLATEN: dit heeft geen betrekking op de het informatieproduct, maar op de voorziening (LIV)-->Overigens komt het ook voor dat de WOZ geen uitsluitsel geeft óf dat de WOZ niet koppelt aan de BAG. Hier houdt de huidige versie van het IMVG nog geen rekening mee.
+De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-woningen). Daardoor geeft het extra inzicht in het gebruik van zowel woningen als niet-woningen. Het afleiden van gebruik uit de WOZ, verschilt dus van de manier waarop dat met de BRP en het NHR gebeurt, want daar is de koppeling *an sich* de indicatie voor gebruik. <!-- WEGLATEN: dit heeft geen betrekking op de het informatieproduct, maar op de voorziening (LIV)-->Overigens komt het voor dat de WOZ geen uitsluitsel geeft óf niet koppelt aan de BAG. Hier houdt de huidige versie van het IMVG nog geen rekening mee.
 
-**<mark>Vastgoedgebruik: gebruiksstatus</mark>**
+**Vastgoedobject en Vastgoedgebruik**
 
-<!--OPSPLITSEN IN: [1] VASTGOEDOBJECT EN [2] GEBRUIKSSTATUS -->
-
-Voeg je de uitkomsten uit de bovenstaande BAG-koppelingen samen, dan zijn er verschillende combinaties mogelijk (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief leeg (combinatie 8). In de overige gevallen gaat het informatiemodel uit van gebruik (combinatie 1-7). Deze indicatie heet in het IMVG de [<mark><b>gebruiksstatus (nog definieren en linken)</b></mark>
+De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG vast met de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*. Niet alle panden in de BAG hebben een relatie met één of meerdere verblijfsobjecten. Het IMVG richt zich op *vastgoedobjecten*. Dat zijn panden met één of meerdere verblijfsobjecten. Een koppeling van bovenstaande basisregistraties aan het vastgoedobject, resulteert in de verschillende voorkomens van *vastgoedgebruik* van verblijfsobjecten binnen het vastgoedobject (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief *leeg* (combinatie 8). In de overige gevallen gaat het informatiemodel uit van *gebruik* (combinatie 1-7).
 
 <figure>
 	<a target="_blank" href="images/tabel_leegstand_groot.png">
@@ -237,23 +233,23 @@ Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, 
 			<th>Uitleg</th>
 		</tr>
 		<tr>
-			<td>Groen</td>
+			<td><font color="green">Groen</font></td>
 			<td>Landelijke Voorziening Waarde Onroerende Zaken</td>
 		</tr>		
 		<tr>
-			<td>Blauw</td>
+			<td><font color="blue">Blauw</font></td>
 			<td>Informatiemodel Vastgoedgebruik</td>
 		</tr>
 		<tr>
-			<td>Oranje</td>
+			<td><font color="orange">Oranje</font></td>
 			<td>Landelijke Voorziening Basisregistratie Adressen en Gebouwen</td>
 		</tr>
 		<tr>
-			<td>Paars</td>
+			<td><font color="purple">Paars</font></td>
 			<td>Basisregistratie Nationaal Handelsregister</td>
 		</tr>
 		<tr>
-			<td>Roze</td>
+			<td><font color="pink">Roze</font></td>
 			<td>Basisregistratie Personen/Gemeentelijke Basisadministratie</td>
 		</tr>
 	</table>
@@ -352,7 +348,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	</tr>
 	<tr>
 		<td><b>Definitie</b></td>
-		<td>Een BAG-pand met een BAG-verblijfsobject</td>
+		<td>Een pand met één of meerdere verblijfsobjecten</td>
 	</tr>
 	<tr>
 		<td><b>Herkomst definitie</b></td>
@@ -375,7 +371,7 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	</tr>
 	<tr>
 		<td>identificatie</td>
-		<td>Identificatiegegevens voor de universeeel unieke identificatie van een object</td>
+		<td>Identificatiegegevens voor de universeel unieke identificatie van een object</td>
 		<td>NEN3610ID</td>
 		<td>1</td>
 	</tr>
