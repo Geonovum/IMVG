@@ -233,23 +233,23 @@ Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, 
 			<th>Uitleg</th>
 		</tr>
 		<tr>
-			<td style="background-color:DodgerBlue;"><font color="green">Groen</font></td>
+			<td><font color="rgb(194,233,143)"><b>Groen</b></font></td>
 			<td>Landelijke Voorziening Waarde Onroerende Zaken</td>
 		</tr>		
 		<tr>
-			<td><font color="blue">Blauw</font></td>
+			<td><font color="rgb(87,192,255)"><b>Blauw</b></font></td>
 			<td>Informatiemodel Vastgoedgebruik</td>
 		</tr>
 		<tr>
-			<td><font color="orange">Oranje</font></td>
+			<td><font color="rgb(255,222,156)"><b>Oranje</b></font></td>
 			<td>Landelijke Voorziening Basisregistratie Adressen en Gebouwen</td>
 		</tr>
 		<tr>
-			<td><font color="purple">Paars</font></td>
+			<td><font color="rgb(133,131,173)"><b>Paars</b></font></td>
 			<td>Basisregistratie Nationaal Handelsregister</td>
 		</tr>
 		<tr>
-			<td><font color="pink">Roze</font></td>
+			<td><font color="rgb(219,134,170)"><b>Roze</b></font></td>
 			<td>Basisregistratie Personen/Gemeentelijke Basisadministratie</td>
 		</tr>
 	</table>
