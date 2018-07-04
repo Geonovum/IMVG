@@ -13,24 +13,14 @@ Voor de definitie van begrippen in het IMVG is ervoor gekozen om steeds zo dicht
 
 ### Beschrijving
 
-Uit verschillende onderzoeken van de provincie Overijssel, CBS, Kadaster en Geonovum in 2015 en 2016, bleek een sterke behoefte bij overheden en marktpartijen aan integrale, uniforme en landsdekkende informatie over vastgoedgebruik. Voor de uitwisseling van informatie over vastgoedobjecten vormt het IMVG het gemeenschappelijke begrippenkader. 
+Uit verschillende onderzoeken van de provincie Overijssel, CBS, Kadaster en Geonovum in 2015 en 2016, bleek een sterke behoefte bij overheden en marktpartijen aan integrale, uniforme en landsdekkende informatie over vastgoedgebruik. Voor de uitwisseling van informatie over vastgoedobjecten vormt het IMVG het gemeenschappelijke begrippenkader. De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken en sportfaciliteiten. Dit heet de gebouwenvoorraad en hiertoe behoort al het vastgoed dat is vastgelegd in de BAG. Het IMVG brengt informatie over het gebruik van deze objecten samen.
 
-De totale verzameling van vastgoedobjecten bestaat onder andere uit woningen, winkels, kantoren, scholen, ziekenhuizen, fabrieken en sportfaciliteiten. Dit heet de gebouwenvoorraad en hiertoe behoort al het vastgoed dat is vastgelegd in de BAG. Het IMVG brengt informatie over het gebruik van deze objecten samen.
-
-Hiervoor koppelt het model de basisregistraties BAG, WOZ, HR en BRP. Is een object administratief niet in gebruik, dan is sprake van administratieve leegstand. Niet alle informatie uit deze bronnen is relevant voor het IMVG. Er is een afspraak nodig over welke informatie wel of niet wordt opgenomen in het IMVG.
-
-Om die reden is een selectieve en geïntegreerde <i>view</i> gewenst. Een view geeft weer welke objecten, relaties en attributen van een informatiemodel relevant zijn voor een specifiek doel (in dit geval: vastgoedgebruik). Elementen die voor dit doel overbodig zijn, worden weggelaten en indien nodig worden extra elementen toegevoegd.
-
-De LIV fungeert als *use case* voor het IMVG en levert informatie op het domein van vastgoedgebruik. Bovendien richt de LIV zich in eerste instantie op het in beeld brengen van leegstand. Het IMVG volgt die doelstelling.
+Het IMVG koppelt de basisregistraties BAG, WOZ, HR en BRP. Indien een object *administratief* niet in gebruik is, dan is sprake van *administratieve leegstand*. Niet alle informatie uit deze bronnen is relevant voor het IMVG. Er is een afspraak nodig over welke informatie wel of niet wordt opgenomen in het IMVG. Om die reden is een selectieve en geïntegreerde <i>view</i> gewenst. Een view geeft weer welke objecten, relaties en attributen van een informatiemodel relevant zijn voor een specifiek doel (in dit geval: vastgoedgebruik). Elementen die voor dit doel overbodig zijn, worden weggelaten en indien nodig worden extra elementen toegevoegd. De LIV fungeert als *use case* voor het IMVG en levert informatie op het domein van vastgoedgebruik. Bovendien richt de LIV zich in eerste instantie op het in beeld brengen van leegstand. Het IMVG volgt die doelstelling.
 
 ### Toelichting
-Het vastgoed in het IMVG omvat alle <a href="#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met een <a href="#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobject</a>. Het IMVG richt zich in eerste instantie op het vaststellen van de administratieve gebruiksstatus voor deze objecten.
+Het vastgoed in het IMVG omvat alle <a href="#bagPand" title="Ga naar: definitie BAG-pand">panden</a> met een <a href="#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobject</a>. Het IMVG richt zich in eerste instantie op het vaststellen van de administratieve gebruiksstatus voor deze objecten. Deze eerste versie van het informatiemodel concentreert zich op het deel van de gebouwenvoorraad dat administratief *niet in gebruik* is, ofwel: het deel dat administratief leegstaat. De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). 
 
-Deze eerste versie van het informatiemodel concentreert zich op het deel van de gebouwenvoorraad dat administratief *niet in gebruik* is, ofwel: het deel dat administratief leegstaat. De koppeling tussen basisregistraties geeft inzicht in het administratieve gebruik op het niveau van een verblijfsobject (BAG). 
-
-Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, HR en BRP aan de BAG. Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een *gebruiker* in de WOZ<!--[<mark>wozOnderscheid</mark>]-->, een *vestiging* in het HR en een *persoon* in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie.
-
-In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Het IMVG legt deze afspraken op uniforme manier vast.
+Om administratief gebruik vast te stellen, koppelt het IMVG de WOZ, HR en BRP aan de BAG. Deze registraties geven een indicatie van de gebruiksstatus van het verblijfsobject. In het IMVG is er sprake van *administratieve leegstand* op het moment dat er op een verblijfsobject geen registratie is van een *gebruiker* in de WOZ<!--[<mark>wozOnderscheid</mark>]-->, een *vestiging* in het HR en een *persoon* in de BRP. Daarnaast bevatten sommige registraties relevante extra informatie. In het verlengde van een integrale benadering, ligt een uniforme benadering. Hoewel er verschillende partijen zijn die naar het gebruik van vastgoed kijken en daarover publiceren, is er onderling geen consensus over de methode en de definities. Daarom heeft een brede groep partijen de wens geuit om hierover afspraken te maken. Het IMVG legt deze afspraken op uniforme manier vast.
 
 <!--[<mark>wozOnderscheid</mark>] Voor woningen wordt niet meer apart onderscheid gemaakt tussen een *eigenaar* en een *gebruiker*. In de praktijk is de WOZ-registratie voornamelijk relevantie voor alle typen *niet-woningen*. Woningen zitten al goed in de registratie op basis van de BRP. De aanname is dat het effect van het ontbreken van WOZ-informatie voor de categorie *woningen* beperkt is. Doordat deze informatie ontbreekt, is het exacte effect ervan onbekend.
 Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sprake van *administratieve leegstand* volgens de LIV. In alle andere gevallen wordt aangenomen dat er sprake is van gebruik.-->
@@ -228,13 +218,13 @@ In het kader van hergebruik van informatie neemt het Informatiemodel Vastgoedgeb
 		</tr>
 		<tr>
 			<td><b>BRP</b></td>
-			<td>20161024 Verstuffingversie InfoMod RSGB.EAP [<mark>gewijzigd</mark>]</td>
+			<td>20161024 Verstuffingversie InfoMod RSGB.EAP & RGBZ_01.00_in_gebruik.EAP</td>
 		</tr>
 	</table>
 	<figcaption> - gebruikte informatiemodellen voor het IMVG</figcaption>
 </figure>
 
-Om informatiemodellen binnen het overheidsdomein onderling beter op elkaar af te stemmen, hebben VNG Realisatie, Kadaster en Geonovum gezamenlijk het Metamodel voor Informatiemodellering ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het metamodel richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar ([<mark>bron: Geonovum</mark>](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering)).
+Om informatiemodellen binnen het overheidsdomein onderling beter op elkaar af te stemmen, hebben VNG Realisatie, Kadaster en Geonovum gezamenlijk het Metamodel voor Informatiemodellering ontwikkeld. Hierin bundelen de drie organisaties hun kennis ten aanzien van informatiemodellering. Het <a target="_blank" href="https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering/nationaal-metamodel-voor-informatiemodellering" title="Ga naar: informatie over MIM">metamodel</a> richt zich op registraties binnen het overheidsdomein, maar is in bredere context inzetbaar.
 
 Waar mogelijk past het IMVG het MIM toe. Maar, het IMVG koppelt bestaande informatiemodellen aan elkaar en sommige informatiemodellen bestonden al vóór het MIM en hanteren een afwijkende UML-notatie. In bepaalde gevallen was het verschil tussen de oorspronkelijke notatie en het MIM te groot. Het IMVG hanteert dan de oorspronkelijke UML-notatie. We zien ook dat binnen één model soms op twee verschillende manieren dezelfde relatie gemodelleerd is. Beide manieren zijn overgenomen. Dit maakt het model wel minder eenduidig.
 
@@ -247,7 +237,7 @@ Niet van alle modellen was een UML-versie beschikbaar in Enterprice Architect (E
 
 Van de BRP is geen model beschikbaar. De Rijksdienst voor Identiteitsgegevens (beheerder van de BRP) verwees voor de benodigde informatie naar het Logisch Ontwerp BRP; een document in pdf-formaat. Het doel van het logisch ontwerp is niet om de datastructuur van de BRP te specificeren. Desondanks staat er wel relevante informatie in. Via de Referentiemodel Stelsel van Gemeentelijke Basisgegevens (RSGB) is het model van Gemeentelijke Basis Administratie verkregen.
 
-Het BRP registreert naast ingezetenen (GBA) ook niet-ingezetenen (personen in het buitenland). Personen in het buitenland zijn voor het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG [<mark>CONTROLEREN</mark>]. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
+Het BRP registreert naast ingezetenen (GBA) ook niet-ingezetenen (personen in het buitenland). Personen in het buitenland zijn voor het IMVG niet relevant. Het GBA volstaat voor het Informatiemodel Vastgoedgebruik. Het lastige is dat vanuit het GBA in het RSGB geen duidelijke link gelegd wordt met de BAG. In combinatie met het Logisch Ontwerp van de BRP is wel af te leiden waar die verbinding moet liggen.
 
 Deze versie van het WOZ-model is uit 2012. De LIV maakt specifiek gebruik van de Landelijke Voorziening WOZ (LV WOZ). Hoewel er geen grote wijzigingen hebben plaatsgevonden, kan het model op kleine punten afwijken van de huidige situatie. Verder is het UML-model van de WOZ mogelijk vanuit andere software in EA geïmporteerd, want de diagrammen waren zeer moeilijk leesbaar.
 
@@ -274,7 +264,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 <b id="administratieveLeegstand">administratieve leegstand</b>
 
-> De situatie waarin de koppeling van de basisregistraties WOZ, HR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (zie: combinatie 8 in <mark>figuur 4</mark>)
+> De situatie waarin de koppeling van de basisregistraties WOZ, HR en BRP aan de BAG respectievelijk: geen gebruiker(s), geen relatie(s) met een vestiging en geen relatie(s) met een persoon oplevert (zie: figuur 8, combinatie 8)
 
 **adresseerbaar object** <!--oorsprong definitie?-->
 
@@ -301,7 +291,8 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **bag-object**
 
-> "De BAG is op­ge­bouwd uit de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand" [<mark>bron: [Gemeente Amsterdam](https://www.amsterdam.nl/stelselpedia/woordenboek/)|definitie relevant?</mark>]
+> "De BAG is <a target="_blank" href="https://www.amsterdam.nl/stelselpedia/woordenboek/" title="Ga naar: woordenboek gemeente Amsterdam">op­ge­bouwd uit</a> de vol­gen­de soor­ten ob­ject­ty­pen: woon­plaats, open­ba­re ruim­te, num­mer­aan­dui­ding, stand­plaats, lig­plaats, ver­blijfs­ob­ject, pand"
+
 
 **coördinaat**
 
