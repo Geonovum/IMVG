@@ -453,7 +453,7 @@ identificatoren (indirecte locatie).
 
 **vastgoedgebruik**
 
-> De situaties waarin een koppeling van de WOZ, het HR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (combinatie 1 t/m 7, <a href="vastgoedgebruik" title="Ga naar: tabel vastgoedgebruik">figuur 8</a>).
+> De situaties waarin een koppeling van de WOZ, het HR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (combinatie 1 t/m 7, <a href="#tabelVastgoedgebruik" title="Ga naar: tabel vastgoedgebruik">figuur 8</a>).
 
 **vastgoedobject**
 
@@ -463,16 +463,15 @@ identificatoren (indirecte locatie).
 
 <b id="bagVbo">verblijfsobject</b><!--(Wet basisregistraties adressen en gebouwen, artikel 1, lid q)-->
 
-> "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is"[<mark>bron: BAG 2009, p. 15</mark>].
+> "De kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is" (<a target="_blank" href="https://www.kadaster.nl/documents/32706/37743/bag+grondslagen+catalogus/d6bb83b9-33e5-47bb-939c-fa7fde1f2b16" title="Ga naar: BAG-grondslagen catalogus">bron: BAG 2009</a>).
 
-> representatie van geometrie middels geometrische primitieven
 
 **vestiging**
 
 > "Een vestiging is een gebouw of complex van gebouwen waar duurzame uitoefening van activiteiten van een onderneming of rechtspersoon plaatsvindt. Een vestiging kent twee verzamelingen:
 - Een commerciële vestiging
 - Een niet commerciële vestiging
-Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het vestigingsnummer".[<mark>bron: HR 2013, p. 9-31</mark>]
+Een vestiging (commercieel of niet commercieel) wordt geïdentificeerd door het vestigingsnummer" (<a target="_blank" href="https://docplayer.nl/9332496-Gegevenscatalogus-handelsregister-handelsregisterwet-2007-stb-2007-nr-153-versie-2-3-8-januari-2013.html" title="Ga naar: Gegevenscatalogus Handelsregister">bron: HR 2013</a>)
 
 **view service**
 
