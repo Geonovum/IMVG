@@ -29,7 +29,7 @@ Indien een situatie niet aan één van deze drie criteria voldoet, is er geen sp
 
 Bestaande informatievoorzieningen richten zich vaak op een specifiek segment van het vastgoed, bijvoorbeeld kantoren of winkels. Ondanks de voordelen die dit heeft voor de marktspecifieke informatiebehoefte, zijn er ook nadelen. Het blijkt lastig om informatie tussen deze voorziening uit te wisselen. Bovendien bestaat niet voor alle typen vastgoed een informatievoorziening. Integraliteit is een belangrijke voorwaarde voor het IMVG. Het informatiemodel beschrijft daarom alle <i>typen</i> vastgoed die voorkomen in de BAG. 
 
-Om verschillende redenen bleek het relevant om binnen een bepaald gebied informatie over verschillende vastgoedtypen aan elkaar te kunnen relateren <mark>[link naar eerdere rapport(en)]</mark>. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen voor het in kaart brengen van de ruimtebehoefte. Op die manier ligt het belang van integraal inzicht in feite verankerd in een wettelijk basis.
+Om verschillende redenen bleek het relevant om binnen een bepaald gebied informatie over verschillende vastgoedtypen aan elkaar te kunnen relateren. Gemeenten en provincies zijn bijvoorbeeld verplicht de Ladder Duurzame Verstedelijking toe te passen voor het in kaart brengen van de ruimtebehoefte. Op die manier ligt het belang van integraal inzicht in feite verankerd in een wettelijk basis.
 
 Het gebruik van een pand (zowel vergund als feitelijk) zegt respectievelijk iets over het oorspronkelijke gebruiksdoel en het huidige gebruik. Als iets leegstaat kan het zijn dat het object leegstaat als gevolg van bijvoorbeeld overaanbod voor die specifieke functie (bijv. kantoor), terwijl er aan een andere functie misschien een tekort is (bijv. woning). In zulke gevallen is het relevant om vraag en aanbod van ruimte integraal aan elkaar te relateren.
 
@@ -46,12 +46,12 @@ elke stand- en ligplaats is een pand in de BAG
 verblijfsobjecten, stand- en ligplaatsen zijn adresseerbare objecten -->
 
 <!--Reeds herschreven-->
-Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt omdat de definitie van het object "gebouw" onvoldoende aansloot op de gewenste toepassing van een gebouwenregistraties [<mark>bron: BAG 2009-2014</mark>].
+Wat opvalt is dat de BAG *panden* definieert in plaats van *gebouwen*. Dit komt omdat de <a target="_blank" href="https://www.geobasisregistraties.nl/documenten/publicatie/2017/11/24/catalogus-bag-2018-v0.998" title="Ga naar: BAG-catalogus">definitie van het object "gebouw"</a> onvoldoende aansloot op de gewenste toepassing van een gebouwenregistraties.
 
 <!--Reeds herschreven-->
-De BAG voegt in feite twee samenhangende basisregistraties samen: de Basisregistratie Adressen (BRA) en de Basisgebouwenregistratie (BGR) [<mark>bron: [Kadaster](https://www.kadaster.nl/basisregistratie-gebouwen)</mark>]. Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (<a href="#bagPand" title="Ga naar: definitie BAG-pand">panden</a>) en (kleinste) gebruikseenheden (<a href="#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>). Hoewel er tussen beide objecten relaties bestaan, bakent de BGR een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten [<mark>bron: BAG 2009-2014, p.23</mark>].
+De BAG brengt in feite <a target="_blank" href="https://www.kadaster.nl/basisregistratie-gebouwen" title="Ga naar: kadaster.nl/basisregistratie-gebouwen">twee samenhangende basisregistraties</a> bij elkaar: de Basisregistratie Adressen (BRA) en de Basisgebouwenregistratie (BGR). Het gegevensmodel van de BGR maakt onderscheid tussen (kleinste) bouwkundige eenheden (<a href="#bagPand" title="Ga naar: definitie BAG-pand">panden</a>) en (kleinste) gebruikseenheden (<a href="#bagVbo" title="Ga naar: definitie BAG-vbo">verblijfsobjecten</a>). Hoewel er tussen beide objecten relaties bestaan, bakent de <a target="_blank" href="https://www.geobasisregistraties.nl/documenten/publicatie/2017/11/24/catalogus-bag-2018-v0.998" title="Ga naar: BAG-catalogus">BGR</a> een pand onafhankelijk af van een verblijfsobject. Een verblijfsobject maakt altijd deel uit van één of meerdere panden, maar een pand hoeft geen verblijfsobject te bevatten.
 
-Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen vervullen namelijk een ondersteunende functie voor een ander gebouw <!--[<mark>ondersteunendeFuncties</mark>]--> <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadresseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik<!--[<mark>bijgebouwen</mark>]-->. Het Kadaster deed onderzoek naar deze mogelijkheid [<mark>link naar rapport Kadaster</mark>]. De huidige versie van het IMVG neemt bijgebouwen niet mee.
+Een verblijfsobject moet volgens de definitie functioneel zelfstandig zijn. Dit heeft belangrijke consequenties voor informatie over vastgoedgebruik. Niet elk pand heeft één (of meerdere) verblijfsobject(en); sommige gebouwen vervullen namelijk een ondersteunende functie voor een ander gebouw <!--[<mark>ondersteunendeFuncties</mark>]--> <!-- BAG-2009-2014_objectenhandboek -->. Deze *ongeadresseerde* gebouwen of *bij*gebouwen zijn in een aantal gevallen eveneens relevant voor het in kaart brengen van vastgoedgebruik<!--[<mark>bijgebouwen</mark>]-->. Het Kadaster deed onderzoek naar de mogelijkheid <a target="_blank" href="https://www.cbs.nl/-/media/_pdf/2018/26/180629%20rapport%20landelijke%20leegstand%20-%20praktijktoetsen.pdf" title="Ga naar: rapport Landelijke Informatievoorziening Vastgoedgebruik - praktijktoetsen leegstand">leegstand van agrarische bebouwing</a> in beeld te brengen. De huidige versie van het IMVG neemt bijgebouwen niet mee.
 
 <!--[<mark>ondersteunendeFuncties</mark>] Voorbeelden zijn: vrijstaande garageboxen, schuren, silo's, stallen, schaapskooien of toiletgebouwen op campings--> <!-- BAG-2009-2014_objectenhandboek-->.
 
@@ -61,7 +61,7 @@ Een verblijfsobject in de BAG heeft een <a href="#bagGebruiksdoel" title="Ga naa
 
 <b id="dataspecificatie">Dataspecificatie: bronnen</b>
 
-Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, HR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: <mark>figuur 1</mark>). Het vbo-ID is één van de <a href="http://www.stelselvanbasisregistraties.nl/authentieke_gegevens/" title="Ga naar: definitie authentieke gegevens in stelselcatalogus">authentieke gegevens</a> uit de BAG, die de andere bronnen vanuit de <a href="https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/" title="Ga naar: Stelselafspraken">stelselverplichting</a> gebruiken.
+Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, HR en BRP) en koppelt de gegevens aan elkaar op basis van de verblijfsobjectidentificatie (vbo-ID) uit de BAG (zie: figuur 1). Het vbo-ID is één van de <a href="http://www.stelselvanbasisregistraties.nl/authentieke_gegevens/" title="Ga naar: definitie authentieke gegevens in stelselcatalogus">authentieke gegevens</a> uit de BAG, die de andere bronnen vanuit de <a href="https://www.digitaleoverheid.nl/beleid/naar-een-gegevenslandschap/themas/stelselafspraken/" title="Ga naar: Stelselafspraken">stelselverplichting</a> gebruiken.
 
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
@@ -260,7 +260,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 > "De activiteit van een natuurlijk persoon of niet-natuurlijk persoon. Activiteiten worden geregistreerd bij de rechtspersoon of bij de vestigingen. Bij zowel de maatschappelijke activiteit als de onderneming wordt de verzameling van Standaard Bedrijfsindeling (SBI)-codes gegroepeerd.
 - Maatschappelijke Activiteit: De totale verzameling van SBI-codes die betrekking hebben op de rechtspersoon of op de niet-commerciële vestigingen.
-- Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen"[<mark>bron: HR 2013, p. 9-28</mark>].
+- Onderneming: De verzameling van SBI-codes die betrekking hebben op een Onderneming. Dit is de verzameling van alle SBI-codes die worden uitgeoefend op de commerciële vestigingen" (<a target="_blank" href="https://docplayer.nl/9332496-Gegevenscatalogus-handelsregister-handelsregisterwet-2007-stb-2007-nr-153-versie-2-3-8-januari-2013.html" title="Ga naar: Gegevenscatalogus Handelsregister">bron: HR 2013</a>).
 
 <b id="administratieveLeegstand">administratieve leegstand</b>
 
@@ -268,7 +268,7 @@ Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
 **adresseerbaar object** <!--oorsprong definitie?-->
 
-> Objecten waaraan in de BAG een adres kan worden toegekend: standplaats, ligplaats of verblijfsobject [<mark>bron: BAG 2009-2014, p. 24</mark>]
+> Objecten waaraan in de BAG een adres kan worden toegekend: standplaats, ligplaats of verblijfsobject <a target="_blank" href="https://www.geobasisregistraties.nl/documenten/publicatie/2017/11/24/catalogus-bag-2018-v0.998" title="Ga naar: BAG-catalogus">bron: BAG 2018</a>
 
 **annotatie**
 
@@ -336,16 +336,16 @@ INSPIRE
 
 **gebruiker**
 
-> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object [<mark>bron: WOZ 2012, p. 21</mark>].
+> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object (<a target="_blank" href="https://www.waarderingskamer.nl/fileadmin/publieksportaal/documents/public/lv-woz/Catalogus_Basisregistratie_WOZ_versie_1.7.pdf" title="Ga naar: Gegevenscatalogus WOZ"> bron: WOZ 2012</a>).
 
 <b id="bagGebruiksdoel">gebruiksdoel</b>
 
 > "Een categorisering van de gebruiksdoelen van het betreffende
 verblijfsobject, zoals dit door de overheid als zodanig is
-toegestaan" [<mark>bron: BAG 2009, p. 60</mark>].
+toegestaan" (<a target="_blank" href="https://www.kadaster.nl/documents/32706/37743/bag+grondslagen+catalogus/d6bb83b9-33e5-47bb-939c-fa7fde1f2b16" title="Ga naar: BAG-grondslagen catalogus">bron: BAG 2009</a>).
 
 
-> "Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2003 zoals deze in de bouwvergunning als zodanig is aangemerkt. Op een later moment kunnen ook door de gemeente geformaliseerde gebruiswijzigingen als basis dienen voor opnamen van een aanvulend gebruiksdoel. Het gebruiksdoel dient niet te worden verward met de *planologische bestemming* en het *feitelijk gebruik*". [<mark>bron: BAG 2009, p. 61</mark>]
+> "Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2003 zoals deze in de bouwvergunning als zodanig is aangemerkt. Op een later moment kunnen ook door de gemeente geformaliseerde gebruiswijzigingen als basis dienen voor opnamen van een aanvulend gebruiksdoel. Het gebruiksdoel dient niet te worden verward met de *planologische bestemming* en het *feitelijk gebruik*". (<a target="_blank" href="https://www.kadaster.nl/documents/32706/37743/bag+grondslagen+catalogus/d6bb83b9-33e5-47bb-939c-fa7fde1f2b16" title="Ga naar: BAG-grondslagen catalogus">bron: BAG 2009</a>).
 
 **geo-informatie (geo-information, geographic information)**
 
@@ -391,11 +391,11 @@ peer architecture based on application layer network protocols_" - (Wikipedia)--
 
 <b id="#bagPand">pand</b><!-- (Wet basisregistraties adressen en gebouwen, artikel 1, lid o)-->
 
-> "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is" [<mark>bron: BAG 2009, p. 13</mark>].
+> "de kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is" (<a target="_blank" href="https://www.kadaster.nl/documents/32706/37743/bag+grondslagen+catalogus/d6bb83b9-33e5-47bb-939c-fa7fde1f2b16" title="Ga naar: BAG-grondslagen catalogus">bron: BAG 2009</a>).
 
 **persoon**
 
-> "Inwoner van Nederland (ingezetene)" [<mark>bron: [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen)</mark>]
+> "Inwoner van Nederland (ingezetene)" (<a target="_blank" href="https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/gegevens-basisadministratie-personen" title="Ga naar: Rijksoverheid.nl">bron: Rijksoverheid</a>).
 
 <!--Gegevens over de ingeschrevene (toelichting uit BRP)
 iets met **ingezetenen**, **natuurlijk persoon**, ingeschreven in Nederland met BSN, alle kinderen, ouders en partners ??? Nog geen duidelijke definitie gevonden.-->
