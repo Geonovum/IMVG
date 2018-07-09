@@ -213,7 +213,7 @@ De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-won
 De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG vast met de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*. Niet alle panden in de BAG hebben een relatie met één of meerdere verblijfsobjecten. Het IMVG richt zich op *vastgoedobjecten*. Dat zijn panden met één of meerdere verblijfsobjecten. Een koppeling van bovenstaande basisregistraties aan het vastgoedobject resulteert in de verschillende voorkomens van *vastgoedgebruik* van verblijfsobjecten binnen het vastgoedobject (zie: figuur 8). Indien geen van de drie bronnen een indicatie van gebruik geeft, geldt het verblijfsobject als administratief *leeg* (<mark>combinatie 8</mark>). In sommige gevallen is de belanghebbende in de WOZ onbekend. Als dit voorkomt en beide andere registraties geven geen gebruiksindicatie, dan is de gebruiksstatus eveneens onbekend. In de overige gevallen gaat het informatiemodel uit van *gebruik* (<mark>combinatie 1-7</mark>).
 
 <figure>
-	<a target="_blank" href="images/tabel_leegstand_groot.png">
+	<a target="_blank" href="images/tabel_leegstand_nieuw_bijgesneden.png">
 		<img src="images/tabel_leegstand_groot.png" alt="Combinaties gebruik basisregistraties" width="80%" class="img-responsive">
 	</a>
 	<figcaption> - Mogelijke combinaties gebruiksstatus IMVG (klik voor vergroting)</figcaption>
