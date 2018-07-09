@@ -210,7 +210,7 @@ De basisregistratie WOZ beslaat de totale vastgoedvoorraad (woningen en niet-won
 
 **Vastgoedobject en Vastgoedgebruik**
 
-De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG vast met de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*. Niet alle panden in de BAG hebben een relatie met één of meerdere verblijfsobjecten. Het IMVG richt zich op *vastgoedobjecten*. Dat zijn panden met één of meerdere verblijfsobjecten. Een koppeling van bovenstaande basisregistraties aan het vastgoedobject, resulteert in de verschillende voorkomens van *vastgoedgebruik* van verblijfsobjecten binnen het vastgoedobject (zie: figuur 8). Indien vanuit geen van de drie bronnen een indicatie van gebruik is, geldt het object als administratief *leeg* (combinatie 8). In de overige gevallen gaat het informatiemodel uit van *gebruik* (combinatie 1-7).
+De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG vast met de objecten *IMVG_Vastgoedobject* en *IMVG_Vastgoedgebruik*. Niet alle panden in de BAG hebben een relatie met één of meerdere verblijfsobjecten. Het IMVG richt zich op *vastgoedobjecten*. Dat zijn panden met één of meerdere verblijfsobjecten. Een koppeling van bovenstaande basisregistraties aan het vastgoedobject resulteert in de verschillende voorkomens van *vastgoedgebruik* van verblijfsobjecten binnen het vastgoedobject (zie: figuur 8). Indien geen van de drie bronnen een indicatie van gebruik geeft, geldt het verblijfsobject als administratief *leeg* (<mark>combinatie 8</mark>). In sommige gevallen is de belanghebbende in de WOZ onbekend. Als dit voorkomt en beide andere registraties geven geen gebruiksindicatie, dan is de gebruiksstatus eveneens onbekend. In de overige gevallen gaat het informatiemodel uit van *gebruik* (<mark>combinatie 1-7</mark>).
 
 <figure>
 	<a target="_blank" href="images/tabel_leegstand_groot.png">
@@ -220,7 +220,7 @@ De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG va
 </figure>
 
 ### Overzicht
-Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen lichten telkens een deel van het diagram toe. Het IMVG neemt van elke basisregistratie slechts een deel van de inhoud over en voegt daar de specifieke informatie aan toe die nodig is voor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief van vastgoedgebruik.
+Het onderstaand UML-diagram bevat het complete Informatiemodel Vastgoedgebruik, inclusief de relatie met de basisregistraties BAG, WOZ, NHR en BRP. De tabel licht het kleurgebruik in het UML-diagram toe. De volgende paragrafen gaan afzonderlijk in op de verschillende onderdelen vna het diagram. Het IMVG neemt van elke basisregistratie slechts een deel van de inhoud over en voegt daar de specifieke informatie aan toe die nodig is voor de realisatie van de in de scope genoemde processen. Dit heet een *view*; het IMVG heeft als het ware een eigen 'kijk' op de informatie in de basisregistraties, namelijk vanuit het perspectief van vastgoedgebruik.
 
 <figure>
 	<table style="width: 100%" cellpadding="10" border="1">
@@ -270,9 +270,9 @@ De kern van het model, vastgoedgebruik, bevindt zich in het midden van het diagr
 
 Het objecttype *vastgoedobject* is een specialisatie van het objecttype *pand* uit de BAG. Het IMVG modelleert specifiek de administratieve gebruiksstatus van *panden met één of meer verblijfsobject(en)*. Het objecttype *pand* uit de BAG bevat echter ook standplaatsen, ligplaatsen en ongeadresseerde objecten (bijgebouwen). Maar, die typen panden vallen buiten de scope van het informatiemodel. Daarom is het specifieke objecttype *vastgoedobject* gecreëerd. Via de relaties met *verblijfsobject* en *pand* erft het objecttype *vastgoedobject* de geometrieën en andere attributen uit de BAG. Hierdoor is het mogelijk administratief gebruik (en dus ook leegstand) op gebouwniveau weer te geven op een kaart.
 
-Naast het vastgoedobject is ook het objecttype *vastgoedgebruik* opgenomen. Dit objecttype heeft als belangrijkste attribuut *gebruiksstatusVerblijfsobject*. Dit is het centrale gegeven van het informatiemodel. Via dit objecttype worden de registraties aan elkaar gekoppeld. Dit element heeft daarom een relatie met de verblijfsobjectidentificatie (of adresseerbaarobjectidentificatie indien niet apart gespecificeerd) uit elke registratie. Voor de koppeling met het NHR en het BRP geldt dat wanneer de koppeling met de BAG voor één van deze registraties slaagt (de registratie bevat een relatie met een verblijfsobject in de BAG), is er sprake van gebruik.
+Naast het vastgoedobject is ook het objecttype *vastgoedgebruik* opgenomen. Dit objecttype heeft als belangrijkste attribuut *gebruiksstatusVerblijfsobject*. Dit is het centrale gegeven van het informatiemodel. Via dit objecttype worden de registraties aan elkaar gekoppeld. Het heeft daarom een relatie met de verblijfsobjectidentificatie (of adresseerbaarobjectidentificatie indien niet apart gespecificeerd) uit elke registratie. Voor de koppeling met het NHR en het BRP geldt dat wanneer de koppeling met de BAG voor één van deze registraties slaagt (de registratie bevat een relatie met een verblijfsobject in de BAG), is er sprake van gebruik.
 
-De koppeling met de WOZ ziet anders uit. De WOZ heeft per definitie een link met een verblijfsobject in de BAG. Relevant is echter om te controleren of een verblijfobject naast een eigenaar ook daadwerkelijk een gebruiker heeft. Koppelt één van de andere registraties niet, maar wordt er wel ee ngebruiker in de WOZ gevonden, dan is er sprake van administratief gebruik. Slechts in het geval waarin via het NHR en BRP geen link kan worden gelegd met de BAG én in de WOZ geen gebruiker wordt gevonden is er sprake van administratieve leegstand. Deze voorwaarde is weergegeven in het blauwe element *contraint note* «Pre-condition».
+De koppeling met de WOZ ziet anders uit. De WOZ heeft per definitie een link met een verblijfsobject in de BAG. Gemeenten wijzen aan wie de *belanghebbende eigenaar*, de *belanghebbende gebruiker* of de *medebelanghebbende* van WOZ-object is. Dit wordt vastgelegd in het attribuut aanduidigingEigenaarGebruiker. Voor vastgoedgebruik is met name relevant of een verblijfobject daadwerkelijk een gebruiker heeft. Koppelt één van de andere registraties niet, maar is er wel een gebruiker in de WOZ bekend, dan is sprake van administratief gebruik. Slechts in het geval waarin via het NHR en BRP geen link kan worden gelegd met de BAG én in de WOZ geen gebruiker wordt gevonden is er sprake van administratieve leegstand. Als er in het NHR en de BRP niks staat geregistreerd op een verblijfsobject en in de WOZ de belanghebbende onbekend is, krijgt ook de gebruiksstatusVerblijfsobject de waarde 'onbekend'. Deze condities zijn weergegeven met het blauwe element *contraint note* «Pre-condition».
 
 De mogelijke waarden (*objectInGebruik* of *objectStaatLeeg*) zijn weergegeven in de waardelijst *gebruiksStatus*. Naast de relaties met de vier basisregistraties heeft het objecttype *vastgoedgebruik* ook een relatie met het objecttype *vastgoedobject*. In principe zou via het verblijfsobject de relatie met het pand gelegd kunnen worden, maar omdat het IMVG specifiek kijkt naar een deelpopulatie (vastgoedobjecten), is een directe relatie gelegd tussen het objecttype *vastgoedgebruik* en *vastgoedobject*. Het belang van de keuze komt voort uit de <a href="#dataspecificatie" title="Ga naar: Dataspecificatie">toepassing</a> van de gegevens. 
 
@@ -569,8 +569,8 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 
 <table style="width: 100%" border="1">
 	<col width="20%">
-	<col width="2%">
-	<col width="60%">
+	<col width="30%">
+	<col width="50%">
 	<tr>
 		<th colspan="3"><b>Definitie (v/d lijst)</b></th>
 	</tr>
@@ -581,12 +581,17 @@ Daarnaast kunnen aan het objecttype "Vastgoedobject" ook nog andere gegevensgroe
 	</tr>
 	<tr>
 		<td>n.v.t.</td>
-		<td>objectInGebruik</td>
-		<td><b>voorstel</b>: object administratief in gebruik</td>
+		<td>objectstatusInGebruik</td>
+		<td><b>voorstel</b>: objectstatus administratief in gebruik</td>
 	</tr>
 	<tr>
 		<td>n.v.t.</td>
-		<td>objectStaatLeeg</td>
-		<td><b>voorstel</b>: object administratief <b>niet</b> in gebruik</td>
+		<td>objectstatusLeeg</td>
+		<td><b>voorstel</b>: objectstatus administratief <b>niet</b> in gebruik</td>
 	</tr>
-</table>
+	<tr>
+		<td>n.v.t.</td>
+		<td>objectstatusOnbekend</td>
+		<td><b>voorstel</b>: objectstatus administratief onbekend</td>
+	</tr>
+<!-- </table> -->
