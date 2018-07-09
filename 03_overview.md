@@ -336,7 +336,7 @@ INSPIRE
 
 **gebruiker**
 
-> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object (<a target="_blank" href="https://www.waarderingskamer.nl/fileadmin/publieksportaal/documents/public/lv-woz/Catalogus_Basisregistratie_WOZ_versie_1.7.pdf" title="Ga naar: Gegevenscatalogus WOZ"> bron: WOZ 2012</a>).
+> De (rechts-)persoon die door de gemeente is aangewezen "belanghebbende gebruiker" van het WOZ-object (<a target="_blank" href="https://www.waarderingskamer.nl/fileadmin/publieksportaal/documents/public/lv-woz/Catalogus_Basisregistratie_WOZ_versie_1.7.pdf" title="Ga naar: Gegevenscatalogus WOZ">bron: WOZ 2012</a>).
 
 <b id="bagGebruiksdoel">gebruiksdoel</b>
 
@@ -453,7 +453,7 @@ identificatoren (indirecte locatie).
 
 **vastgoedgebruik**
 
-> De situaties waarin een koppeling van de WOZ, het HR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (<mark>combinatie 1 t/m 7 in tabel x.x §3.1.6</mark>).
+> De situaties waarin een koppeling van de WOZ, het HR en de BRP aan de BAG in tenminste één gebruiker, of één relatie met een vestiging of één relatie met één persoon oplevert (combinatie 1 t/m 7, <a href="vastgoedgebruik" title="Ga naar: tabel vastgoedgebruik">figuur 8</a>).
 
 **vastgoedobject**
 

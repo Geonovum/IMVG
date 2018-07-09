@@ -214,7 +214,7 @@ De administratieve gebruiksstatus van een vastgoedobject registreert het IMVG va
 
 <figure>
 	<a target="_blank" href="images/tabel_leegstand_nieuw_bijgesneden.png">
-		<img src="images/tabel_leegstand_groot.png" alt="Combinaties gebruik basisregistraties" width="80%" class="img-responsive">
+		<img src="images/tabel_leegstand_nieuw_bijgesneden.png" alt="Combinaties gebruik basisregistraties" width="80%" class="img-responsive">
 	</a>
 	<figcaption> - Mogelijke combinaties gebruiksstatus IMVG (klik voor vergroting)</figcaption>
 </figure>
