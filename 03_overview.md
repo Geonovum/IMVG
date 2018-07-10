@@ -65,7 +65,7 @@ Het IMVG haalt gegevens op uit (delen van) vier bronbestanden (BAG, WOZ, HR en B
 
 <figure>
 	<a target="_blank" href="images/dataspecificatie_bronnen_en_producten.png">
-		<img src="images/dataspecificatie_bronnen_en_producten.png" alt="Dataspecificatie IMVG" class="img-responsive">
+		<img src="images/dataspecificatie_bronnen_en_producten.png" alt="Dataspecificatie IMVG" width="70%" class="img-responsive">
 	</a>
 	<figcaption> - Dataspecificatie IMVG bronnen en producten (klik voor vergroting)</figcaption>
 </figure>
