@@ -3,7 +3,7 @@ var respecConfig = {
   specType: "IM",
   pubDomain: "vg",
   //format: "markdown",
-  //publishDate: "2017-12-13",
+  publishDate: "2018-07-18",
   editors: [
     {
       name: "Gerard Trouborst",
