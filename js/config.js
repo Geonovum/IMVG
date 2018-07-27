@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-CV",
   specType: "IM",
-  pubDomain: "IMVG",
+  pubDomain: "vg",
   //format: "markdown",
   //publishDate: "2017-12-13",
   editors: [
@@ -11,7 +11,7 @@ var respecConfig = {
       companyURL: "http://www.geonovum.nl/",
     },
   ],
-  shortName: "IMVG",
+  shortName: "imvg",
   //subtitle: "...",
   github: "https://github.com/Geonovum/IMVG",
   issueBase: "https://github.com/Geonovum/IMVG/issues/",
