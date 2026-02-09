@@ -1,0 +1,488 @@
+<!DOCTYPE html><html lang="nl"><!--   <head>
+    <meta charset='utf-8'>
+    <title>Nederlands profiel OAuth</title>
+    <link rel='shortcut icon' type='image/x-icon' href='https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico' />
+    <link rel="stylesheet" type="text/css" href="media/style.css">    
+    <script class="remove" src="media/colofon.js"></script>
+      <script class='remove' src='https://tools.geostandaarden.nl/respec/builds/respec-geonovum.js' async></script>    
+  </head> --><head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta content="text/html; charset=utf-8" http-equiv="content-type"><meta name="generator" content="ReSpec 24.5.2">
+  
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/media/logos/Geonovum.ico">
+  <title>Nederlands profiel OAuth</title>
+  
+  
+<style id="respec-mainstyle">/*****************************************************************
+ * ReSpec 3 CSS
+ * Robin Berjon - http://berjon.com/
+ *****************************************************************/
+
+/* Override code highlighter background */
+.hljs {
+  background: transparent !important;
+}
+
+/* --- INLINES --- */
+h1 abbr,
+h2 abbr,
+h3 abbr,
+h4 abbr,
+h5 abbr,
+h6 abbr,
+a abbr {
+  border: none;
+}
+
+dfn {
+  font-weight: bold;
+}
+
+a.internalDFN {
+  color: inherit;
+  border-bottom: 1px solid #99c;
+  text-decoration: none;
+}
+
+a.externalDFN {
+  color: inherit;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none;
+}
+
+a.bibref {
+  text-decoration: none;
+}
+
+#references :target {
+  background: #eaf3ff;
+}
+
+cite .bibref {
+  font-style: normal;
+}
+
+code {
+  color: #c83500;
+}
+
+th code {
+  color: inherit;
+}
+
+/* --- TOC --- */
+
+.toc a,
+.tof a {
+  text-decoration: none;
+}
+
+a .secno,
+a .figno {
+  color: #000;
+}
+
+ul.tof,
+ol.tof {
+  list-style: none outside none;
+}
+
+.caption {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* --- TABLE --- */
+
+table.simple {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 3px solid #005a9c;
+}
+
+.simple th {
+  background: #005a9c;
+  color: #fff;
+  padding: 3px 5px;
+  text-align: left;
+}
+
+.simple th[scope="row"] {
+  background: inherit;
+  color: inherit;
+  border-top: 1px solid #ddd;
+}
+
+.simple td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.simple tr:nth-child(even) {
+  background: #f0f6ff;
+}
+
+/* --- DL --- */
+
+.section dd>p:first-child {
+  margin-top: 0;
+}
+
+.section dd>p:last-child {
+  margin-bottom: 0;
+}
+
+.section dd {
+  margin-bottom: 1em;
+}
+
+.section dl.attrs dd,
+.section dl.eldef dd {
+  margin-bottom: 0;
+}
+
+#issue-summary>ul,
+.respec-dfn-list {
+  column-count: 2;
+}
+
+#issue-summary li,
+.respec-dfn-list li {
+  list-style: none;
+}
+
+details.respec-tests-details {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+details.respec-tests-details>* {
+  padding-right: 2em;
+}
+
+details.respec-tests-details[open] {
+  z-index: 999999;
+  position: absolute;
+  border: thin solid #cad3e2;
+  border-radius: 0.3em;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+details.respec-tests-details[open]>summary {
+  border-bottom: thin solid #cad3e2;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+details.respec-tests-details>ul {
+  width: 100%;
+  margin-top: -0.3em;
+}
+
+details.respec-tests-details>li {
+  padding-left: 1em;
+}
+
+a[href].self-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+aside.example .marker > a.self-link {
+  color: inherit;
+}
+
+h2>a.self-link,
+h3>a.self-link,
+h4>a.self-link,
+h5>a.self-link,
+h6>a.self-link {
+  border: none;
+  color: inherit;
+  font-size: 83%;
+  height: 2em;
+  left: -1.6em;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: opacity .2s;
+  width: 2em;
+}
+
+h2>a.self-link::before,
+h3>a.self-link::before,
+h4>a.self-link::before,
+h5>a.self-link::before,
+h6>a.self-link::before {
+  content: "§";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  dd {
+    margin-left: 0;
+  }
+
+  /* Don't position self-link in headings off-screen */
+  h2>a.self-link,
+  h3>a.self-link,
+  h4>a.self-link,
+  h5>a.self-link,
+  h6>a.self-link {
+    left: auto;
+    top: auto;
+  }
+}
+
+@media print {
+  .removeOnSave {
+    display: none;
+  }
+}
+</style><link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-WV.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><script id="initialUserConfig" type="application/json">{
+  "specStatus": "GN-WV",
+  "specType": "IM",
+  "pubDomain": "liv",
+  "editors": [
+    {
+      "name": "Gerard Trouborst",
+      "company": "Geonovum",
+      "companyURL": "http://www.geonovum.nl/"
+    }
+  ],
+  "shortName": "Landelijke informatievoorziening vastgoedgebruik",
+  "github": "https://github.com/Geonovum/LIV",
+  "issueBase": "https://github.com/Geonovum/LIV/issues/",
+  "publishISODate": "2026-02-09T00:00:00.000Z",
+  "generatedSubtitle": "Werkversie 09 februari 2026"
+}</script><meta name="description" content="Deze standaard beschrijft een Nederlands profiel voor de OAuth 2.0 standaard."><script type="application/ld+json">{
+  "@context": [
+    "http://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "nl",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "inLanguage": {
+        "@language": null
+      },
+      "isBasedOn": {
+        "@type": "@id"
+      },
+      "license": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://geonovum.github.io/LIV/",
+  "type": [
+    "TechArticle"
+  ],
+  "name": "Nederlands profiel OAuth",
+  "inLanguage": "nl",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2026-02-09",
+  "copyrightHolder": {
+    "name": "Geonovum",
+    "url": "https://www.geonovum.nl/"
+  },
+  "discussionUrl": "https://github.com/Geonovum/LIV/issues/",
+  "alternativeHeadline": "",
+  "description": "Deze standaard beschrijft een Nederlands profiel voor de OAuth 2.0 standaard.",
+  "editor": [
+    {
+      "type": "Person",
+      "name": "Gerard Trouborst",
+      "worksFor": {
+        "name": "Geonovum",
+        "url": "http://www.geonovum.nl/"
+      }
+    }
+  ],
+  "citation": []
+}</script></head>  
+  <body class="h-entry"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
+  <h1 class="title p-name" id="title">Nederlands profiel OAuth</h1>
+  
+  <h2>Geonovum Informatiemodel<br>
+  Werkversie <time class="dt-published" datetime="2026-02-09">09 februari 2026</time></h2>
+  <dl>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://geonovum.github.io/LIV/">https://geonovum.github.io/LIV/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd>geen</dd>
+    
+    
+    <dt>Laatste werkversie:</dt><dd><a href="https://geonovum.github.io/LIV/">https://geonovum.github.io/LIV/</a></dd>
+    <dt>Redacteur:</dt>
+    <dd class="p-author h-card vcard"><span class="p-name fn">Gerard Trouborst</span>, <a class="p-org org h-org h-card" href="http://www.geonovum.nl/">Geonovum</a></dd>
+    
+    <dt>Doe mee:</dt><dd>
+      <a href="https://github.com/Geonovum/LIV/">GitHub Geonovum/LIV</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/LIV/issues/">Dien een melding in</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/LIV/commits/gh-pages">Revisiehistorie</a>
+    </dd><dd>
+      <a href="https://github.com/Geonovum/LIV/pulls/">Pull requests</a>
+    </dd>
+  </dl>
+  
+  
+    <dl>
+          <dt>Rechtenbeleid:</dt>
+          <dd>
+            <div class="copyright" style="margin: 0.25em 0;">
+              <abbr title="Creative Commons Attribution 4.0 International Public License">
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
+            </abbr>
+              <div style="display:inline-block; vertical-align:top">
+                <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
+              </div>
+            </div>
+          </dd>
+        </dl>
+  <hr title="Separator for header">
+</div>
+    <section id="abstract" class="introductory"><h2>Samenvatting</h2>
+      <p>              
+        Deze standaard beschrijft een Nederlands profiel voor de OAuth 2.0 standaard.
+      </p>
+    </section>
+    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    <em>Deze paragraaf beschrijft de status van dit document ten tijde van publicatie. Het is mogelijk dat er actuelere versies van dit document bestaan. Een lijst van Geonovum publicaties en de laatste gepubliceerde versie van dit document zijn te vinden op <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden">https://www.geonovum.nl/geo-standaarden/alle-standaarden</a>.</em>
+  </p><p>
+
+
+  Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door de werkgroep goedgekeurde consultatieversie.
+
+
+
+
+
+
+
+</p>
+      <p>        
+      </p>
+    </section>  
+   <section data-format="markdown" aria-busy="false" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `&lt;div&gt;`. Zie de developer console. Occured" id="respec-offender-linter-no-headingless-sections-alle-secties-moeten-beginnen-met-een-h2-6-element-voeg-een-h2-6-toe-aan-de-conflicterende-sectie-of-gebruik-een-div-zie-de-developer-console-occured"><meta charset="utf-8"><title>Error</title><pre aria-busy="false"><code class="hljs">Cannot GET /1-inleiding.md</code></pre></section>
+   <section data-format="markdown" aria-busy="false" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `&lt;div&gt;`. Zie de developer console. Occured" id="respec-offender-linter-no-headingless-sections-alle-secties-moeten-beginnen-met-een-h2-6-element-voeg-een-h2-6-toe-aan-de-conflicterende-sectie-of-gebruik-een-div-zie-de-developer-console-occured-0"><meta charset="utf-8"><title>Error</title><pre aria-busy="false"><code class="hljs">Cannot GET /2-uitgangspunten.md</code></pre></section>
+   <section data-format="markdown" aria-busy="false" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `&lt;div&gt;`. Zie de developer console. Occured" id="respec-offender-linter-no-headingless-sections-alle-secties-moeten-beginnen-met-een-h2-6-element-voeg-een-h2-6-toe-aan-de-conflicterende-sectie-of-gebruik-een-div-zie-de-developer-console-occured-1"><meta charset="utf-8"><title>Error</title><pre aria-busy="false"><code class="hljs">Cannot GET /3-usecases.md</code></pre></section>
+   <section data-format="markdown" aria-busy="false" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `&lt;div&gt;`. Zie de developer console. Occured" id="respec-offender-linter-no-headingless-sections-alle-secties-moeten-beginnen-met-een-h2-6-element-voeg-een-h2-6-toe-aan-de-conflicterende-sectie-of-gebruik-een-div-zie-de-developer-console-occured-2"><meta charset="utf-8"><title>Error</title><pre aria-busy="false"><code class="hljs">Cannot GET /4-client%20vereisten.md</code></pre></section>
+   <section data-format="markdown" aria-busy="false" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `&lt;div&gt;`. Zie de developer console. Occured" id="respec-offender-linter-no-headingless-sections-alle-secties-moeten-beginnen-met-een-h2-6-element-voeg-een-h2-6-toe-aan-de-conflicterende-sectie-of-gebruik-een-div-zie-de-developer-console-occured-3"><meta charset="utf-8"><title>Error</title><pre aria-busy="false"><code class="hljs">Cannot GET /5-server%20vereisten.md</code></pre></section>
+  
+<script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
